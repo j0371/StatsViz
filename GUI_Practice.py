@@ -1,5 +1,5 @@
 from tkinter import *
-import matplotlib as mplot
+import matplotlib.pyplot as mplot
 
 def makeScatter(event):
     fileName = entry_1.get()
@@ -12,14 +12,16 @@ def makeScatter(event):
     data = data.split("\n")
 
     while (data[-1] == ""):
-    data.pop()
+        data.pop()
 
     for i in range(0,len(data)):
         row = data[i].split(",")
-        x.append(row[1])
-        y.append(row[2])
+        print(row[1])
+        xs.append(row[1])
+        ys.append(row[2])
 
     mplot.scatter(xs,ys,color="red")
+    mplot.show()
 
 root = Tk()
 
