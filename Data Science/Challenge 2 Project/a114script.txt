@@ -1,0 +1,854 @@
+ 
+
+Harper 2.0
+
+Original Airdate: 12 Feb, 2001
+
+                                One head cannot
+                              contain all Wisdom.
+                               The Olduvai Cycle
+
+                          Systems University Archive
+                                   C.Y. 8550
+
+      [Eureka Maru]
+
+      BEKA: Andromeda, this is the Euraku Maru en route from Drift Colony
+      Segas Four. Our belly's full, and our ETA to bay is twenty minutes.
+      {To Harper} You've got to love one-stop shopping. We have enough
+      parts now to roam the entire Milky Way. Hello? Command to Harper.
+      HARPER: Huh?
+      BEKA: Huh? What's the matter with you?
+      HARPER: Dierda. My Drift rock darling. My Irish Cream. My destiny.
+      BEKA: Your destiny. Right. Never mind she couldn't speak a word of
+      Common, and you don't know any Celtic, or whatever that dead
+      language is.
+      HARPER: Oh, yeah? Try me.
+      (He hands over a flexi.)
+      HARPER: Bra ist un caparu. Love is our language.
+      BEKA: Actually, love is your sandwich, but thanks for playing.
+      HARPER: Whatever, okay? We shared this thing, this, er, cosmic
+      connection.
+      BEKA: You shared half a dozen whiskies and a zero gravity rumba.
+      HARPER: Ist bra limolay? What do you know about love?
+      BEKA: Harper, you're hopeless. You can barely conjugate Common.
+      HARPER: Who cares about being grammatically correct. All I want to
+      do is
+      (Thump!)
+      HARPER: Whoa!
+      COMPUTER: Collision Alert. Collision Alert.
+      BEKA: We have a small object coming in off the starboard bow.
+      (Whirring noise.)
+      HARPER: Airlock.
+      BEKA: Airlock.
+
+      [Airlock]
+
+      HARPER: It's a killer beach ball.
+      (They open the airlock.)
+      (Harper scans it.)
+      HARPER: There's somebody inside.
+      BEKA: Okay. Don't just stand there, open it.
+      HARPER: What? No. You open it. Have I mentioned that I'm overdue
+      for a raise?
+      BEKA: Yeah, yeah, I'll cover you.
+      (Harper pokes the obvious metal bit. It is hot. The rest of the
+      ball has slime on it.)
+      HARPER: Here, hold that, would you?
+      BEKA: Yeah, That's great.
+      (Harper cuts it open, releasing gas.)
+      BEKA: It's a Perseid.
+      HARPER: Gift wrapped, too.
+      BEKA: Easy, easy, deep breaths.
+      HARPER: Oh, man, he's
+      BEKA: Let's get him out of here.
+      HARPER: He's bleeding bad.
+      (They carry him into the main part of the Maru.)
+      HARPER: Come on. Okay, okay, down we go.
+      BEKA: Okay, keep pressure on the wound. We gotta get him back to
+      the Andromeda. Hey, who shot you?
+      PERSEID: Save. Must save.
+      HARPER: We're doing the best we can, pal. Hang in there.
+      (Zoom on Harper's dataport. The Perseid lunges for it and exhales
+      energy into it.)
+      BEKA: Hey! Harper!
+      HARPER: I'm on fire! I'm on fire! I'm on fire!
+      BEKA: No, no, no fire. No fire. You're okay. You're okay.
+      (The Perseid stops wheezing and dies.)
+      HARPER: What happened?
+      BEKA: I don't know, but I don't think you got the worst of it.
+
+      [Morgue]
+
+      BEKA: So, what's the verdict?
+      TYR: He's dead.
+      BEKA: Yeah. I meant what killed him?
+      TYR: What didn't kill him? He's got stab wounds, laser and
+      radiation burns. This appears to be some sort of residual
+      neurotoxin, and these pinpoint wounds? I've never seen anything
+      like them.
+      BEKA: It's weird. Perseids can be annoying, but this is just
+      ridiculous.
+
+      [Medical]
+
+      TRANCE: Well, aside from a major bump on the head and a minor burn
+      around the cerebral port, he's fine.
+      HARPER: Fine? I was practically electrocuted. I can still see
+      little dots.
+      HUNT: Why do you think he attacked you?
+      HARPER: Jealous of my good looks, maybe? I don't know. No rhyme or
+      reason, he just opened up wide, clamped down, and zap, major
+      electrical discharge. I could smell the ozone. Man, I'm feeling
+      twitchy. Maybe you better run a spectral analysis on my nervous
+      system. Check my norepinephrine levels, and see if I've been
+      affected by any kind of a stimulant.
+      HUNT: Since when did you pick up medicine as a hobby?
+      ANDROMEDA [OC]: Captain, I've got an unidentified vessel
+      approaching. They're requesting communication.
+      HUNT: I'm on my way. Watch him.
+
+      [Command]
+
+      JEGER [on viewscreen]: I'm Marshal Jeger, Senior Dispatch Officer
+      with the Intergalactic Apprehension and Procurement Service.
+      BEKA: In other words, a bounty hunter.
+      JEGER [on viewscreen]: If you like.
+      HUNT: What can I do for you, Marshal?
+      JEGER [on viewscreen]: Your ship took on a fugitive, a Perseid
+      named Renvik. I have a warrant for his arrest.
+      HUNT: Really? What are the charges against this fugitive?
+      JEGER [on viewscreen]: Theft. Shall I transmit the warrant to you?
+      BEKA: Transmit away. But you're wasting your time. Your fugitive is
+      dead.
+      JEGER [on viewscreen]: Dead? You're certain?
+      HUNT: Dead certain.
+      JEGER [on viewscreen]: I still would like to examine the body. I
+      must locate some missing items. Renvik's corpse may tell me where
+      they are.
+      HUNT: I'll look at your warranty and consider your request.
+      JEGER [on viewscreen]: Please cooperate, Captain. The Service
+      dislikes people who protect fugitives, even dead ones.
+      (Later, Hunt is reading the warrant.)
+      BEKA: I hate people like Jeger. They strut around like the long arm
+      of the law. They act like they own the place. They're really just
+      bottom feeders who'll do anything for the highest bidder.
+      HUNT: Maybe so, but in this case, the Marshal's warrant seems to be
+      in order.
+      BEKA: Don't tell me you're thinking of giving in to him.
+      HUNT: Beka, if the Perseid were alive, I'd conduct an extradition
+      hearing, but I'm not going to start a fight over a corpse.
+
+      [Morgue]
+
+      (The body gets shrink-wrapped.)
+      JEGER: How did the thief die?
+      HUNT: He self-electrocuted. Almost killed my engineer.
+      JEGER: Really?
+      BEKA: Really.
+      JEGER: Have we ever met? You look familiar.
+      BEKA: You don't.
+      JEGER: Maybe around the Tidus Asteroid Belt.
+      BEKA: Who knows? After a while, all you badges start to look the
+      same.
+      (There is a mark like an eye on one of the Perseid's finger
+      joints.)
+      JEGER: Thank you, Captain. Your cooperation will be duly noted.
+      (Jeger throws the body over his shoulder and leaves.)
+
+      [Command]
+
+      ROMMIE: This search mode would be more effective if I had specific
+      information to go on.
+      HUNT: I can't give you a time or place, Rommie. All I know is that
+      I've seen that symbol before. No. No. No. No. Wait, wait. Hold it.
+      Back up. There. That's it.
+      ROMMIE: It's an insignia for the Special Collections division of
+      the All Systems University.
+      HUNT: Our Perseid was a librarian?
+      ROMMIE: Apparently. This symbol was only used by their senior
+      researchers.
+      HUNT: So the question is, what did he have that was worth dying
+      for?
+
+      [Machine shop]
+
+      (Nightmare images of Holocaust and warfare flash through Harper's
+      brain. He wakes, sweating. A little later, he is working at warp
+      speed building something.)
+      HARPER: Hey, what's up, Rommie? Romalom, Romalowski, Read Only
+      Memory?
+      ROMMIE: A simple Rommie will suffice. Are you all right, Harper?
+      I'm detecting an elevation in your heart and breathing rate.
+      HARPER: Oh, yeah? Well, I'm detecting a fritz in your central power
+      relays, and I can fix you. I can. I can fix everything on board.
+      The ventilation system on deck nineteen could definitely use an
+      upgrade. Phew. Could you? Thanks.
+      ROMMIE: Harper, slow down.
+      HARPER: Sorry, I can't. I'm a little, er, wired. .No, rewired. No,
+      cross-wired. Cross-eyed! I didn't get any sleep last night. I've
+      been having these rancid nightmares, visions, whatever you want to
+      call them. Anyway, I thought, why dwell in hell? Get busy!
+      ROMMIE: What are you building?
+      HARPER: Ah! It's a bird, it's a plane, it's er, you tell me and
+      we'll both know. Meanwhile, cono sach sei mach, anan bach,
+      dochaigat.
+      ROMMIE: Irish Gaelic. Earth based. An adaptive form. You're making
+      seductive overtures to me in a dead language?
+      HARPER: It's not dead the way I speak it, baby. Il dit mon coeur.
+      ROMMIE: And French. Harper, what has gotten into you?
+      HARPER: Ru olyev, olyev svinki.
+      ROMMIE: And now Perseid. Harper, I had no idea you were such a
+      cunning linguist.
+      HARPER: Love speaks in all tongues, baby. Wait! That's it! You know
+      what we need? Some kind of nano-doohickey that can let a person
+      understand any language they hear. No, no, no. Speak any language
+      they hear. We'll start with Old Irish from your language archives.
+      We'll reconfigure it into an implanted audio-linguistic relay. Why
+      not? All I have to do is downsize and upgrade some voice activation
+      sensors so they can correlate with the proper pronunciation and
+      vibrato and while I'm at it, no offence, but the pixilation in your
+      holo-imaging matrix could use a little fine-tuning. Yes! Sasai go
+      halan! The doctor is in!
+
+      [Asteroid]
+
+      (Jeger is examining the corpse.)
+      JEGER: They're missing.
+      (A strange, wavy black and flame humanoid shape is nearby. It has
+      nasty red glowing eyes.)
+      JEGER: I don't know where they are. They must be on that salvage
+      ship. I'll find them. I'll find them!
+
+      [Command]
+
+      HARPER [on viewscreen]: She'll be coming around von berg wenn sie
+      kommt. Elle viendra autours la montaigne quand elle vient. Ella
+      vendra areldedor de la montana. Venez autour la montaigne, istra
+      vindra autour de la montaigne when she comes.
+      HUNT: What's he doing?
+      ROMMIE: I don't think he knows. Since last night, he's started and
+      abandoned dozens of projects and upgrades. Although, I must say,
+      the ones he's performed on moi c'est tres magnifique.
+      HUNT: You're speaking French now?
+      ROMMIE: Oui. Per his request.
+      BEKA: Harper speaking in tongues. You got to be kidding.
+      HUNT: Can't say I recognise the tune.
+      ROMMIE: It's an old Earth folk tune in, let's see, Than, Perseid,
+      Harulian, and that would be Vedran.
+      BEKA: We better go talk to him?
+      HUNT: We'd better go talk to him.
+
+      [Machine shop]
+
+      (Something is being welded.)
+      HUNT: Good morning, Mister Harper.
+      HARPER: Morning! Mor-ning. Mor-ning. Two little syllables, so many
+      different meanings.
+      HUNT: Yes. In this case, it just means hello. I wanted to see your
+      new project. It looks interesting.
+      HARPER: Yeah, she's a beauty, isn't she?
+      BEKA: Breath-taking. What is it?
+      HARPER: Er it's an authentic recreational recreation of a big
+      surprise?
+      HUNT: And what's the status on the rest of the projects?
+      HARPER: Projects?
+      BEKA: Harper, this is Dylan's polite way of asking what the hell's
+      this mess?
+      HARPER: Ah! It's only a mess to the uninformed eye.
+      HUNT: Ha ha. Then maybe you should enlighten us.
+      HARPER: Enlighten you? Er, the Divine is good, don't do Flash, and
+      if you're nice to people, they probably still won't be nice to you.
+      Now run along, kids, Daddy's working.
+      HUNT: I'm calling a time out.
+      BEM: Harper, are you
+      (Harper panics when he sees Rev Bem.)
+      BEM: Harper?
+      HARPER: Get away from me!
+      BEM: Harper. Harper, are you?
+      HARPER: Get away from me!
+      BEM: Harper, if I have offended you in some manner?
+      HARPER: You're not going to get me.
+      HUNT: Harper, just put it down.
+      BEM: Dylan, it's all right. I'll leave.
+      (Bem leaves.)
+      BEKA: Harper, what's the matter with you? It's Rev.
+      HARPER: Magog. Oh, sure, he acts like he's our friend now, but one
+      day, he'll turn. They all do. They're wild.
+      HUNT: Med deck.
+      BEKA: Come on.
+      (Meanwhile, Jeger steps through the Maru's closed airlock hatch and
+      finds the remains of the gunk from the Perseids life capsule on the
+      floor.)
+
+      [Medical]
+
+      BEKA: Look at those brainwave fluctuations.
+      TRANCE: I have never seen anything like it.
+      HARPER: I could say the same thing about you, Trance. Why don't we
+      do you next?
+      BEKA: Knock it off, Harper. This is about you.
+      HARPER: Me? No, why me? She's much more interesting. An enigma,
+      wrapped up in a riddle, with a tail in the middle.
+      TRANCE: It's all right, I forgive you. He's not been himself today.
+      BEKA: It's like he's overloaded. That Perseid. According to Dylan,
+      the Perseid had the insignia of the All Systems University on his
+      finger. Special Collections Division. If he was carrying some sort
+      of data archive.
+      HARPER: Brilliant! A bio-electronic transfer into my dataport. He
+      must've used some kind of pulse signal. A modified sub-vocal
+      transmitter.
+      (Harper gets up and leaves.)
+      BEKA: Where's he going? Harper!
+
+      [Corridor]
+
+      HARPER: I could build one of those. It'll have to be small, though.
+      Like really small. Like miniature. I could reconfigure some of
+      Rommie's maintenance nanobots.
+      BEKA: I'm sure you could. How do we get that stuff out of him?
+      TRANCE: I have no idea. It's all mixed up in his neural matrix.
+      HARPER: Whoa, whoa. Stop. Halt. Arrete. Okay, the last time I
+      checked, possession was still nine tenths of the law, okay? My
+      brain, my data. If you try to mine my mind, I'll mind my mind.
+      Nein?
+      BEKA: Harper, you don't even know what you've got, do you?
+      HARPER: I know I've got something. Something I never had before.
+      Knowledge. Creativity. Power. I mean, before I was just a Argh!
+      (Harper collapses, clutching his head.)
+      BEKA: Harper!
+      HARPER: Ice cream headache. Argh. My brain attempting to execute
+      some serious compressions. A small price to pay for God.
+      TRANCE: Harper, you have no idea what this could do to you. You're
+      already suffering from insomnia and nightmares. You could have a
+      stroke, or a cerebral hemorrhage
+      HARPER: Whoa, whoa, whoa, okay? I have the entire Commonwealth
+      Medical Archive in here, which makes me a superior diagnostician to
+      you. So, as the senior medical expert here, I can tell you, I am
+      not going to have a stroke, okay? Now, are we through here? I don't
+      know, Doctor Harper, are we? Yes, I think we are. Meeting
+      adjourned.
+
+      [Machine shop]
+
+      ROMMIE: So, you checked yourself out of Med Deck to what, build a
+      missile?
+      HARPER: No. Although it does fly through the air, and it is a major
+      blast from Earth's past, so the more liberally literal may call it
+      a missile, but no. Rom-doll, what you are looking at is a Harper
+      classic. An authentic replication of the X-1. The Glamorous
+      Glennis? The first human flight module to break the speed of sound.
+      HOLO-ROMMIE: An aeronautical antique.
+      HARPER: Yeah. How artificially astute. Going back three millennia,
+      1947, old Earth calendar, to be exact. I have tech manuals, Rommie.
+      The originals. Right out of the official factory records. Er,
+      flight tests, specs, the works.
+      ROMMIE: How are you able to access them? How did you even know that
+      they were in there?
+      HARPER: I just had a vision. I get a lot of them lately.
+      ROMMIE: Harper, you look exhausted.
+      HARPER: Yeah, well, the mind leads, the body follows.
+      HOLO-ROMMIE: Your mind should lead you to bed.
+      HARPER: Bed! Now there's an idea. I know. You mean sleep. I will.
+      I'll try. I'll get some sleep, just as soon as I can find the on
+      off button. Now, if you don't mind, I'm trying to concentrate.
+
+      [Command]
+
+      ANDROMEDA [on viewscreen]: I tried.
+      HUNT: If he doesn't want to rest, he doesn't want to rest.
+      (They watch Harper working on the screen. Jeger walks through the
+      closed doors of the machine shop.)
+      HUNT: Tyr! Hangar Deck five, now!
+
+      [Machine shop]
+
+      JEGER: You should have taken your friend's advice.
+      (Jeger grabs Harper's jacket, and he wriggles out of it. Jeger
+      pulls him back from underneath a work bench.)
+      JEGER: It's quitting time.
+      HARPER: Help! Somebody help!
+      JEGER: Stop squirming.
+      (Jeger lifts him up by the head.)
+      HARPER: I'm not going anywhere with you!
+      JEGER: I don't need all of you. Just this.
+      (Jeger turns Harper's head. There is an energy discharge. Jeger
+      lets go and Harper grabs a steel bar. Tyr rushes in and hits Jeger
+      several times, with little effect. They fight. Jeger throws Tyr
+      off.)
+      HUNT: Hey!
+      (Hunt shoots Jeger with his forcelance. Jeger is stunned briefly,
+      then dusts himself off and sinks through the floor.)
+      TYR: He's below us!
+      HARPER: Phase density shifting. Tricky, tricky.
+      HUNT: He'll be back.
+      (Later, Harper is working on the X1 when he has visions of a Magog
+      invasion. He wakes up screaming.)
+
+      [Command]
+
+      HUNT: What's Harper doing?
+      ROMMIE: He's currently in his quarters. I've run a complete sensor
+      sweep. All decks are clear. No sign of the intruder. Although I am
+      detecting emission residue beginning in Hangar fourteen and leading
+      straight down to the keel.
+      TYR: He passed right through that bulkhead like it wasn't even
+      there.
+      BEKA: And he knows about Harper.
+      HUNT: Whatever Harper's got seems to be worth killing for. Any idea
+      what it might be?
+      ROMMIE: My recent upgrades suggest Harper has access to the latest
+      quantum and neutrino based engineering platforms.
+      TYR: He wants weaponry.
+      BEKA: Not necessarily. What about
+      (Big Bang! Consoles explode and everyone is sent flying. There is a
+      hole in the hull and Andromeda is venting air. An android gets
+      sucked out before emergency bulkheads close.)
+      HUNT: Rommie, what the hell hit us?
+      TYR: Running recon.
+      ROMMIE: I don't know, but whatever it was hurt. My hull integrity
+      is compromised. Data relays are down, and damage is extensive.
+      Harper's calling in from the affected area.
+      HUNT: Harper, report!
+      HARPER [on viewscreen]: Not good. Machine shop fifteen is gone.
+      HUNT: What do you mean, gone?
+      HARPER [on viewscreen]: I mean gone. Vamoose, arrivederci. We got a
+      hole the size of Kansas bored right through this whole ship. Don't
+      look now, kids, but I think we're up against your friendly
+      neighborhood PSP.
+      BEKA: A what?
+      ROMMIE: A Point Singularity Projector. A weapon that fires
+      miniature black holes.
+      BEKA: Whoever Jeger's working for, they sure gave him some good
+      toys.
+      HUNT: Toys I don't want to play with right now. Take us into
+      slipstream. We need to find a place to lay low for repairs.
+      HARPER [on viewscreen]: No, no, no, no, no, Dylan don't. That thing
+      didn't just take out the machine shop. Part of it went right
+      through the slip-field generator. If we try to stream now
+      HUNT: The whole ship will come apart.
+
+      [Corridor]
+
+      HARPER: Okay, we're going to have to cut a circular incision around
+      the PSP's path of impact, and we'll need laser torches. We're going
+      to have to replace those central support struts.
+      TYR: I'll see if I can tear some out of the old crew quarters.
+      (Tyr leaves, and Bem arrives.)
+      BEM: Perhaps I could be of some assistance.
+      (Harper swings at me with a metal bar.)
+      HARPER: Come on, you bloodsucker!
+      BEM: Harper, look at me! I am not your enemy!
+      HARPER: And I'm not your next meal! Murderer! Rapist!
+      BEM: Harper, I will not fight you.
+      HARPER: Even better.
+      (Harper does some elegant moves and Hunt stops him hitting Bem any
+      more.)
+      HUNT: Harper, back off!
+      (Harper makes a strange squealing sound.)
+      BEM: Harper, you do not mean that. You do not mean that.
+      (But Harper keeps on. Bem moves to attack him. Hunt grabs Bem's
+      arm.)
+      HUNT: Rev! Rev! Rev, the Way. Remember? The Way.
+      (Bem runs off.)
+      BEKA: It's okay. It's okay, Harper. It's all over.
+      HARPER: I'm good. I'm good.
+
+      [Medical]
+
+      (Harper is fastened to a bed by metal clamps.)
+      BEKA: Harper! Harper, try to calm down!
+      HARPER: You try to be calm when your brain is exploding with fire.
+      BEKA: There must be something we can do.
+      TRANCE: Beka, I am all out of options. The only person who can help
+      Harper right now is Harper.
+      HARPER: Download. I have to download. I've got to dump this Perseid
+      baggage into a file. File and forget! A neurochemical file.
+      TRANCE: Neurochemical file. How would I open that? Where?
+      HARPER: Okay, I got the technique right here. The key component is
+      AB Gamma. Hey, uh, pick-a-peck-a-purple-people-eater, are you
+      getting any of this down?
+      BEKA: Shush.
+      (Later, Harper is wired up to a machine.)
+      HUNT: So this will work?
+      BEKA: He says it will.
+      TRANCE: He's ready.
+      HUNT: Okay, let's give it a try.
+      BEKA: Hit it, Trance.
+      TRANCE: Activating transfer.
+      BEKA: It's working. I'm reading a massive data transfer.
+      TRANCE: The machinery is isolating and copying the information that
+      the Perseid downloaded into Harper, so we can erase it when we're
+      done.
+      (Harper's back arches.)
+      HUNT: Trance, what's going on?
+      TRANCE: It looks like the process is disrupting the electrical
+      patterns in Harper's cerebellum.
+      HUNT: Well, then make it stop.
+      TRANCE: I'm trying.
+      BEKA: Come on, Harper. Hang on.
+      (Harper relaxes, the machine winds down.)
+      BEKA: Okay, he's stabilising.
+      HUNT: What happened?
+      BEKA: We only got a partial impression. It looks like a few hundred
+      gigabytes of information, at best.
+      HUNT: Is he going to be all right?
+      TRANCE: He's stable.
+      HUNT: Keep him that way. And when he wakes up, leave these things
+      on. (restraints) I don't want him hurting himself or going after
+      Rev. Beka, let's see what we've got.
+
+      [Command]
+
+      (The war scenes flash across the viewscreen.)
+      BEKA: Welcome to Harper's nightmares.
+      HUNT: What would a Perseid librarian want with this?
+      BEKA: I don't know, but I think I know where to start looking.
+      Harper has always hated the Magog, but he never had a problem with
+      Rev Bem until he received that data.
+      HUNT: Ah. Andromeda, search the downloads for images of Magog.
+      (Rev enters.)
+      ANDROMEDA [OC]: Searching. Records located.
+      HUNT: Commonwealth Year 9766, 1017. This is
+      BEM: Brandenburg Tor. Three billion dead in less than five days.
+      HUNT: And the beginning of the end for the Systems Commonwealth.
+      BEM: Which makes this an eyewitness recording of one of the most
+      important events in recent history.
+      BEKA: But there's only one problem. It's worthless. None of these
+      records is unique. Everyone knows what happened on Brandenburg.
+      It's not like there's a vast conspiracy to cover the crimes of the
+      Magog.
+      BEM: Quite true. In fact, most of my people are unrepentant. They
+      look on Brandenburg Tor with pride.
+      (But Bem looks sick.)
+      BEKA: So, this may be what's making Harper nuts, but it can't be
+      what Jeger's looking for.
+      HUNT: There's something here. I can feel it.
+
+      [Medical]
+
+      (Harper is muttering to himself in tongues.)
+      BEM: Harper. Harper. I, I have seen your nightmares, and I
+      understand my role in them. Please. Please, Harper, accept my
+      apology. Forgive me.
+      (Bem puts a triangular pillow under Harper's shoulders so he can
+      sit up, then backs away.)
+      HARPER: It's not you, Rev. It's just every time I look at you, all
+      I can see is people dying. Bodies, massacre. I got a lifetime of
+      nightmares knocking around inside my skull, and I can't do anything
+      to hold them in. All I ever wanted was to know things, you know?
+      How they worked, where they came from. And now I do, and all I can
+      see, over and over and over again, is people dying. What do I do,
+      Rev? How do I make it stop?
+      BEM: You need the one thing that all your knowledge cannot provide.
+      Wisdom.
+      HARPER: Wisdom? Great. Show me the yellow brick road, Mister
+      Wizard. How do I get wisdom?
+      BEM: Let go, Harper. Let go. Give over to the Divine all that you
+      are, all that you have, including your pain. Calm your breath.
+      Repeat. My pain belongs to the Divine. It is like air. It is like
+      water.
+      HARPER: My pain belongs to the Divine. It is like air. It is like
+      water.
+      BEM: Good. Again.
+      HARPER: My pain belongs to the Divine. It is like air. It is like
+      water. It's like a freaking freight train going through my brain.
+      Are you sure this works?
+      BEM: Harper, think of hunger. Think what it must be like to go
+      days, even weeks, without food. Now, imagine what it would be like
+      to know that in the midst of that starvation, you could eat, feast,
+      satiate your hunger, but only by killing the people that you love.
+      That is my pain. It is with me each day. My pain belongs to the
+      Divine. It is like air. It is like water.
+      HARPER: My pain belongs to the Divine. It is like air. It is like
+      water. My pain belongs to the Divine. It is like air. It is like
+      water.
+      ANDROMEDA [OC]: Hostile vessel approaching off starboard bow.
+      Activating emergency measures.
+      BEM: I must go.
+      HARPER: No. Please, Rev. Let me help.
+      BEM: Harper, Dylan was most adamant.
+      HARPER: Rev, right now I'm the smartest guy in the universe, but
+      that don't count for squat if I can't help my friends. Please, Rev,
+      you can trust me. I promise.
+
+      [Command]
+
+      TYR: Launching kinetic missiles.
+      (They fly straight through Jeger's spaceship.)
+      BEKA: Okay. Now what?
+      TYR: He's readying another point singularity bullet.
+      ANDROMEDA [OC]: Slipstream engines back online.
+      HUNT: Evasive manoeuvres.
+      BEKA: We're not shaking him.
+      HARPER [OC]: Er, calling Marshal Jeger. This is Chief Engineer of
+      the Andromeda Ascendant, Seamus Harper. Do you copy?
+      HUNT: Harper? Where's that coming from?
+      BEKA: Checking. He's in the Maru.
+      HARPER [on viewscreen]: Listen up, Jeger. I think someone on board
+      this ship here just might have some property you're looking for.
+      So, if you want a piece of me, errand boy, pansy man, come and get
+      me.
+      BEKA: What the hell is he doing?
+      HUNT: He's saving us.
+      TYR: No. He's committing suicide.
+      (Jeger goes off in pursuit of Harper, weapons firing.)
+      HUNT: Harper, you're outgunned and you can't outrun him. Now turn
+      around and come back.
+      (Harper speaks German on the viewscreen.)
+      TYR: Speak Common, boy.
+      HARPER [on viewscreen]: Jeger wants to clock me. I don't want to be
+      a bulls-eye on your butt.
+
+      [Eureka Maru]
+
+      BEKA [on viewscreen]: Damn it, Harper, you're going to get yourself
+      killed. And by the way, that's my ship you're steering into
+      oblivion, so get your skinny ass back to the hangar deck right now!
+      HARPER: Now, don't get all sentimental on me, boss. I brought this
+      mess on board, I'm taking it off. It's that simple. Er, Harper out.
+      (Harper connects bundles of wires to pieces of equipment he is
+      scattering around the Maru.)
+      HARPER: Well, all righty then, Marshal Jeger, let's see what you
+      got. All ahead full. Arriba! Arriba!
+      (Harper straps himself into the pilot's seat and goes into
+      slipstream.)
+      HARPER: For our happy hour this evening, we're offering the Space
+      Rift Royale. Five parts gin, three parts vermouth, two olives,
+      crushed ice, shaken not stirred, and voila!
+      (Energy streams from the stern of the Maru, folding the slipstream
+      tunnel.)
+
+      [Command]
+
+      BEKA: Er, weirdness incoming.
+      TYR: He's warped the Maru's slipstream portal into some sort of
+      wall.
+
+      [Eureka Maru]
+
+      HARPER: Woo hoo! Yes! The exotic matter chokehold, ladies and
+      gentleman. The pub is now open. The library is closed.
+
+      [Command]
+
+      (Andromeda skids to a stop by the slipstream entrance.)
+      HUNT: It's like some kind of knot in space. We can't get past it.
+      BEKA: Can't we blast through?
+      HUNT: It's too risky. We've got to find another way in.
+      ANDROMEDA [on viewscreen]: I have to get at least three light
+      minutes away from this position before I can enter slipstream.
+      HUNT: Do it. It looks like we'll have to guess where Mister Harper
+      comes out.
+      TYR: If he makes it out at all.
+
+      [Eureka Maru]
+
+      (Jeger's ship gains on the Maru.)
+      HARPER: Hey! Hey, no tailgating! Er, brakes?
+      (Whiteout.)
+
+      [Command]
+
+      (Beka pilots the Andromeda through slipstream.)
+      BEKA: Another solar system, another bust.
+      TYR: Roaming the slipstream isn't getting us anywhere.
+      HUNT: Rommie, what's the status on Harper's wall?
+      ROMMIE: It should have dissipated by now.
+      BEKA: He might have left us behind some bread crumbs.
+      HUNT: Let's go back. Engaging slipstream on my mark.
+      (Trance enters.)
+      TRANCE: Dylan? I have something you might like to see.
+      HUNT: What is it?
+      TRANCE: You know that video footage from Brandenburg Tor? Well, I
+      did an enhancement.
+      (She calls it up on the viewscreen.)
+      TRANCE: There.
+      (The black and flames humanoid.)
+      HUNT: Some kind of silhouette.
+      ROMMIE: Not according to the light readings. We should be able to
+      see it clearly.
+      BEKA: I can't make it out. Is it human?
+      TYR: Surrounded by Magog? If it were human, it'd be dead.
+      HUNT: Andromeda, run it again. Give us a closer look.
+      (The figure spreads its arms then points.)
+      HUNT: It's like he's directing the attack.
+      BEKA: Someone controlling the Magog.
+      HUNT: And the fall of Brandenburg Tor.
+      TRANCE: Do you think that is what Jeger was after?
+      HUNT: Absolutely. And I think our mystery man here, or whatever it
+      is, wants to stay a mystery.
+
+      [Eureka Maru]
+
+      (Harper has been tied, arms outstretched, across a hatchway.)
+      JEGER: I know you're awake. You may as well open your eyes.
+      HARPER: I was just resting. It's been a busy day.
+      JEGER: Thanks to you.
+      (Harper plants his feet on Jeger's chest and tries to push, to no
+      avail.)
+      HARPER: So is this the part where you explain to me your diabolical
+      plan?
+      JEGER: No. It's the part where I open your skull and extract your
+      database by force.
+      HARPER: Oh. Will it hurt?
+      JEGER: I hope so.
+
+      [Command]
+
+      ROMMIE: Welcome to Three Four Five Eight Delta.
+      HUNT: Right back where we started.
+      BEM: No pions, no ice crystals, no trace of Harper at all.
+      HUNT: Yeah. It's funny, Rev. We knew where he was when he was on
+      Med Deck.
+      BEM: A lapse in judgment on my part.
+      BEKA: There must be something. Harper knows enough to leave a
+      trail.
+      TYR: He may not have had time. Jeger was right behind him. For all
+      we know, Harper got caught.
+      BEM: Harper's barrier is gone. We can enter slipstream, try to
+      retrace his exact route.
+      TYR: I would think too much time has passed.
+      HUNT: We're going about this all wrong.
+      TYR: Meaning?
+      HUNT: We shouldn't be trying to find Harper. We should try to find
+      Jeger. And with all of his toys, there must be something there we
+      could follow.
+      TYR: The Point Singularity Projector, I imagine, would exert a
+      tremendous gravitational force.
+      BEM: Yes. Even shielded, it might have an effect on the slipstream.
+      ROMMIE: Which we should be able to track, theoretically.
+      HUNT: I love putting a theory into practice.
+      BEKA: We're going after him?
+      HUNT: Oh, we're going after him.
+      BEKA: Good.
+
+      [Eureka Maru]
+
+      HARPER: My pain belongs to the Divine. It is like the air. It is
+      like the water.
+      (Jeger inserts his probe into Harper's data port.)
+      JEGER: Affirmations, prayers. I prefer laser probes.
+      HARPER: My pain belongs to the Divi Argh!
+      JEGER: There. That's the first honest thing you have said.
+      HARPER: I want my Rommie!
+      (An alarm goes off.)
+      JEGER: What's that?
+      (He removes the probe.)
+      COMPUTER: Collision Alert. Collision Alert. Collision Alert.
+      Collision Alert.
+      HARPER: You tell them!
+      (Andromeda is visible through the ports.)
+      JEGER: No! No!
+      (Hunt and Beka enter.)
+      HUNT: Beka, get Harper!
+      (Tyr runs at Jeger and they trade a few blows. Hunt points his
+      forcelance.)
+      HUNT: Fun's over!
+      (Hunt shoots Jeger.)
+      HUNT: Now who are you working for?
+      JEGER: Believe me. You don't want to know.
+      (And disappears down through the deckplates.)
+      BEKA: I got you.
+      (She shoots off his bonds.)
+      HARPER: Have I ever told you how beautiful you are?
+      BEKA: Don't start with me, Seamus.
+      (Metal creaks and thumps.)
+      BEKA: He's uncoupling his ship.
+      HUNT: Rommie, Jeger's running. Open fire with everything you got.
+      ANDROMEDA [OC]: My pleasure.
+
+      [Jeger's ship]
+
+      JEGER: Fools.
+      (Jeger vanishes just before it goes KaBOOM!)
+
+      [Eureka Maru]
+
+      HARPER: You really are pretty, you know that?
+      (Harper faints. Tyr puts his over his shoulder and carries him
+      off.)
+
+      [Medical]
+
+      HUNT: He's going to live?
+      TRANCE: He's going to live.
+      BEM: Ah, too bad.
+      (Harper winces, then looks at Trance.)
+      TRANCE: What?
+      (Harper speaks with a multitonal, musical language.)
+      HUNT: Rev?
+      BEM: I'm not familiar with that particular language. Trance? Did
+      you understand what Harper said?
+      HUNT: Trance?
+      TRANCE: Harper's brain is holding too much information. It's
+      dangerous for him.
+      HARPER: I'd have to concur with Madame Violette, there. Right now,
+      ignorance would truly be bliss.
+      HUNT: Have you figured out how to extract the Archives?
+      HARPER: And what would you say if I have?
+      HUNT: I'll need a copy of the Brandenburg Tor file.
+      HARPER: Boss, with that Jeger guy out there, wouldn't having that
+      stuff make you a target? Make us all a target?
+      HUNT: What makes you think we're not already?
+      HARPER: Good point.
+      HUNT: As for the rest, we should store it, just in case.
+      TRANCE: Well, don't you think it's best that we destroy it? Just so
+      it doesn't hurt anyone else.
+      HARPER: Trance, as much as I would love to, if you erase history,
+      you just erase its lessons. I think I may have a place to store it.
+      A safe place. A big enough place.
+      HUNT: Define big enough and safe enough?
+      HARPER: Er, I can't actually say.
+      HUNT: Ah. But you will let me know once you find it.
+      HARPER: Yeah.
+      HUNT: Good.
+      (Hunt and Bem leave. Harper gazes at a sun tattoo on Trance's left
+      shoulder blade.)
+
+      [Asteroid]
+
+      JEGER: There were unexpected obstacles. He had allies. But I can
+      still get it.
+      (The black and flames figure is unhappy.)
+      JEGER: Give me more time. No. Please. I can still get it to you.
+      (The figure waves its arm. Jeger flickers on and off, screaming,
+      then the figure gathers his energy into itself, and disappears.)
+
+      [Machine shop]
+
+      BEM: It's very beautiful.
+      HARPER: Yes. Yeah, it is. Just one question. What is it?
+      BEM: You said it's an antique Earth-based flight module. Er, the
+      X-1, I believe.
+      HARPER: Really? I don't suppose anybody was taking any notes while
+      I was on a roll. Jotted down any specs? Asked me for a blueprint?
+      BEM: I am afraid all of that information is up there.
+      HARPER: Oh, no. There's nothing up here. It's just empty old Harper
+      again.
+      BEM: Don't discount yourself, Harper. You have a wonderful mind,
+      tremendous mechanical talents, a quick wit, and I'm beginning to
+      detect a glimmering of something even more important than
+      knowledge.
+      HARPER: Let me guess. Wisdom.
+      BEM: You see? Brilliant.
+      HARPER: Well, you know the old Vedran proverb. Bulshar vedrix vel
+      nev lun.
+      BEM: Ah, yes. A fast swimmer keeps no pets.
+      HARPER: No, that's not what I said. A wise man knows his
+      limitations.
+      BEM: Close enough.
+      HARPER: Er, Rev? I'm sorry for what I said. Whatever it was.
+      (Bem bows and leaves.)
+      HARPER: Man, who'd have thought that being a librarian could be so
+      tough. Well, looks like I'm going to have to do this the
+      old-fashioned way.
+      (Harper calls up a picture of Chuck Yeager's Bell X-1, smiles, and
+      straps on his tool belt.)
+
+<Back to the episode listing
+
+Andromeda and related marks are trademarks of Tribune Company. Copyright   2000
+- 2005. The web pages on this site are for educational and entertainment
+purposes only. All other copyrights property of their respective holders.
+

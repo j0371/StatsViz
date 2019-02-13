@@ -1,0 +1,28 @@
+Name: Marcus Higgins
+ID: Chartreuse Rabbit
+
+1.	The colors that make up the pixel (Red Green and Blue)
+
+2.	A Matrix
+
+3.	Generative Design
+
+4.	"." is for current directory
+	".." is for one directory lower than current directory
+	"~" is for the home directory
+   
+5.	Piping
+
+6.	a.	I found what he said about having three monitors interesting because I 100% agree exactly with what he said.
+		I have three monitors and I feel like I could easily go back to two, but having at least 2 monitors makes a
+		world of difference and there's no way I could go back to just one. anyone who does work on a desktop computer
+		should have dual monitors.
+
+	b.	Opportunity costs - It's really important to look at every decision you make in terms of opportunity costs,
+		Even in areas other than time management. It helps to more objectively quantify the benefit and costs associated
+		with making a decision and also helps with fallacious reasoning (like sunk cost fallacy).
+		
+	c.	Removing phone notifications - You can extend this to just removing distractions all together. If you actually
+		care about getting work done, you need to remove distractions from your work space. Whenever I sit down at my computer
+		to do work, I almost always sign out of steam and discord so I don't get messages and people wanting to talk because
+		every time I try to both talk to a friend and do homework, it slows my progress tremendously.

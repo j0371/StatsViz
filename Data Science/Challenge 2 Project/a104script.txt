@@ -1,0 +1,853 @@
+ 
+
+D Minus Zero
+
+Original Airdate: 23 Oct, 2000
+
+      Here's everything I know about war: Somebody wins, somebody loses,
+                      and nothing is ever the same again.
+
+                           Admiral Constanza Stark,
+                                    CY9784
+
+      [Hydroponics]
+
+      (In an open space at the entrance to hydroponics, with the tree in
+      the background, Dylan Hunt is demonstrating basket ball to Tyr
+      Anasazi.)
+      HUNT: Shots from behind this line are worth three. Any questions?
+      TYR: One. All these rules. What's the point?
+      HUNT: The rules force you to out-think your opponent, instead of
+      out-muscle him. Now, isn't that a useful lesson for life-or-death
+      situations?
+      TYR: Certainly. And when the Magog unleash their dreaded bouncing
+      ball attack, we'll make them rue the day.
+      HUNT: Are we going to talk or play?
+      (Tyr takes the ball, punches Hunt out of the way, leaps up to the
+      basket and pushes the ball through it.)
+      TYR: How was that?
+      HUNT: Maybe we should talk about the personal foul.
+      HOLO-ROMMIE: Dylan, you'd better come to command. Code Black.
+      HUNT: I'm on my way. (to Tyr) We'll save that for the next lesson.
+      (Hunt leaves.)
+      TYR: I can hardly wait.
+
+      [Corridor]
+
+      BEM: The signal was very weak, but it appears to be a mission
+      recorder from a High Guard ship. We haven't identified it yet, but
+      it's definitely from around the time of the Fall.
+
+      [Command]
+
+      (Harper is in the slipstream chair when Dylan enters still wearing
+      his sweats.)
+      HARPER: Hey, new uniform?
+      HUNT: I'll put on something more impressive later. Right now I want
+      the data from that recorder. If the ship was destroyed late in the
+      war, it might tell us where to find resupply stations or fuel
+      caches.
+      ROMMIE: The signal's coming from the center of a debris field.
+      HUNT: Take us in nice and slow. We don't want to bump into any
+      leftover ordnance.
+      HARPER: Nice and slow. That I can do.
+      BEM: From the dispersal of the remains, it looks like someone hit
+      her anti-proton storage and sent her reactors critical.
+      HUNT: You okay? Rommie?
+      ROMMIE: I just got a positive ID from the mission recorder. It was
+      the Eightfold Path.
+      HUNT: A friend of yours.
+      ROMMIE: We worked together during the famine relief of Sculptor
+      119. She was a good ship.
+      BEM: We may have company.
+      HUNT: Another vessel?
+      BEM: I can't tell. I'm getting a faint sensor contact at extreme
+      range.
+      HUNT: Andromeda, keep an eye on it.
+      ANDROMEDA: Yes, sir.
+      ROMMIE: This would be a lot easier if my android bodies were back
+      online.
+      HARPER: Hey, I'm driving here. I only got two hands. Hey, Rommie,
+      what kind of ship was the Eightfold Path?
+      ANDROMEDA: A Mercy Class medical support ship.
+      HARPER: Well that's weird, 'cos some of this junk looks like it
+      came from a warship.
+      HUNT: Rev?
+      BEM: Harper is correct. There's even unfired missiles in her launch
+      tubes.
+      ROMMIE: The sensor contact's moving closer. It's definitely another
+      ship.
+      HUNT: I don't like the smell of this. Astern one quarter.
+      (Klaxon.)
+      BEM: Reading targets all around us. The missiles have been
+      activated, and are headed towards us.
+      HUNT: Harper, get us out of here. Battle stations!
+      (Andromeda reverses out of the debris field. A missile hits.)
+      HUNT: Andromeda, report.
+      ROMMIE: We have minimal structural damage. The point defence lasers
+      repelled most of the missiles, and the ones that got through didn't
+      hurt much. Just a little radioactive residue on my hull.
+      BEM: The enemy ship's on the move. I'm losing sensor contact.
+      HUNT: Andromeda, keep your eyes on the bogey. Deploy sensor drones,
+      standard coverage pattern.
+      HARPER: Is this the part where we bravely run away?
+      HUNT: Not a chance. Open a comm. channel and head toward the bogey.
+      HARPER: Toward? They're trying to kill us!
+      HUNT: Attention, unknown vessel. This is Captain Dylan Hunt,
+      commander of the Commonwealth Starship Andromeda Ascendant. Stand
+      down your attack. Respond. Over.
+      (Tyr & Beka enter)
+      BEKA: What'd we miss? Anything good?
+      HARPER: No. Well, just Dylan running us straight into a missile
+      attack so we can make friends with the nice people who are shooting
+      at us.
+      (More missiles hit.)
+      BEKA: Great. I love making new friends.
+      HUNT: Unknown vessel, I say again, stand down your attack. Respond.
+      Over.
+      TYR: Well this is pointless. I suggest we kill them and move on.
+      HUNT: Widen the search pattern on the drones.
+      ROMMIE: I'm not getting anything on ESM. The bogey's active sensors
+      have gone dark.
+      HUNT: If they're not targeting us anymore, maybe that means they
+      want to talk.
+      BEKA: Or they're running away.
+      BEM: Incoming!
+      HARPER: Oh, great.
+      (Lots of missile impacts make Andromeda shake.)
+      BEM: We've got hull breaches on decks eleven and thirteen. I'm
+      sealing the bulkheads and adjusting pressure to compensate.
+      ROMMIE: We've lost the slipstream drive. Switching to damage
+      control.
+      TYR: Starboard point defence stations one, four, and six have been
+      destroyed. Port stations three and six are offline.
+      HARPER: Their sensors were off. How could they see us?
+      HUNT: Harper, take evasive manoeuvres. Andromeda, ready smart
+      missiles. Prepare to fire on my command.
+      BEKA: To hell with that. Harper, plot a course. Get us out of here.
+      HARPER: Er, some help here?
+      HUNT: Evasive manoeuvres, Mister Harper.
+      HARPER: This'll teach me to sit at the helm. Next time I'm all
+      about environmental sciences. Okay, we are evading and maneuvering.
+      Anything else I can do for you?
+      HUNT: Fire.
+      TYR: Missiles away. We've lost target lock.
+      BEM: Reading multiple detonations. Point seven five light seconds
+      from the target.
+      HARPER: Okay, how come they can hit us and we can't hit them?
+      TYR: Preparing another salvo.
+      HUNT: Belay that. Hold your fire. Rev, find us a place to duck and
+      cover.
+      BEKA: About time.
+      BEM: The sixth planet in this system is a gas giant.
+      HUNT: Perfect. Harper, plot a course for the night side and take us
+      into the ionosphere. Tyr, give me a full spread of counter measures
+      to cover our back.
+      TYR: Counter measures away.
+      HUNT: All ahead full.
+      BEKA: Glad you finally came to your senses.
+      BEM: We're clear of the weapons.
+      HUNT: Good. Stand down from combat mode. Keep your eyes open. Tyr,
+      you have Command. Beka, walk with me.
+
+      [Corridor]
+
+      HUNT: If you ever countermand me during a battle again, I will slam
+      you in the brig and leave you there to rot. Understood?
+      BEKA: I understand perfectly. I understand that those people up
+      there are my crew. Hell, they're my friends, my family, my
+      responsibility! I'm not going to let you gamble with their lives.
+      HUNT: You want to protect them. I respect that. But when you try to
+      override my decisions in combat, all you do is confuse the issue.
+      You saw Harper in there. He froze up, and that's how people get
+      killed.
+      BEKA: Dylan, you're not in the Systems Commonwealth anymore. You
+      don't get backup. You don't get second chances. We don't have the
+      luxury of negotiating with people as they shoot at us.
+      HUNT: In combat, knowledge isn't a luxury, it's a necessity. In the
+      High Guard we called this D Minus Zero, the first day of
+      hostilities. And on D Minus Zero, the first priority is
+      intelligence. Who are we up against? What are their goals?
+      BEKA: I'm not an idiot, Dylan. I know as much about running a ship
+      as you do. Maybe more.
+      HUNT: Ten years as captain of a freighter doesn't qualify you to
+      override my commands.
+      BEKA: So you're saying you're just going to do whatever you want
+      with my crew, and my opinion be damned?
+      HUNT: Your opinion does matter. But there's a time and a place for
+      everything. If you've got a problem, you bring it up in private. I
+      promise to give you a fair hearing. But when the shooting starts,
+      you're going to have to trust me.
+      BEKA: I'm not big on trust.
+      HUNT: Then it's time to learn.
+
+      [Hunt's quarters]
+
+      (A mini holo-Rommie appears next to the photograph of Hunt and
+      Sarah while he is in the shower. She strokes his face.)
+      HUNT: Did you hear me?
+      HOLO-ROMMIE: I'm sorry, I was reviewing tactical scenarios. What
+      did you say?
+      HUNT: The residue on your hull. That's how they're able to target
+      us without using their active sensors. We need to scrape it off.
+      Any suggestions?
+      HOLO-ROMMIE: I'll talk to Harper. Maybe I can get him to go out
+      there with an EVA suit and a squeegee.
+      HUNT: I'm sure you two will come up with something. He's a good
+      kid, you know. He's smart. They all are. Beka, Rev Bem, Trance,
+      Tyr. They're smart, they're talented, and they're totally
+      undisciplined.
+      ROMMIE: You afraid you can't depend on them?
+      HUNT: No, no. Not at all. They're not the weak link. For that, we
+      need to look somewhere else.
+      HOLO-ROMMIE: Oh.
+      HUNT: The problem isn't them. The problem is me.
+      ROMMIE: Don't ever think that. You're a fine commander.
+      HUNT: Three hundred years ago, maybe. But times have changed. Maybe
+      they've passed me by. Napoleon Bonaparte was one of history's
+      greatest strategists, but if you plucked him out of his time and
+      set him down just two hundred years later, would he have any idea
+      how to maneuver a tank brigade or how to use close air support? Of
+      course not. He'd have been a relic, just like me.
+      ROMMIE: You're not a relic. The Commonwealth may have fallen, but
+      you did not fall with it.
+      HUNT: Tell that to whoever's out there gunning for us.
+
+      [Machine shop]
+
+      (Harper is using a welding torch when Beka enters.)
+      HARPER: Hey!
+      BEKA: Hey!
+      HARPER: You should have been here a minute ago. You missed the part
+      where I nano-welded my boot to the deck plate.
+      BEKA: Well then, you need this more than I do.
+      (She hands him a thermos-mug of coffee.)
+      HARPER: Oh, nice.
+      (Beka spots a lot of Petri dishes.)
+      BEKA: Hey, what are those?
+      HARPER: Minibots. I built them to clean that crap off the hull.
+      Man, that stuff was tougher to get rid of than that virus I caught
+      back on Kalderash Five. Not to mention I have to refurbish almost
+      thirty of these AG coils, which is twenty four hours work at least.
+      And that's, you know, as long as I don't get any sleep or anything.
+      BEKA: Well, if anyone can get this ship up and running, I'm sure
+      it's you.
+      HARPER: Wait a minute. Aren't you going to chew me out for not
+      siding with you up in Command?
+      BEKA: It's not you I'm mad at. It's Dylan. He almost got us killed
+      back there.
+      HARPER: Almost being the operative word.
+      BEKA: I just don't want to be there when his luck runs out.
+      HARPER: Where would you rather be? Back on the Maru running cargo?
+      Salvage? What makes you think that'd be any safer?
+      BEKA: It couldn't be any more dangerous.
+      HARPER: All right. You want to know what I think?
+      BEKA: Oh, good. Now for another chapter in The World According to
+      Seamus Harper.
+      HARPER: Hey, my favourite book. Chapter twelve, paragraph eight,
+      verse three. The universe hates you. Deal with it.
+      BEKA: That's comforting.
+      HARPER: All right. Remember when we heisted those grav speeders on
+      Infinity Atoll, took 'em for a spin?
+      BEKA: Yeah, sure.
+      HARPER: Well, the thing that I remember most about those eggbeaters
+      was, I'd be whipping along, and every once in a while I'd hit a
+      swarm of bugs. Poor little bastards just minding their own
+      business, not doing anything wrong, a little bit of bad timing on
+      their part, and splat, all over the windshield.
+      BEKA: Tragic.
+      HARPER: Damn straight. The thing is, as far as the universe is
+      concerned, we're all bugs, just hopping along, loving life, until
+      one day fate decides to introduce each and every single one of us
+      to our very own, personalised windscreen. So yeah, maybe Dylan is
+      crazy. Maybe he doesn't have a chance in hell of rebuilding the
+      Commonwealth. And maybe one day something'll come along and splat
+      him too. But we're all going to get splat eventually.
+      BEKA: Yeah, but you forgot one thing. Dylan is not flying around
+      minding his own business. He's looking for windscreens.
+      HARPER: Right. But with us on his side, he might just be the only
+      bug alive tough enough to blast right through.
+
+      [Command]
+
+      BEM: More depth charges. You'd think after three hours they'd get a
+      little bored and go home.
+      HUNT: Patience has its virtues. Few more like that one and they'll
+      get an exact fix on our location. Mister Harper, any news?
+      HARPER [OC]: Still no slipstream
+
+      [Machine shop]
+
+      HARPER: But, er, thanks to some hungry little minibots, Rommie's
+      hull is now clean enough to eat off of.
+      HUNT [OC]: That's a start, anyway.
+
+      [Command]
+
+      HUNT: Beka, Tyr, report to Command. Andromeda, take us out.
+      (Andromeda leaves the gas giant. Beka is piloting shortly after.)
+      HUNT: What have we got?
+      BEM: The enemy ship is still out there. I think. It's at least two
+      light minutes away. It's difficult to maintain contact.
+      HUNT: All right, then, let's play. Launch advance sensor drones.
+      Come about to zero four niner and slow to three quarters.
+      BEKA: Something about zero f
+      HUNT: Now hard left, ninety degrees positive, all ahead full.
+      BEKA: This must be the old nauseate your enemy ploy.
+      HUNT: Keep it up. Random speed, heading, and attitude changes. I
+      want Andromeda bucking like a drunken Vedran with a Nightsider on
+      his back.
+      BEKA: Sounds like my last date.
+      HUNT: You can tell us about that later. This is what old Earth's
+      submariners called a Crazy Ivan. Random shifts and lurches designed
+      to throw off a pursuer, maybe force her to do something stupid.
+      BEKA: Yeah, and what if they don't take the bait?
+      HUNT: Then we run straight at her, full speed. As soon as we're on
+      top of her, we blow her out of the sky. What's our friend doing?
+      BEM: Absolutely nothing.
+      HUNT: They're smart, I'll give them that. Beka, on my mark, turn us
+      around and point us straight at the target, full speed ahead.
+      BEKA: I take it this is the crazy in Crazy Ivan?
+      (Trance and Harper enter.)
+      TRANCE: Life support officer Trance Gemini reporting for duty, sir.
+      HARPER: Suck up.
+      HUNT: Andromeda, take the helm.
+      ANDROMEDA: Assuming helm control.
+      BEKA: I got it.
+      HUNT: This isn't a debate. I want you, Trance, Tyr, and Harper to
+      configure stations for remote fighter operations. Give defensive
+      support in four zones, even distribution, three thousand kilometres
+      out.
+      TYR: Then what?
+      HUNT: Zone defence, like in basketball. Stick to your assigned area
+      and take everything that comes your way. If something gets by you,
+      let it go. Better to miss one than miss them all.
+      ANDROMEDA: PDL's armed, missile tubes loaded.
+      BEM: Fire control sensors on-line. Captain, I, I hope you do not
+      expect me to fire the ship's weapons.
+      HUNT: This isn't the time, Rev.
+      BEM: Nevertheless, I will man the sensors, but I will not fire the
+      weapons.
+      BEKA: I could've told you that.
+      HUNT: Fine. Andromeda, take over fire control and bring us about
+      hard one eighty.
+      ANDROMEDA: Yes, sir.
+      HUNT: Engines at full.
+      (Andromeda does her trademark back-flip and zooms forward.)
+      HUNT: Any indication what we're up against?
+      BEM: I can't tell. It could be anything.
+      TRANCE: Maybe it's a baby space alien that thinks we're its mother.
+      HARPER: Come to momma, baby.
+      BEM: One minute twenty seconds to intercept.
+      HUNT: Launch fighters.
+      BEKA: Fighters away.
+      BEM: She's running!
+      HUNT: No, she's playing hard to get. Stay alert.
+      BEM: Oh, my. Incoming missiles, multiple vectors.
+      HUNT: Who are these guys? Brace for impact.
+      (Bang! Trance, Tyr and Harper use virtual display goggles to target
+      their fighters.)
+      HARPER: Come on, get back here.
+      TYR: Damn it, boy, pay attention!
+      HARPER: I'm doing the best I can, Mister Will To Power.
+      TYR: That's not good enough!
+      BEKA: Harper, behind you.
+      HARPER: I got it, I got it!
+      TYR: I've got it.
+      HUNT: Tyr, back in position now!
+      (Andromeda takes a big hit and everyone gets thrown around.
+      Consoles explode.)
+      ANDROMEDA: I've lost my defence. Hull breaches on decks three, five
+      and eight.
+      HUNT: Recall the fighters and get us out of here!
+      TYR: No! We can still close!
+      HUNT: Like hell we can! This round goes to the bad guys.
+      (Later, things are still going spark! Harper surveys the damage.)
+      HARPER: Well, we came, we saw, we got spanked. I'd say this was
+      anything but good for my self-esteem.
+      HUNT: We're not done yet. Beka, plot a course for this system's
+      sun, maximum speed.
+      BEKA: You want me to set up the slingshot manoeuvre?
+      HUNT: No, I want you to go straight in.
+      BEKA: Is this the part where I politely voice my concerns?
+      HUNT: You ever stare at the sun?
+      HARPER: Hey, it's all fun and games until somebody burns out his
+      retina.
+      HUNT: Exactly. The flood of radiation will blind their active and
+      passive sensors. That'll give us the time we need to conduct
+      repairs and plan the endgame.
+      BEKA: Unless we melt.
+      HUNT: Believe me, this wasn't on my list of things to try when I
+      woke up this morning, but here we are. Tyr, a word.
+
+      [Corridor]
+
+      HUNT: Someone lied to me. I was told that all Nietzscheans are
+      perfect physical specimens.
+      TYR: So?
+      HUNT: Then I assume your defective hearing is a personal problem. I
+      told you to stay in your zone.
+      TYR: Harper's zone was saturated with missiles. He was in over his
+      head. I had to act.
+      HUNT: I'm not interested in your opinion of Harper's condition. You
+      screwed up and we got pasted. As long as you walk my decks and
+      breathe my oxygen, you're a part of my crew and I expect my crew to
+      work together as a team. No exceptions.
+      TYR: Work as a team? With them? They're amateurs, children. And
+      you? You're an anachronism. You haven't the first idea how
+      unforgiving this universe has become, and I will not allow you to
+      find out at my expense.
+
+      [Eureka Maru]
+
+      BEKA: If you're thinking of taking off in the Maru, it won't launch
+      without my authorisation.
+      TYR: I'm not going anywhere. Yet.
+      BEKA: So, I take it your conversation with Dylan went well.
+      TYR: Well enough to realise that I've badly misjudged him.
+      BEKA: Tyr, why don't you just tell me what you want.
+      TYR: I think we need to re-examine how things work on board the
+      Andromeda. Perhaps it's time we considered an alternative
+      leadership arrangement.
+      BEKA: You're looking for a promotion to captain?
+      TYR: I was thinking more on the lines of First Officer to Captain
+      Valentine.
+      BEKA: I'm not ready for that yet. But I will talk to Dylan, see
+      what's up.
+      TYR: And if he doesn't have a good answer?
+
+      [Command]
+
+      (Hunt is piloting Andromeda towards the sun. Bem touches his
+      shoulder, making him jump.)
+      HUNT: Oh God! Rev, I er, I wish you wouldn't do that.
+      BEM: I'm so sorry. Sometimes I forget the effect my appearance has
+      on others.
+      HUNT: It's not that. It just takes a little getting used to, that's
+      all. I'm sure humans looked strange to you at first.
+      BEM: Oh, not at all. In fact, I find your people quite attractive.
+      Dylan, have you talked to Harper lately?
+      HUNT: No, why?
+      BEM: He's killing himself trying to repair all the damage we've
+      sustained. He blames himself for letting his guard down.
+      HUNT: It's not his fault. Even an experienced High Guard pilot
+      couldn't have stopped all those missiles.
+      BEM: And a High Guard pilot would know that. But Harper is not High
+      Guard. None of us are. In fact, we're simply five civilians trying
+      to do the work of four thousand soldiers and feeling, well, quite
+      frankly, a bit overwhelmed.
+      HUNT: You think I'm expecting you to react under pressure like
+      veterans?
+      BEM: You tell me.
+
+      [Conduit]
+
+      (Harper inserts a chip and the panel goes dark. He thumps it and it
+      comes back on.)
+      HUNT: You're supposed to fix my ship, not beat her to death.
+      HARPER: Sorry. Sometimes high tech problems demand low tech
+      solutions.
+      HUNT: Sometimes you deserve a kick in the butt, but you don't see
+      me doing it, now, do you?
+      HARPER: I guess, er, I guess I did, you know, drop the ball there.
+      HUNT: No, no. You did your job. If anyone made a mistake, it was
+      me.
+      HARPER: You?
+      HUNT: I'm the captain. It's my job to come up with battle plans.
+      Ones that work.
+      HARPER: Well, it's not so bad. I mean, you know, couple of right
+      hooks, I should have these fire control links back online in a few
+      hours.
+      HUNT: The nanobots can handle that. I want you to build something
+      for me.
+      (He gives Harper a flexi.)
+      HARPER: Nice! What is it?
+      HUNT: An FMS. Footprint Magnification System. Better known as a f.
+      Well, the polite version is Fire At Me switch. The FMS makes a
+      small vessel look like a big juicy ship of the line. They were used
+      during battles to draw missile fire away from high value assets.
+      HARPER: Uh-huh. Kinda like a big neon Kick Me in the Assets sign.
+      HUNT: Exactly.
+      HARPER: I'm going to have to custom machine some of these parts.
+      The casing looks a little bulky. If you're planning on sticking
+      this on a drone, I'm going to have to build you a smaller version.
+      HUNT: Size isn't the issue, it's power. Just get it to work. We'll
+      rig it to something.
+      (Boom.)
+      HARPER: You know, that is really starting to annoy me.
+      HUNT: Yeah, join the club.
+
+      [Command]
+
+      (Andromeda arrives at the sun followed by a load of missiles.)
+      TRANCE: More paintballs.
+      BEM: I'm reading multiple sensor contacts at extreme range and
+      closing at seventy five PSL.
+      TYR: Fire control is still down.
+      HUNT: How far to the corona?
+      TRANCE: Less than one minute.
+      HUNT: Countdown at fifteen second intervals.
+      BEM: We've lost over half our sensor drones.
+      TRANCE: Forty five seconds till the sun.
+      (Boom!)
+      BEM: That was no paintball.
+      ANDROMEDA: Hull breach in the starboard propulsion housing.
+      Thruster two is offline.
+      HUNT: Cut the engines. Inertia will carry us in.
+      TRANCE: Thirty seconds.
+      TYR: You can't just let them blast away at us.
+      HUNT: I can, I will.
+      BEM: We've lost the remainder of our sensor drones. We're blind.
+      TYR: Blind and crippled. If Andromeda were my child, I'd drown it.
+      TRANCE: Fifteen seconds. We're entering the outer corona.
+      BEKA: Goodbye frying pan, hello fire.
+      BEM: I'm reading a large swarm of enemies missiles, ten LS away and
+      closing.
+      HUNT: Beka, first officer's station. Tyr, activate manoeuvring
+      thrusters. I want you to drop us into closer orbit.
+      TYR: How much closer?
+      HUNT: We're going to dip inside the lower corona. We use those
+      flares to take out the enemy missiles.
+      BEKA: You've done this before, right? Right?
+      HUNT: First time for everything.
+      BEM: Five LS. Four, three, two, one, zero.
+      (Andromeda swerves around a solar flare.)
+      ANDROMEDA: The missiles have impacted on the solar flare. They
+      missed us.
+      HUNT: Come about to our projected orbit. Deploy bucky cables, bleed
+      off some of this heat. Good job, people.
+
+      [Corridor]
+
+      HOLO-ROMMIE: Dylan, can I talk to you?
+      HUNT: Always.
+      HOLO-ROMMIE: You know, there aren't enough cables in the galaxy to
+      bleed off all this heat. When are you going to tell them we can
+      only keep it up for forty eight hours?
+      HUNT: I'm not. If we're still here in 48 hours, we're already dead.
+
+      [Command]
+
+      (Hunt is trying to repair a console.)
+      HUNT: How about when I try this?
+      HOLO-ROMMIE: Still nothing.
+      HUNT: There must be one data conduit on this deck that's not fried
+      or severed. Try rerouting from environmental controls.
+      (Beka enters. The console comes online.)
+      HUNT: There. Another victory for the good guys.
+      BEKA: Targeting system's back online.
+      HUNT: Excellent. Now we just have to restore weapons and
+      slipstream.
+      BEKA: Andromeda, would you mind giving me and Dylan a moment,
+      please?
+      HOLO-ROMMIE: Privacy mode engaged. Authorization: Acting First
+      Officer, Beka Valentine.
+      (Holo-Rommie disappears.)
+      HUNT: What's wrong?
+      BEKA: Well, I was just on deck forty two checking the readings.
+      Radiation levels are up twelve percent in the last hour alone.
+      HUNT: Yeah, I know.
+      BEKA: So, were you planning on staying here until we're all extra
+      crispy, or could we get out of here while we're still only medium
+      rare?
+      HUNT: If we leave before weapons and sensors are repaired, we'll
+      get a lot worse than that.
+      BEKA: Maybe so, but we've been hiding out here and soaking up
+      radiation for the last day. I mean, to be honest, getting shot at
+      is looking more attractive all the time. Anything's better than
+      sitting here and watching my hair and teeth fall out.
+      HUNT: Don't worry, I don't want to lose my hair either.
+      BEKA: Dylan, what's your plan? In case you haven't noticed, we're
+      one for three against these guys.
+      HUNT: Stick around. I'm predicting a knockout in round four.
+
+      [Machine shop]
+
+      HARPER: Whew! Trance, is it my imagination or is it beginning to
+      get really hot in here?
+      TRANCE [OC]: Temperature readings are stable, and the bucky cables
+      are still radiating heat perfectly. It's all in your mind.
+      HARPER: Oh, good. Insanity I can deal with. Maybe I'll go to
+      hydroponics afterward and run through the sprinklers.
+      (Harper coughs up blood.)
+      HARPER: Nice.
+
+      [Eureka Maru]
+
+      TYR: This is a farce. The captain's plan is killing us. I can feel
+      my DNA being shredded molecule by molecule.
+      BEKA: Well, look on the bright side. Maybe some stray cosmic ray
+      will zap just the right gene and give your children some killer
+      mutation that will make all the other Nietzscheans weep with envy.
+      TYR: Do you find this amusing? Even if we can repair the slipstream
+      drive, the enemy will destroy us before we can get far enough away
+      from the star's gravity well to use it. And nothing that, nothing
+      Dylan is doing can prevent that.
+      BEKA: I'll talk to him.
+      TYR: And what will that accomplish? If the radiation is affecting
+      me, what do you suppose it's doing to Harper? To Trance? And to
+      you?
+      BEKA: Tyr, I didn't know you cared.
+      TYR: I care about survival. Do you?
+
+      [Command]
+
+      HUNT: You know, a person could get a tan this way.
+      HOLO-ROMMIE: Should I turn down the screen intensity?
+      HUNT: No, no, no. I like the reminder. I just wish we'd come at
+      night. So, what have you got for me.
+      HOLO-ROMMIE: Still no slipstream. But fire control and sensors are
+      almost fully operational. Which leaves us right back where we were
+      before.
+      HUNT: Getting pounded. Which they'll start again as soon as they
+      see us break orbit.
+      (Harper enters, coughing and carrying the new gizmo.)
+      HARPER: Dylan, where er, where do you want this?
+      (Harper collapses.)
+      HARPER: Okay, I'm just going to lie here right now, if that's okay.
+      (Hunt gets a first aid kit.)
+      HUNT: Harper. You all right? Trance, get the medical deck ready.
+      (Hunt gives Harper an injection.)
+      HUNT: There you go. The FMS. Come on, Harper, you with me?
+      HARPER: Did I do it right? What am I saying, of course I did it
+      right.
+      HUNT: Don't worry, Harper. You did just fine.
+
+      [Medical]
+
+      (Trance scans Harper with a salt-shaker while Hunt and Bem watch.)
+      TRANCE: He's dying.
+      HUNT: Damn. It should've been hours before anyone started feeling
+      the effects.
+      (Beka and Tyr enter.)
+      BEKA: If he was a good little citizen of the Commonwealth, I'm sure
+      he'd be fine. Harper was raised in a refugee camp. He's got a dodgy
+      immune system at the best of times. He sure can't stand up to this
+      radiation bath you've got us soaking in.
+      HUNT: How long before his condition becomes irreversible?
+      TRANCE: Four hours, maybe less.
+      HARPER: Ooo, shiny.
+      HUNT: I'll have us out of here before then. But if we leave before
+      slipstream's back on line, we still won't be able to get out of the
+      system.
+      TYR: The last thing they saw us do was to fly straight through
+      those solar flares. Perhaps they think we're already dead.
+      HUNT: Do you honestly think they'd chase us this far and then just
+      leave?
+      TYR: I don't know. But I'd rather take my chances out there than
+      watch us drop one by one while we wait for you to save us.
+      HUNT: What about you?
+      BEKA: I don't see that you've left me much choice. Rev, you and
+      Trance stabilise Harper. Get him to the Maru. We're leaving.
+      TRANCE: Er, we?
+      BEKA: You're my crew. I'm not going to let you stay here and die.
+      TRANCE: Well, yes, but we promised Dylan.
+      TYR: This isn't about loyalty. It's about being alive tomorrow.
+      HARPER: Leave. Stay. It's all good.
+      BEKA: Shush, shush. It's okay. We're going to get you out of here.
+      Let's go.
+      TRANCE: I don't know. I mean, survival is fine with me, but I like
+      my chances better here. You know, big ship good, little ship bad.
+      BEKA: We've gotten out of worse scrapes before. Haven't we, Rev?
+      BEM: Yes. I'm sorry I won't be there to see you get out of this
+      one. The Divine has chosen my path. I must walk it wherever it
+      leads.
+      BEKA: I'm sorry you feel that way. I can't force either of you to
+      come with me. But you can't make us stay.
+      HUNT: Not at all. In fact, I encourage you to go. Because when you
+      do, I'm going to light the Maru up like a Christmas tree. I'm going
+      to make that ship out there think that you're me trying to escape,
+      and then, while they're busy reducing you to your constituent
+      atoms, I'll swing around from behind and blow them out of the sky.
+      Now, I might get them before they get you, and I might not, but
+      you've made your choice, so that's not really my problem. My
+      obligation is to protect the lives of the people on this ship, and
+      that's what I intend to do. Which is why Harper stays here, and
+      you'll take him over my dead body.
+      BEKA: You're bluffing. You can't make the Maru look like the
+      Andromeda.
+      (Dylan holds up a remote control.)
+      HARPER: Oops. Sorry, Beka.
+      HUNT: I never walk into a situation without a plan for getting out
+      in one piece. So make the call, Beka. Do you want to walk with me
+      and live, or walk out on me and die?
+
+      [Eureka Maru]
+
+      HUNT: You wanted to see me?
+      (Beka hands him the FMS.)
+      BEKA: Here.
+      HUNT: Impressive.
+      BEKA: I've been flying this ship since I could walk. I'm on a first
+      name basis with every bolt and circuit. You had to know I'd find
+      your little toy.
+      HUNT: Well, I hope you didn't damage this. I'm going to need it
+      when I fly the Maru out of here.
+      BEKA: When you what?
+      HUNT: Thanks for the vote of confidence. Until we had that little
+      chat in medical, I'd always planned to fly the Maru myself. But now
+      that you've found this, I don't have much choice.
+      BEKA: You can't fly the Maru. You wouldn't know how.
+      HUNT: There's a war on. We work with what we have.
+      BEKA: Look, Dylan. My crew seems to think that your plan is our
+      best chance of getting out of here alive. Maybe it is, but only if
+      I fly the Maru. I just ask one thing. When our friend up there pops
+      his head up to shoot at me, you chop it off.
+      HUNT: You've got a deal.
+      BEKA: Great.
+
+      [Command]
+
+      HUNT: I'll take weapons, Tyr. I want you to fly fighter support.
+      TYR: Of course.
+      ANDROMEDA: The Maru is underway.
+      (Bem is in the pilot seat.)
+      BEM: The Eureka Maru has opened a channel.
+      HUNT: On screen.
+      BEKA [on viewscreen]: Here we go. You going to be here when I get
+      back?
+      HUNT: That's the plan.
+      BEKA: That's all I needed to know. Take care of my crew. Maru out.
+      HUNT: Our crew. Ready smart missiles. Full battery. Point defence
+      stations online. Attack support stand by for launch.
+      ANDROMEDA: Missiles ready. Starboard point defence stations two,
+      three, and five, port stations one through six are online.
+      TYR: Standing by.
+      BEM: The Maru has passed outside the star's corona.
+      HUNT: Launch fighter.
+      TYR: Fighter away.
+
+      [Eureka Maru]
+
+      (Beka turns on the FMS.)
+      BEKA: Here goes nothing.
+
+      [Command]
+
+      BEM: The Maru has activated the FMS. Her sensors are emitting at
+      full power.
+      ROMMIE: Harper did a great job. If I didn't know better, I would
+      swear she were me.
+      BEM: Apparently you're not the only one. I'm getting a sensor
+      contact at extreme range and closing fast on the Maru.
+
+      [Eureka Maru]
+
+      BEKA: Tag, you're it.
+
+      [Command]
+
+      HUNT: Keep it together, Beka. Don't let him spook you.
+      BEM: Multiple contacts. Four missiles headed for the Maru.
+      HUNT: All right, he's taken the bait. All ahead full. Ready missile
+      barrage on my mark.
+
+      [Eureka Maru]
+
+      COMPUTER: Collision alert. Collision alert.
+      BEKA: Tell me something I don't know.
+
+      [Command]
+
+      BEM: She's not going to make it.
+      HUNT: Covering fire now.
+      (Tyr takes out the missiles.)
+
+      [Eureka Maru]
+
+      (A slipstream starts to open, but the mothership is right behind
+      her.)
+      BEKA: Come on, come on, Dylan. Just one more second.
+
+      [Command]
+
+      TYR: She's getting hit!
+      HUNT: Let's bring it.
+      (Andromeda launches everything at the bad guy.)
+
+      [Eureka Maru]
+
+      BEKA: Nice timing. See ya, wouldn't want to be ya.
+      (The Maru enters slipstream. Andromeda and the unknown fight head
+      on.)
+
+      [Command]
+
+      ANDROMEDA: We've got them. Their engines are dead. I'm not reading
+      any more enemy missiles.
+      TYR: We should finish them off.
+      HUNT: No. Stand down. Maybe now they'll want to talk.
+      TYR: I don't want to talk.
+      (Tyr sends the fighter towards the enemy. It goes KaBOOM!)
+      HUNT: Damn it, Tyr! I said stand down!
+      TYR: I didn't do it. I didn't get the chance.
+      ANDROMEDA: The explosion originated inside the enemy ship.
+      BEM: Some kind of self-destruct mechanism?
+      TYR: They killed themselves to cheat us of our victory.
+      HUNT: Or to conceal their identity.
+
+      [Medical]
+
+      HARPER: Hey, boss bug.
+      HUNT: You look like hell.
+      HARPER: Well, I'll be up to the rumba in no time. Did we get them?
+      HUNT: We got them, thanks to you.
+      TRANCE: Dylan, the Eureka Maru's back in the hangar.
+      HUNT: Oh, good. Thanks. Er, you did good. Both of you.
+
+      [Eureka Maru]
+
+      HUNT: Glad you made it.
+      BEKA: That makes two of us.
+      HUNT: Er, you know, you were right. The way you piloted the Maru, I
+      don't know if I'd have gotten away.
+      BEKA: Oh, well, I saved your cookies, you saved mine. I'd call it
+      even.
+      HUNT: You know, not completely. I mean, you and Tyr confronted me
+      down in Medical, I pulled a fast one on you, and I'm sorry.
+      BEKA: Don't apologise. If I would've run without the Andromeda's
+      backup, I might not have made it. You were right.
+      HUNT: I'm the skipper, I'm always right. Except when I'm wrong.
+      BEKA: How can you tell the difference?
+      HUNT: Usually, I wait for my first officer to give me a swift kick
+      in the head.
+      BEKA: Oh. I might be able to help you there. You know, Dylan, I'm
+      still not a hundred percent convinced about this mission of yours,
+      but, you know, if you ever need a kick in the head, I'm happy to
+      oblige.
+      HUNT: I'd like that.
+      BEKA: Don't get too excited. I'm still not calling you sir.
+      HUNT: Well then, I guess Your Majesty is out of the question?
+
+      [Hydroponics]
+
+      (Tyr is dribbling the ball very well.)
+      (He scores a basket. Trance, Bem and Harper are watching.)
+      TRANCE: Go, Dylan. Take it to the hall.
+      HARPER: Hole. It's hole.
+      TRANCE: Whatever.
+      (Hunt scores a basket.)
+      TYR: I underestimated you. That won't happen again.
+      (Tyr scores a basket.)
+      HARPER: Oh, nice shot! You are the Uber-man.
+      (Harper gets dizzy and sits down.
+      BEM: Harper?
+      HARPER: I'm okay. I'm okay.
+      TRANCE: So, who's winning, anyway?
+      BEM: The highest form of competition is that which produces two
+      winners, not one.
+      HARPER: Yeah, what he said. Koombaya.
+      (Now it's Dylan's turn. He hits Tyr with the ball and does his own
+      slam-dunk.)
+      TYR: What happened to playing by the rules?
+      HUNT: Let's just say I owed you one. Now, you going to take your
+      free throws, or what?
+      (Tyr throws, and the ball rolls round and round the inside of the
+      hoop.)
+
+<Back to the episode listing
+
+Andromeda and related marks are trademarks of Tribune Company. Copyright   2000
+- 2005. The web pages on this site are for educational and entertainment
+purposes only. All other copyrights property of their respective holders.
+

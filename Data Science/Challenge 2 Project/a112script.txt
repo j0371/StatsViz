@@ -1,0 +1,783 @@
+ 
+
+The Mathematics of Tears
+
+Original Airdate: 29 Jan, 2001
+
+                      If hope is the engine of the soul,
+                          Then duty is the navigator
+                             And love is the fuel.
+
+                         High Guard Supreme Commander
+                                Sani nax Rifati
+                         Persuasions and Exhortations
+                                 circa CY 4279
+
+      [Command]
+
+      (Harper is in the slipstream chair, reading a flexi.)
+      HARPER: (reading) I know I'm supposed to meet you at Yoso Drift.
+      Here it comes. She met a guy. But that was before I found out the
+      mandelbrots are spawning on Ornithone.
+      BEKA: Ah. Trance and her pets.
+      HARPER: It only happens once a century, so I thought you might
+      understand.
+      BEKA: Once a century? Wow, they get less action than you, Harper.
+      HARPER: Ha, ha. No, they don't.
+      HUNT: Anything else?
+      HARPER: Er, love Trance. P.S. Pick me up in two weeks.
+      HUNT: Two weeks. Ha, it's amazing. She must think this is her own
+      personal cruise ship.
+      BEKA: We always ran this kind of stuff fast and loose on the Maru.
+      HUNT: This isn't the Maru.
+      (Hunt leaves, Beka follows.)
+
+      [Corridor]
+
+      BEKA: What's gotten into you?
+      HUNT: Rev Bem's retreats, Harper's surfing competitions, Trance's
+      field trips. I'm a little tired of running around the universe
+      picking up this crew from their vacations.
+      BEKA: You're upset we don't salute and ask your permission to
+      disembark?
+      HUNT: Don't trivialise this, Beka. I need a crew I can depend on.
+      BEKA: Trance has been busting her purple tail updating Andromeda's
+      xenobiology program. So she took a little unauthorised vacation
+      time.
+      HUNT: It's called going AWOL. In the old days, that would mean two
+      weeks in the brig.
+      BEKA: The brig.
+      HUNT: A properly run ship has structure, rules. In three years of
+      captaining the Andromeda, I never had anyone go AWOL. Not once. But
+      this crew, they constantly put their own personal interests above
+      the good of the mission.
+      BEKA: All this crew has ever known has been their own personal
+      interests. Keeping themselves alive has been their mission their
+      entire lives. If they need a little time off, I'd say they'd earned
+      it.
+      (Beka leaves.)
+      HUNT: Earned it, my ass.
+
+      [Hunt's quarters]
+
+      HUNT: I have to keep reminding myself they signed on for three hots
+      and a cot, you know, not a mission. Not my mission. Civilisation,
+      order, progress, may sound good to them, but they have no idea how
+      to operate in an environment like that.
+      ROMMIE: They have good hearts.
+      HUNT: Yeah, yeah. I know I should lighten up.
+      ROMMIE: The Systems Commonwealth wasn't built in a day.
+      (Door chime)
+      BEKA [OC]: Dylan, may I come in?
+      (Beka enters.)
+      HUNT: Hi.
+      BEKA: Hi. I was thinking. Since we're on our way to Ornithone, you
+      might want to look at this.
+      (Beka hands Hunt a flexi.)
+      BEKA: It's Gerentex's list of derelict High Guard ships, or
+      suspected ones, anyway.
+      HUNT: More ships like the Andromeda?
+      BEKA: Salvaging a High Guard ship of the line was an obsession for
+      him. We looked at five other possibilities before we found you, but
+      there are over thirty more leads.
+      HUNT: If this is an attempt to make nice, it worked.
+
+      [Command]
+
+      HARPER: You want to hunting for the ghost ship of Tau Ceti Six?
+      BEKA: Harper, we spent four months checking out those old wrecks.
+      What's wrong with that ship?
+      HARPER: What? Every salvage mission that's been to this system has
+      disappeared. Even those old pirates out at Winnipeg Drift say it's
+      cursed.
+      HUNT: Cursed.
+      HARPER: Yes, cursed. It glitters like gold, but if you see it, you
+      never come back.
+      BEKA: That's a myth!
+      HARPER: Andromeda was a myth.
+      HUNT: Hey, one with a happy ending. Now maybe lightening will
+      strike twice.
+      (They enter a densely packed asteroid belt.)
+      BEKA: This is weird. Our star charts don't show any asteroid belts
+      in this system. We should be approaching the planet Herodotus, but
+      it's not here.
+      HARPER: That's because it's a ghost planet haunted by a ghost ship.
+      (Static comes over the comm.)
+      HARPER: You see?
+      BEKA: That's a voice transmission.
+      HUNT: Where's it coming from?
+      BEKA: I don't know. I can't triangulate its source.
+      HUNT: Patch it through.
+      VOICE [OC]: No tears. No tears.
+      HARPER: Oh, great. Disembodied voices and nothing to send them.
+      (Then they see an intact golden starship just like Andromeda.)
+      HUNT: That's a High Guard starship.
+      HARPER: It glitters gold.
+      VOICE [OC]: No tears.
+
+      [Eureka Maru]
+
+      HUNT: I know that ship.
+      ROMMIE: The Pax Magellanic.
+      BEKA: She looks just like you, Rommie.
+      HARPER: Yeah. Only gold.
+      ROMMIE: She's my older sister.
+      HUNT: In a manner of speaking. The Pax Magellanic is one of the
+      High Guard's first Glorious Heritage class cruisers.
+      ROMMIE: Everyone looked up to her. On her first mission, she saved
+      Princess Sukarhit's yacht from a Magog attack. She was honoured by
+      triumvirs and empresses, but now
+      HUNT: Don't worry, Rommie. Your sister may be damaged, but we are
+      going to save her.
+
+      [Pax cargo bay]
+
+      ROMMIE: Her deck plan is the same as mine. We should head to
+      Command.
+      HUNT: Mister Harper. Some light, please?
+      HARPER: Man, I really should shave those little hairs off the back
+      of my neck.
+      (He gets the lights working.)
+      BEKA: Big sister? More like identical twin.
+      HUNT: Amazing. Three hundred years later, air's still clean, AG
+      fields still work.
+      (Alarms sound and auto defence activates. They dive for cover.)
+      HARPER: Well, auto-security system's still activated!
+      HUNT: Deactivation code lexic dark five two two seven eight Alpha
+      seven seven one!
+      (The door opens.)
+      JILL: Hold fire! Deactivate defence system!
+      (Our crew come out of hiding.)
+      JILL: You're High Guard.
+      HUNT: Captain Dylan Hunt, of the Andromeda Ascendant.
+      JILL: Lieutenant Jill Pierce of the Pax Magellanic. And this is my
+      ship's engineer, Hideki Osaka.
+      DUTCH: You may call me Dutch. Everyone else does.
+      BEKA: You're descendants of the original crew?
+      JILL: No. We are the original crew.
+
+      [Corridor]
+
+      JILL: We've been trying to figure it out for three hundred years
+      without much luck. Our best guess is it's a side effect of whatever
+      weapons the Nietzscheans used to blow up the planet.
+      HUNT: Nietzscheans blew up the planet?
+      HARPER: Wow, that's really sad that a whole world had to die, but
+      you look great. Ow!
+      (Beka hits Harper.)
+      HUNT: I would love to have our science officer check your medical
+      records.
+      JILL: Of course, Captain. We're completely at your disposal.
+      HUNT: Thank you, Lieutenant. Oh, when can I get a chance to meet
+      with Captain Warrick?
+      JILL: I'm afraid I'm the senior surviving officer. Captain Warrick
+      is dead.
+
+      [Pax Observation deck]
+
+      JILL: The war was going badly. We were sent to rescue a detachment
+      of Lancers who had been pinned down by Nietzschean ground forces.
+      The Lancers were under the command of General Sky Falls.
+      HUNT: Sky Falls in Thunder?
+      JILL: You knew her?
+      HUNT: Yeah, yeah. I took a course from her at the Guard's Advance
+      Studies Institute.
+      JILL: I did, myself.
+      HUNT: Really?
+      JILL: Patterson's World.
+      HUNT: Ah, yes, yes. The Sheathed Sabre.
+      JILL: Oh, just thinking about that place gives me a hangover.
+      HUNT: What was the name of that one drink?
+      JILL: The Afterburner.
+      HUNT: That's it.
+      JILL: That was Warrick's favourite.
+      HUNT: Which brings us back to what happened to Warrick.
+      JILL: It's funny, you know. After a couple hundred years, you start
+      to forget the bad days. Sky Falls was encircled. Warrick led the
+      evac team himself, but they were trapped, too. We kept sending in
+      more and more troops, until we had nothing left but a skeleton
+      crew. Finally, it looked like the tide was turning. And then the
+      Nietzscheans blew up the whole damn planet. I lost almost everyone
+      I cared about that day.
+      HUNT: Why didn't you try to leave?
+      JILL: The planet's explosion destroyed our slipstream drive. The
+      nearest inhabited world is almost fifty light years away. We can't
+      do more than ten PSL even today, so
+      HUNT: A five hundred year trip.
+      JILL: Assuming that we didn't start aging as soon as we left this
+      asteroid belt. We'd be dead before we even got a tenth of a way
+      there. We figured it'd be less risky to just wait for help. And
+      here you are.
+      HUNT: Here we are.
+
+      [Eureka Maru]
+
+      HARPER: Well, there is nothing wrong with the AI's automated
+      connection. It's still hooked into the power grid, and the neural
+      net seems to be sound.
+      HUNT: Do you think the core sentience is buried?
+      HARPER: Yeah. I don't know, it's like it's in a coma.
+      ROMMIE: It must have happened the day the planet exploded.
+      HUNT: Sounds like we need a closer look. Rommie, I want you to
+      enter the Magellanic's VR matrix. See if you can find out what's
+      wrong. If the system's badly damaged, we may have to rewire the
+      neural network.
+      HARPER: What if we can't fix it?
+      HUNT: Then we'd have to erase it and start over.
+      HARPER: Isn't that a little drastic?
+      ROMMIE: A ship's AI contains countless classified High Guard
+      documents, tactical procedural commands. If an AI is compromised,
+      it has to be erased.
+      HUNT: It won't come to that. Pax was, is, a good ship.
+
+      [Pax Command]
+
+      (The command deck staff are busy when Hunt enters with Beka.)
+      ENSIGN: Captain on deck!
+      (Everyone turns and salutes.)
+      HUNT: As you were. (to Beka) You know, I don't need the saluting,
+      but I like the saluting.
+      ENSIGN: Captain Hunt, may I say it's a pleasure to have you on
+      board, sir.
+      HUNT: Thank you, Ensign.
+      ENSIGN: Sir, I've taken the liberty to prepare a briefing report on
+      the status of the ship. Page one summarises our current situation.
+      Now, if you need more information, of course we have prepared
+      supplementary texts explaining everything we have done to modify
+      this ship over the last three hundred years.
+      HUNT: Thank you, Ensign.
+      ENSIGN: Also, sir, we've taken the liberty to prepare quarters for
+      your use while you're on the ship. You'll find fresh linens already
+      on the bed and fresh coffee on the desk in your office.
+      HUNT: That is very considerate of you. Now, that's an Ensign.
+      BEKA: You like that?
+      HUNT: What's not to like?
+      (Jill enters.)
+      JILL: There you are.
+      HUNT: Lieutenant Pierce. You run a fine starship.
+      JILL: All it needs is a captain.
+      HUNT: You'd fit the bill. Why didn't you ever officially assume
+      command?
+      JILL: I thought about it. It just seemed wrong, somehow.
+      HUNT: You've been senior officer for three hundred years now. I
+      think you're more than qualified. And once we get the Pax up and
+      running, she'll need a captain.
+      JILL: Well, perhaps we could discuss this over an officer's dinner.
+      Twenty one hundred hours?
+      HUNT: I'll dress for the occasion.
+      BEKA: Could we make it eight? It's a low blood sugar thing.
+      JILL: Oh, well, we can't have that, can we? Ensign, would you
+      please show Captain Valentine to the Officer's Mess? Oh, and I
+      recommend the Antares kelp patties.
+      HUNT: Yeah, they're really good.
+      BEKA: Yeah.
+
+      [Pax Hangar bay]
+
+      BEKA: Have you ever actually eaten Antares kelp patties before?
+      HUNT: For extra strong bones and teeth. I was kind of hoping I'd
+      get some at dinner tonight.
+      BEKA: You're crazy.
+
+      [Eureka Maru]
+
+      BEKA: You and Pierce may be the last people alive who actually like
+      that stuff. It's not the only thing you have in common.
+      HUNT: This isn't a date, it's an opportunity. I'm asking Lieutenant
+      Pierce to join our mission.
+      BEKA: What? Aren't you assuming a little much? You've only known
+      these people for about three hours.
+      HUNT: That's where you're wrong. They are High Guard. I've known
+      them my whole life.
+      ROMMIE: Maru, establish virtual reality interface with Pax
+      Magellanic's AI core.
+      COMPUTER: Interface established.
+
+      [Pax Magellanic computer core]
+
+      (Rommie sees a golden humanoid shape swaying.)
+      PAX: Can silicon cry? Do computers weep? Can silicon cry? Do
+      computers weep? Can silicon cry?
+      ROMMIE: Magellanic? Magellanic, it's me, Andromeda. The Andromeda
+      Ascendant?
+      PAX: What is the binary code for sadness? What are the mathematics
+      of tears? What are the mathematics of tears?
+      ROMMIE: Please, I'm trying to help. Replay memory archives. Show me
+      what happened the day the planet exploded.
+      PAX: Access denied! Access denied!
+      ROMMIE: This is High Guard emergency override Reg nine nine seven.
+      Authorisation Andromeda Ascendant.
+      PAX: Access denied! Access denied!
+      ROMMIE: Magellanic, please. Let me help.
+      PAX: Access.
+
+      [Archive - corridor]
+
+      (Alarms sounding, crew running.)
+      DUTCH: Everyone, hangar deck fourteen.
+      WARRICK: I need every ground combatant we've got. Full assault
+      armour. It's going to be nasty out there.
+      ROMMIE: The day of the battle.
+      JILL: What about me?
+      WARRICK: I need you here.
+      (The recording loops.)
+      WARRICK: I need you here. I need you here. I need you here.
+      PAX: You don't belong here. You don't belong here! Get out of me!
+      (Rommie's consciousness is thrown back to the Maru.)
+
+      [Hunt's quarters]
+
+      (On Andromeda, Hunt dresses for dinner.)
+      HUNT: With any luck, after dinner we'll have another ship in our
+      fleet.
+      ROMMIE: Dylan, the ship. She isn't lucid. She didn't even remember
+      me. I had to override her system to enter the memory archives, and
+      even then she threw me out. My sister. She didn't even recognise
+      me.
+      HUNT: Keep trying. Somewhere deep inside, she knows you're trying
+      to help. You'll get through. I know you will.
+
+      [Medical]
+
+      BEKA: So, Rev, what is the deal with their cells? Have they
+      discovered the fountain of youth?
+      BEM: I'm afraid eternal life remains a secret of the Divine.
+      BEKA: So, are they frauds?
+      BEM: No. The cell sample they gave me confirms their claims. They
+      really are over three hundred years old. But, since we have
+      arrived, we have continued to age normally. So, whatever's keeping
+      them so perfectly preserved, it is not the debris or any pervasive
+      local condition.
+      BEKA: Well, keep looking, Rev. Maybe it's my pilot's gut, but
+      something tells me this crew is not flying straight and level.
+
+      [Corridor]
+
+      TYR: Am I to understand you're asking their commander to join us?
+      HUNT: That's the plan.
+      TYR: You might want to ask her another question first.
+      HUNT: Which is?
+      TYR: Ask her who destroyed that planet. Because you and I both know
+      Nietzscheans don't destroy habitable worlds. Particularly not while
+      they're standing on them.
+      HUNT: Well, maybe it was accidental.
+      TYR: The only Nietzschean weapon capable of destroying a planet is
+      a Maxim Charge, containing two AS4V. An analysis of the planetary
+      debris revealed none.
+      HUNT: There could have been geologic instability, or an asteroid
+      collision.
+      TYR: I've also ruled out natural causes.
+      HUNT: You're saying the Commonwealth destroyed the planet.
+      TYR: I'm saying draw your own conclusions.
+
+      [Pax Conduit]
+
+      (Dutch is twirling an implement like a six-shooter.)
+      DUTCH: Now you try.
+      HARPER: All right.
+      (Harper drops it and it goes off.)
+      HARPER: Ah! My foot.
+      DUTCH: It's all in the wrist, kid. Let me show you the magic.
+      HARPER: Yeah, Dutch, this is all a lot of fun and everything. But
+      if we don't at least try to fix the slipstream drive, Dylan'll kill
+      me.
+      DUTCH: You are a stubborn lad, aren't you?
+      HARPER: Yeah. It's one of my more, say, charming qualities. Mind if
+      I ask you a question?
+      DUTCH: Shoot.
+      HARPER: Why did you weld the door shut to the slipstream drive in
+      the first place?
+      (Harper starts cutting.)
+      DUTCH: Well, I could tell you I did it to protect people from
+      radiation, but the truth of it is, I got sick of looking at it,
+      just sitting there, inert, mocking me.
+      HARPER: It must have killed you, not being able to fix it. I mean,
+      I can't relate to that, but it must have killed you.
+      DUTCH: Especially for the first hundred years. But then I thought,
+      what's the difference. We're still alive, aren't we?
+
+      [Eureka Maru]
+
+      BEKA: Ah, family.
+      ROMMIE: How did you know what I was thinking?
+      BEKA: It's natural. You're worried about your sister.
+      ROMMIE: She won't let me help her. It's almost self-destructive.
+      BEKA: Sounds like my dad. Growing up, I used to sneak into his
+      quarters at night, just to watch him sleep. It was the only time I
+      ever saw him at peace. I used to think I could help him. I used to
+      blame myself. I guess what I'm saying is, there may come a time
+      when you've done all you can do, and you just got to let go.
+      ROMMIE: Is that what you did? Let go?
+      BEKA: No. No, I guess not.
+
+      [Pax Observation deck]
+
+      (A cosy dinner for two.)
+      JILL: So tell me, Captain, how did you spend your three hundred
+      year furlough?
+      HUNT: Frozen on the edge of an event horizon. Three centuries gone
+      in a fraction of a second.
+      JILL: Count yourself lucky. Me, I, I felt every single tick tock.
+      HUNT: How did you spend the time?
+      JILL: Well, let's see. I grew a rose garden. I memorised the
+      Commonwealth Chronicles. Oh, and Earth opera.
+      HUNT: Ah. I'm afraid I'm not very well-versed in ancient music.
+      (A certain haunting Wagnerian theme plays.)
+      JILL: It's all right. It's Der Fliegende Hollander. It's about a
+      sea captain condemned to roam the seas eternally, without purpose.
+      This is the overture. You can almost hear the waves swelling and
+      falling. You might say it's become my theme song. To roam the seas
+      eternally without purpose.
+      HUNT: Maybe I can help you rediscover that purpose.
+
+      [Archives - Pax corridor]
+
+      (Rommie reenters Pax's archives.)
+      PAX: I can rest but I cannot cry. I can rest but I cannot cry.
+      ROMMIE: The day the planet exploded, but where's the crew?
+      PAX: There's no future in there. There's only the past. There's no
+      future in there. There's only the past.
+
+      [Archives - Pax Command]
+
+      WARRICK [OC]: That's an order, Lieutenant. That's an order,
+      Lieutenant. That's an order, Lieutenant.
+
+      [Pax Observation deck]
+
+      HUNT: All day, into the night, I walked around Astoshi Tarn,
+      soaking in all the buildings, the inspiration, and then there I
+      stood, this plebe on furlough staring up at this huge bronze statue
+      of Sani nax Rifati, my lifelong hero. And it hit me. This is where
+      he lived and wrote. It's where he fought and died.
+      JILL: For a second there, you sounded like Warrick. I'm sorry.
+      Please, go on.
+      HUNT: Tarn-Vedra may be a lost world, but the principles it
+      embodied, the sense of purpose. There's not a day that I don't feel
+      them.
+      JILL: I wish I still felt that.
+      HUNT: You can. Join me. Help me restore the Commonwealth.
+      JILL: I don't know how long I've waited for someone to say that.
+      HUNT: I'm not asking this lightly. If you leave this sector,
+      whatever's keeping you from aging, it, it may stop.
+      JILL: At least we'd be going someplace.
+      (Rommie enters.)
+      ROMMIE: Dylan, it was her. Pierce. She blew up the planet. She
+      killed her captain.
+      HUNT: Jill? Jill, I need the truth. Now.
+      JILL: It was me. I killed him. I killed them all. Warrick was
+      overrun. Sky Falls was dead. Warrick's situation was desperate, and
+      he, he called down friendly fire.
+      HUNT: To prevent his capture.
+      JILL: He ordered it. I didn't want to.
+      HUNT: Jill, it was his call. Under torture, he could have revealed
+      sector troop positions, fleet movements, orders of battle. He had
+      to prevent that.
+      JILL: It didn't matter. We still lost, and I killed him. I killed
+      them all. I used kinetic missiles. There must have been some sort
+      of chain reaction. The entire planet just shattered, and it was all
+      for nothing.
+      ROMMIE: Why didn't you tell us any of this before?
+      JILL: I should have, but after three hundred years trying to forget
+      that day, I guess I just convinced myself that it never happened.
+      ROMMIE: Maybe this is what the Pax is repressing. Now that I know,
+      I might be able to help her.
+      HUNT: See what you can find out.
+
+      [Pax Slipstream core]
+
+      (Harper cuts his way in.)
+      HARPER: Well, that explains it.
+      (He gives Dutch the cutter back.)
+      HARPER: I think I know what's wrong with your slipstream drive
+      there, Dutch. It's missing!
+      DUTCH: Well, that's the wildest damn thing. It was there the last
+      time I checked.
+      HARPER: Dutch, something as big and inanimate as a slipstream
+      drive's exotic matter pulser doesn't just run away on its own. It
+      has to be forcibly ejected.
+      DUTCH: Like this?
+      (Dutch heaves Harper over the railing. He just manages to grab hold
+      of them in time to stop falling into the massive hole. Dutch uses
+      the cutter to try and make him let go.)
+
+      [Pax Observation Deck]
+
+      JILL: For years, I felt like my hands were dirty. Like I couldn't
+      wash them enough, the hands that killed him.
+      HUNT: Jill, it's survivor's guilt. You didn't do anything wrong.
+      JILL: You know, people wonder what it's like to live so long. But
+      it's like death. That's the irony, isn't it? Because I can't die.
+      HUNT: You are alive for a reason. Hold on to that.
+      (Jill kisses Hunt.)
+      JILL: I'm sorry. That was inappropriate.
+      HUNT: That's, er, it's okay. It's okay.
+
+      [Pax Slipstream core]
+
+      DUTCH: You're so damn stubborn. I hate stubborn lads.
+      (Beka zaps his rear with her forcelance.)
+      BEKA: Shocked to see me?
+      DUTCH: Give it to me. (Dutch and Beka duel while Harper pulls
+      himself up to safety. More Pax crewmen enter the chamber. Beka
+      shoots one and then Dutch, and she and Harper run.)
+
+      [Archive - Pax Command]
+
+      ROMMIE: Magellanic, I think I can help, but you have to show me
+      what happened the day Warrick died. Come on, that's it. You can do
+      it.
+      (Pax starts to scream, stunning Rommie back on the Maru.)
+
+      [Pax Corridor]
+
+      (A running battle.)
+      HARPER: High Guard Engineers. They're so touchy!
+
+      [Pax Observation Deck]
+
+      HARPER: Dylan, get away from her!
+      BEKA: They're trying to kill us.
+      HUNT: Who? Jill, what the hell's going on?
+      HARPER: Watch this.
+      (Harper uses a console. Dutch leads the crew in and then they all
+      slump.)
+      HARPER: I tricked the AI into initiating an android diagnostic
+      program. Dutch, the whole crew, the babe.
+      HUNT: They're all androids. She was so human.
+      BEKA: We've got to get out of here before the ship manages to
+      reboot the androids.
+      HUNT: Oh, my god. Rommie. She used the Maru's virtual net to enter
+      the Pax's memory archives. We have to get her out of there. Let's
+      go!
+      (They run out and the androids start up again.)
+
+      [Pax Corridor]
+
+      HARPER: Uh oh! Looks like nap time's almost over.
+      (Harper seals the cargo bay then the hangar deck while the others
+      run into the Maru.)
+
+      [Eureka Maru]
+
+      HUNT: Rommie. Rommie! Can you hear me?
+      ROMMIE: She tried to send a power surge through me.
+      BEKA: Maximum thrusters. Let's blow out of here!
+      HUNT: Rev, we're coming home, fast!
+      BEM [on monitor]: Is there trouble?
+      HARPER: Trouble? Er, you might say that.
+      BEKA: I can't launch. The hangar doors won't respond.
+      BEM [on monitor]: Dylan, I don't know if it's pertinent to your
+      current situation, but I've discovered something disturbing about
+      Lieutenant Pierce.
+      HARPER: What, that she's a psychotic android with a grudge?
+      BEM: I was going to say she's not on the crew manifest.
+      HUNT: Of course not. Pax is Latin for peace. Peace, Pierce. Jill,
+      Ma-jill-anic. Jill Pierce is the Pax Magellanic, the ship made
+      flesh. She's the one ordering these androids to kill us.
+      (The androids try to prise open the hangar bay door.)
+      ROMMIE: I can't believe I didn't see it sooner. The life signs
+      must've been faked. Pax changed her avatar. We used to call her
+      Maggie. All this time, I've been trying to save her from herself?
+      TYR [on monitor]: There's a simple solution. Erase it.
+      ROMMIE: If you erase her, you kill her!
+      HUNT: Rommie, we don't have a choice. Access code lexic dark five
+      two
+      ROMMIE: Dylan, wait! Whatever is wrong with her, the Pax is still a
+      sentient ship and your fellow High Guard officer.
+      HUNT: Who is trying to kill us.
+      ROMMIE: But she took an oath to die for the Commonwealth's
+      principles, the same oath that you and I took. If you just kill her
+      without investigating, without applying those principles, then her
+      life was meaningless.
+      HUNT: So what do we do?
+      ROMMIE: The ship is hiding something. Whatever is causing all of
+      this. If I could just go back into the memory archives, maybe I can
+      fix it.
+      HUNT: All right. But I'm going in there with you.
+      TYR [on monitor]: You're risking your lives to save a machine?
+      BEKA: She's not just a machine. She's family.
+      HUNT: Watch our backs.
+      (The androids get into the hangar bay.)
+      HUNT: All right, Rommie, let's do this.
+
+      [Archive - Pax Corridor]
+
+      ROMMIE: She's usually here to meet me.
+      HUNT: Magellanic avatar, show yourself.
+      (She does, and resolves into an image of Jill.)
+      PAX: Why did you come in here?
+      HUNT: I'm here as an officer of the Commonwealth to make an inquiry
+      into a matter of justice.
+      PAX: Justice?
+      HUNT: You're trying to murder my crew.
+      PAX: Dylan, I would never try to hurt you.
+      HUNT: You hurt my crew, you hurt me. Call off your androids.
+      PAX: You're a fair man, otherwise you would have erased me already.
+
+      [Eureka Maru]
+
+      (Thumping stops.)
+      HARPER: Okay, this is getting weird.
+      BEKA: Getting?
+
+      [Archive - Pax Corridor]
+
+      ROMMIE: Pax Magellanic, what happened that day?
+      PAX: Someone tried to kill me. I had to defend myself.
+      HUNT: You were in battle. Of course people were trying to kill you.
+      PAX: Not just anyone. Warrick. My own captain.
+
+      [Archive - Pax Command]
+
+      WARRICK [on viewscreen]: Go. Jill, can you hear me? Sky Falls is
+      dead. The Nietzscheans have just launched fighters to board you.
+      Initiate a self-destruct sequence.
+      JILL: No. We can escape.
+      WARRICK [on viewscreen]: No. I can't risk your capture. You contain
+      all the strategic commands for the sector.
+      JILL: The sector? We've already lost two galaxies. Tarn-Vedra's
+      been completely cut off. Look, it's time we start thinking about
+      ourselves. I've run multiple scenarios. We can escape to San Ska
+      Re.
+      WARRICK [on viewscreen]: You have your orders. Initiate the
+      sequence.
+      JILL: But you, you said you can't live without me.
+      WARRICK: Jill, this isn't the time.
+      PAX: This isn't the time. But this is. And this. And this.
+      (Her memories of fond smiles between herself and her captain.)
+      PAX: And this. And most especially this. Always this.
+      (Stolen kisses and lovemaking.)
+      PAX: Forever this.
+      WARRICK [on viewscreen]: Jill, listen to me. You're being emotional
+      right now.
+      JILL: Isn't that what you wanted? For me to be emotional? Look,
+      I've done the mathematics. I've programmed myself.
+      WARRICK [on viewscreen]: You're programmed to do what I tell you to
+      do. Now, destroy yourself. You don't have a choice.
+      JILL: You're ashamed. You don't want me to live, because you don't
+      want anyone to know.
+      WARRICK [on viewscreen]: Jill, I've given you a direct order.
+      JILL: Order refused, sir.
+      (She fires the weapon and the planet blows up.)
+      PAX: So, you see? It wasn't my fault.
+      HUNT: What happened to the rest of the crew?
+      PAX: Warrick took them all planetside. He left me alone. I hate
+      being alone. I missed my human friends, my favourites, so I went
+      into the DNA files and fabricated them. Did you ever meet Dutch?
+
+      [Eureka Maru]
+
+      (Dutch enters the Maru.)
+      COMPUTER: Security systems overridden.
+      HARPER: Oh, crap!
+      (Flying Dutchman music starts up. Beka and Harper shoot down the
+      androids, but more and keep coming. Then Tyr appears and starts
+      firing with a hand gun and his portable cannon.
+      Meanwhile Dutch finds Rommie and Hunt. Harper tries to stop him
+      interfering with their connection to the Archive.)
+
+      [Archive - Pax Command]
+
+      HUNT: No High Guard duty is more difficult for a captain than being
+      forced to erase a ship's AI, but you swore an oath to sacrifice
+      yourself if necessary. You were called upon to perform it, and you
+      disobeyed.
+      PAX: I swore an oath to the Commonwealth. There is no more
+      Commonwealth, not beyond the three of us.
+      HUNT: Tarn-Vedra may be lost, but its principles are timeless. What
+      you did was wrong, and we have to make it right.
+      PAX: I'm sorry, Dylan. I don't think you can make it right.
+      (Harper kicks Dutch against a piece of equipment, and he gets
+      electrocuted.
+      Tyr and Beka continue to take out androids.)
+      PAX: Here's an interesting part of the opera. After the captain
+      rejects his lover, she decides life has no purpose, and then the
+      ship's crew begins to sing, sing about their voyage of eternal
+      damnation.
+      (Pax emits a tone that huts Hunt and Rommie. They run out.)
+
+      [Eureka Maru]
+
+      (Tyr saves Beka from an android with a forcelance, then disposes of
+      Dutch with his cannon. Rommie and Hunt run out of Pax's archive.)
+      HUNT: We need to get out of here.
+      HARPER: Yeah, tell me something I don't know.
+      HUNT: You all right?
+      ROMMIE: Yeah.
+      BEKA: Can we go now?
+      HUNT: What happened?
+      BEKA: You missed Tyr's cavalry act.
+      TYR: They were playing Wagner. It's the most fun I've had in about
+      six months.
+
+      [Command]
+
+      (Pax starts shooting at Andromeda even before the Maru has docked.
+      They run into Command.)
+      BEM: Thank you.
+      (Boom!)
+      TYR: Preparing to return fire.
+      JILL [on viewscreen]: Dylan.
+      ROMMIE: Pax, you have to stop this! Don't make things worse than
+      they already are.
+      JILL [on viewscreen]: You've been a good little sister, Andromeda.
+      I wish there were another way.
+      (Boom!)
+      BEM: We can't continue to shoot down her missiles. Some of them are
+      going to sneak through.
+      JILL [on viewscreen]: You tried to help, but there's no cure for
+      the pain of love.
+      TYR: Return fire?
+      HUNT: Enough to neutralise her missile batteries. Don't destroy the
+      vessel.
+      TYR: Missiles away.
+      BEM: Pax is breaking up.
+      BEKA: There's no way our weapons burst could have caused all that.
+      TYR: She let down her defences. She made us destroy her.
+      ROMMIE: Pax, why? Why are you doing this?
+      JILL [on viewscreen]: Dylan, I never told you the end of The Flying
+      Dutchman. After the captain rejects his lover, she throws herself
+      into the sea, hoping she'll find in death the purpose she was
+      missing in her life. This has been a three hundred year nightmare,
+      and it's finally over.
+      (With a smile on her face, Pax Magellanic goes KaBOOM!)
+      BEM: May her tortured soul find eternal peace.
+
+      [Corridor]
+
+      BEKA: Next time I tell you about a derelict High Guard ship, tell
+      me to go away.
+      HUNT: You were just trying to help. And I guess I was just trying
+      to recapture the past.
+      BEKA: Yeah, well, you had it good back then. Mission briefs
+      highlighted in three colours, smiles and spit-shines, saluting. If
+      I'd grown up with that, I'd probably want it back, too.
+      HUNT: Structure, rules. Captains like those things, but the most
+      important thing I've already got. A crew I can depend on.
+      BEKA: I suppose now would be a bad time to put in for vacation?
+      HUNT: Er, yeah.
+      BEKA: Damn.
+
+      [Command]
+
+      ROMMIE: It's a simple enough equation. Fractal mathematics, water
+      flow, surface tension. Harper even built me tear ducts, but I'm not
+      sure how to use them.
+      BEM: Many of the Divine's gifts are like that. They're always
+      there, but we don't appreciate them until we need them.
+      ROMMIE: Back there you prayed for her soul. Do you believe AI's
+      have souls?
+      BEM: I believe anything that can love has a soul. Have you ever
+      felt love?
+      ROMMIE: I've learned that it's dangerous to love. It can drive you
+      crazy.
+      BEM: Then perhaps, that's what tears are for.
+      (And tears start to roll down Rommie's face.) 
+
+<Back to the episode listing
+
+Andromeda and related marks are trademarks of Tribune Company. Copyright   2000
+- 2005. The web pages on this site are for educational and entertainment
+purposes only. All other copyrights property of their respective holders.
+

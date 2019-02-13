@@ -1,0 +1,849 @@
+ 
+
+To Loose the Fateful Lightning
+
+Original Airdate: 16 Oct, 2000
+
+           Those who fail to learn history are doomed to repeat it;
+                  Those who fail to learn history correctly -
+                          Why they are simply doomed
+
+                                 Achem Dro'hm
+                        The Illusion of Historical Fact
+                                    CY 4971
+
+      [Command]
+
+      HUNT: It's called GS92196. It's a Guard station for starship
+      service and repair. A real jewel in the Commonwealth crown.
+      TYR: Perhaps once, nut it's probably long gone by now.
+      BEKA: The station's in easy striking distance of the Dyhedra
+      system.
+      HUNT: The last time I checked, the scariest thing about Dyhedra was
+      the size of the bills at the resort hotels.
+      HARPER: Yeah, well, those hotels may still be serving lunch, but
+      we'd be the main course.
+      BEKA: The entire system is infested with Magog. Everyone knows
+      that. Almost everyone.
+      TYR: The ship's weaponry is severely depleted. We couldn't return
+      fire on a single Magog probe, much less a full assault horde.
+      ROMMIE: All the more reason to check out the Guard station. If it
+      is still operational, we could stock up on slipfighters, drones,
+      spare parts.
+      HUNT: Look, I grant you it's a long shot, but maybe we'll get
+      lucky.
+      (Andromeda moves to within range of the Guard station.)
+      TYR: Those are Magog assault ships.
+      HUNT: This is the Commonwealth Starship Andromeda hailing Guard
+      station niner two one niner six. Please respond. Guard station, are
+      you reading me?
+      BEKA: Whoever's on that drift probably can't even breathe, let
+      alone signal back.
+      TYR: Nietzschean slavers have been here, too.
+      HARPER: What a popular destination. It must be on all the tourist
+      maps.
+      ROMMIE: It looks like the station's still pressurised. The
+      atmosphere is breathable and the AG fields are powered and running.
+      HUNT: Any life signs?
+      ROMMIE: There seem to be indications of habitation near the
+      generator complex, but scans are inconclusive.
+      HUNT: Prepare for docking.
+      (Andromeda's prow slips neatly into a v-shaped section of the
+      station.)
+
+      [Armoury]
+
+      (Hunt hands out forcelances to Harper and Beka.)
+      HUNT: We don't know what we're going to get, so let's put on our
+      game faces. Maybe some of our faces are a little too game. Tyr, Rev
+      Bem, you'd better stay behind.
+      TYR: We're the best battle gear you've got.
+      BEM: No offence, Harper.
+      HARPER: Oh, none taken. In fact, I am so unoffended, allow me to
+      present you with the gifts of forcelance and a gauss gun.
+      HUNT: Sorry, Harper, but if anyone's down there, they've certainly
+      scrapped with Magog and Nietschzseans.
+      HARPER: Well, maybe they hate humans, too.
+      HUNT: I doubt it. They haven't even met you yet. 
+
+      [Guard station corridor]
+
+      (Forcelances make handy torchs.)
+      HUNT: Keep an eye out for the Quartermaster's office. And stay
+      alert. We're short-handed enough as it is.
+      HARPER: Battle damage. It's fresh.
+      HUNT: A Magog.
+      HARPER: Don't touch it! It's venom! I heard about a guy touched a
+      fresh kill. Three days later, his guts were teeming with Magog
+      eggs.
+      HUNT: You can't get infected from a dead Magog. That's a myth.
+      HARPER: I prefer to think of it as a cautionary tale.
+      (Someone shoots at them. They hide behind crates.)
+      BEKA: Gee, I'm glad we left Rev and Tyr behind. I'd hate to tick
+      off the locals.
+      HUNT: They must think we're more Magog/
+      BEKA: Or they're more Magog.
+      HUNT: This is Dylan Hunt, Commander of the High Guard Starship
+      Andromeda! We come in peace.
+      (The shooting stops.)
+      BEKA: They've stopped shooting.
+      HARPER: Yeah, they've probably gone to get bigger guns.
+      CHILDREN: Hail the High Guard! Hail the High Guard! Hail the High
+      Guard! Hail the High Guard! Hail the High Guard! Hail the High
+      Guard! Hail the High Guard! Hail the High Guard! Hail the High
+      Guard! High Guard! High Guard!
+      (Some small children come forward to investigate Hunt, while young
+      woman in uniform, who looks very tired and ill, speaks.)
+      KATE: Is it really you?
+      HUNT: I'm Captain Dylan Hunt.
+      KATE: High Guard?
+      HUNT: I'm a High Guard officer, yes.
+      KATE: I never thought I'd live to see the coming of the High Guard.
+      I am G Stat Comm Kate Nassan at your service, High Guard.
+      (She salutes, and coughs.)
+      HUNT: Are you all right?
+      KATE: I am old. Don't worry about me.
+      BEKA: She couldn't be more than twenty.
+      HUNT: Where are the adults?
+      KATE: We're right here.
+      HUNT: No, I mean the people my age.
+      KATE: High Guard, no one's as old as you.
+      HUNT: So, you're the oldest one here, and you're in charge.
+      KATE: For now. When I die, my Onced-Off Hayak will assume command.
+      (A young man in steps forward and salutes.)
+      HAYAK: I led the victory this morning. We drove off a Magog
+      assault.
+      KATE: When Hayak dies in a couple years, my brother Mapes will lead
+      our people.
+      BEKA: He's gotta be sixteen. Look at the peach fuzz.
+      KATE: Well, come on. Enough talk. The High Guard is with us. We
+      should be celebrating!
+      (The children cheer, and start their High Guard chant again.)
+
+      [Meeting area]
+
+      (A multi-storey area lit by fires. Children line the galleries and
+      look down on the open space.)
+      KATE: High Guard, we've prepared the Mish Brief. Shall we transmit?
+      HUNT: By all means.
+      KATE: Onced-Off, tell the tale!
+      CHILDREN: Tell the tale! Tell the tale!
+      HAYAK: Sit. You'll enjoy this. Begin Mish Brief. Transmit. During
+      the fall of the Commonwealth, many of the Guard Station's original
+      crew were killed, wiped out, leaving only us, their children and
+      their children's children. Generation after generation.
+      (Harper pulls his gun on what he believes is a Magog, but is really
+      part of the play the children are putting on as the mission
+      briefing.)
+      HARPER: Whoa!
+      KATE: Don't worry, it's just a costume.
+      HAYAK: Ever since then, Magog and Nietzscheans have plagued us. Our
+      people have fought off attack wave after attack wave. Friends die.
+      Family members get killed. But we always survive to fight out next
+      enemy because we're Commonwealth. We're Stationeers. We have
+      survived, and we've waited for the Day of Lightning. And now that
+      day has come.
+      (A boy walks towards Hunt with a model of Andromeda on the end of a
+      pole.)
+      CHILDREN: High Guard! High Guard! High Guard! High Guard!
+      HAYAK: End transmit.
+      (The children all sit down.)
+      HUNT: That was, er, very nice.
+      KATE: Bring the offering.
+      (A little girl pours a collection of bones into Hunt's hand.)
+      KATE: It's her gift to you, High Guard.
+      HUNT: What are they?
+      HAYAK: Cheek-horns she carved out of a Magog.
+      (They bring forward a box full of them.)
+      KATE: We collected these for three hundred years, and now they're
+      yours.
+
+      [Command]
+
+      (Bem takes a clawful of the teeth from the box.)
+      BEM: These children desperately need spiritual guidance.
+      (Tyr has found a bone blade like the ones sticking out from his own
+      forearms.)
+      TYR: It would seem that they're doing just fine without it.
+      BEKA: Yeah, well, these kids are very in touch with their inner
+      savage.
+      HUNT: You have to admire them. Everything they've created here,
+      they've done on their own. No one's helped them.
+      HARPER: Yeah, maybe. But they could use a little help. I thought
+      Triangulum Measles was bad. You hear Nassan's cough?
+      HUNT: It's probably some kind of radiation poisoning. Beka, find
+      out where the leak's coming from. And you, scavenger hunt. Find out
+      what they've got that's useful. Maybe we can barter.
+      TYR: Perhaps they've be interested in some training. Improve their
+      tactics against their enemies.
+      BEM: With guidance, they can overcome their enemies from within.
+      BEKA: Er, hello? These kids take one look at you two and you'd be
+      sliced, diced, and packed in a crate number five hundred and twenty
+      seven.
+      HUNT: Beka's right. Undoing three hundred years of hatred and fear
+      will take time.
+      (Trance enters.)
+      HUNT: But I think I know how to start.
+      TRANCE: Why are you smiling at me?
+
+      [Meeting area]
+
+      (The children don't have a positive response to novelty.)
+      BOY: What is that?
+      BOY 2: Shoot it.
+      BOY 3: I've never seen someone like her before.
+      HUNT: No, no, no, no, no, no. This is Trance Gemini. She's a good
+      friend of mine.
+      HAYAK: It's purple.
+      HUNT: The Commonwealth was an alliance of many types of beings, not
+      just humans.
+      HAYAK: There's nothing about purple things in the scripture.
+      TRANCE: And what scripture is that?
+      KATE: The scripture. All that's contained in the Room of Knowledge.
+      HUNT: Maybe you can show me that room, but first I want you to get
+      to know Trance.
+      TRANCE: I promise I don't bite.
+      (Mapes strokes Trance's hair.)
+      MAPES: You're pretty.
+
+      [Room of Knowledge]
+
+      KATE: This is the Room of Knowledge.
+      (Rows of filing cabinets with Nietzschean skulls lined up on top.
+      Harper opens one drawer.)
+      HUNT: High Guard blue prints and procedure manuals stored on
+      flexis.
+      HARPER: Oh, man, I'm dreaming. You know what this is?
+      KATE: That one's about the ship made flesh. But why am I telling
+      that to the High Guard when you know everything here by heart, like
+      I do.
+      HARPER: Hey, look, if you don't mind, I'm gonna borrow this for a
+      little while, and see what else I can scrounge.
+      (Harper leaves with the flexi.)
+      HUNT: Nassan, there's no way you could've memorised all this.
+      KATE: But I have, High Guard. It's my duty. And I have to make sure
+      Hayak knows it, too, before I die.
+      HUNT: All right.
+      (He takes a flexi at random.)
+      HUNT: Er, frequency switching must occur how many times a second to
+      avoid external sensor jamming?
+      KATE: That's not what that says. That volume's about the Free Can
+      See Witches. Our people must remain free in order to recognise the
+      enemy. For fifteen generations now, every G Stat Comm's known that.
+      HUNT: That's not exactly what it says. Look. Read right here.
+      KATE: I can't read.
+
+      [Cargo hold]
+
+      (Harper wheels in a trolley loaded with boxes.)
+      HARPER: All hail the conquering hero.
+      ROMMIE: Have fun looting?
+      HARPER: You know it, baby. I scored you an entire crate of
+      quintiflop logic chips.
+      ROMMIE: That's quite a bonanza.
+      HARPER: Hey, you ain't seen nothing yet.
+      (A crate of beer.)
+      HARPER: Three hundred year old Neuverin Weisbrau. (drinks) Ah. God
+      is good. You want some? I could pour it into a spectral analyser or
+      something.
+      ROMMIE: Thanks, but I prefer the logic chips.
+      HARPER: I can fix that.
+
+      [Command]
+
+      BEKA: I've tracked the radiation to this area on level nineteen,
+      but they say it can only be entered by the High Guard, using the
+      words of the past.
+      HUNT: Words of the past? Passwords.
+      BEKA: Well, whatever it is, you've got to say it if we're gonna get
+      in there and find that rad-leak.
+      HUNT: Did they say what they were using this room for?
+      BEKA: Some mumbo-jumbo about a noble shrine.
+      HUNT: If this were a standard GS, it would probably be a dry dock
+      facility, but you've seen the place. Kids are living in the machine
+      shop, growing food in the armoury
+      BEKA: Playing basketball in the hydroponics garden.
+      HUNT: There's nothing wrong with that. Any idea what's causing the
+      radiation?
+      BEKA: It could be a million different things. A leaky AP valve, a
+      cracked mag-bottle.
+      HUNT: You're right, it could be anything. But whatever it is, it's
+      robbing these kids of their full lives and we've got to get it off
+      the station.
+      (Meanwhile, Harper is getting busy in the machine shop.)
+
+      [Outside the Noble Shrine]
+
+      BEKA: Here it is.
+      KATE: High Guard, this is the moment. The one every generation's
+      waited for and dreamed about.
+      HUNT: I understand you need a password. The words of the past.
+      KATE: Exactly as you said.
+      HUNT: My High Guard access code generally does the trick.
+      (Hunt puts his palm on a scanner.)
+      HUNT: Commonwealth Captain Dylan Hunt, access code lexic dark five
+      two two seven eight alpha seven seven one.
+      COMPUTER: Checking. Authorised.
+      (The door opens and the children cheer.)
+      GIRL: It's the Day of Lightning!
+
+      [Noble Shrine]
+
+      (It is a bay full of Slipfighters.)
+      HUNT: Beautiful. Type two arc glide Slipfighters.
+      KATE: Hayak and Mapes, as you've practiced.
+      (Hayak and Mapes run to a pair on consoles on the catwalk behind
+      and take key cards from round their necks.)
+      HAYAK + MAPES: Alert status five. Arm all systems.
+      HUNT: Wait!
+      HAYAK + MAPES: Combat readiness factor five five nine one.
+      (They put their key cards into the consoles.)
+      HUNT: That radiation. It's from voltarium, isn't it.
+      BEKA: It's consistent with voltarium, yeah.
+      HUNT: Do those slipfighters carry Nova Bombs?
+      KATE: You mean Noble bombs. Of course. And now they're ready to
+      destroy our enemies.
+      CHILDREN}: Victory! Victory! Victory! Victory!
+
+      [Command]
+
+      HUNT: Those children now have the ability to destroy two dozen
+      solar systems, and I gave it to them.
+      BEM: Do not blame yourself. You could not know there were Nova
+      weapons in a docking bay.
+      HUNT: The last adult commander must've rigged the slipfighters, and
+      before he died he told the kids, wait for the High Guard to return
+      with the password.
+      BEM: Their interpretations have been wrong, but Dylan, their hearts
+      are good.
+      TYR: With those bombs, you could have your Commonwealth today.
+      HUNT: If I use Nova Bombs, I wouldn't be restoring civilisation,
+      I'd be founding an empire.
+      TYR: If you don't want to get your hands dirty, I know people who
+      would pay dearly for those things. We'd all be as rich as the King
+      of Nightsiders.
+      HUNT: I won't buy my Commonwealth, either. If it's to mean
+      anything, people have to join voluntarily and with full knowledge.
+      TYR: Even children?
+      HUNT: Even children.
+
+      [Meeting area]
+
+      HUNT: I have a vision. A great vision of a restored Commonwealth.
+      (Hayak leads a chant of victory, victory.)
+      HUNT: The victory, the victory is over ourselves. It's over the
+      darkness in each of us which compels us to fight enemies. We need
+      to move forward together, looking for the day when true victory
+      means we have no more enemies.
+      HAYAK: Death to the enemies!
+      HUNT: No, no. I mean, death to the enemies inside ourselves.
+      Together, you and I, we can bring unity over revenge, peace over
+      war, civilisation over barbarism.
+      HAYAK: High Guard, if you want peace, then bless these holy
+      warriors.
+      (Mapes and another older boy kneel before Hunt.)
+      HUNT: Right. The High Guard er, blesses you, Mapes, and you
+      HAYAK: Gando.
+      HUNT: Gando. Bring us peace.
+      (The High Guard chant starts up again.)
+
+      [Medical]
+
+      HUNT: I hope you had more luck treating Nassan than I did in
+      teaching those kids.
+      TRANCE: Dylan, her condition's incurable. She has a couple months
+      to live at best.
+      HUNT: What about the others?
+      TRANCE: Well, the older ones, like Hayak, won't make it either, but
+      Mapes, his generation and anyone younger, I think we can save. I'll
+      just have to inject the nanobots to repair the genetic damage, but
+      we are going to have to get rid of that voltarium.
+      HUNT: Inject the nanobots. I'll take care of the bombs.
+
+      [Room of Knowledge]
+
+      TYR: (sotto) I'm in the station. Heading for the fighter deck now.
+      (Harper is still working on his mysterious something, and smiling.)
+
+      [Kate's quarters]
+
+      (Kate is in bed, coughing.)
+      HUNT: Nassan? I need to talk to you.
+      KATE: Yes?
+      HUNT: All the information you have, everything is based on what you
+      were told by the previous G Stat Comm, right?
+      KATE: Yes.
+      HUNT: And everything the kids know is based on what you tell them.
+      Tell them that peace is the way.
+      KATE: They know that already. You'll kill our enemies, and then
+      we'll have peace.
+      HUNT: That's not what I'm talking about. It's
+      (There's a new noise, then Hayak enters.)
+      HAYAK: Thank you, High Guard. The Day of Lightning is beginning.
+      HUNT: The Day of Lightning?
+      HAYAK: Our two Holy Warriors are on their way to fill the Dyhedra
+      System with Magog blood.
+      HUNT: Who authorised that?
+      HAYAK: You did, High Guard, When you blessed Gando and Mapes to
+      carry the Noble Bombs.
+      HUNT: Nova bombs. They're Nova bombs!
+      (Two Slipfighters launch.)
+
+      [Command]
+
+      HUNT: Beka, report to the Station. Help Tyr. Andromeda, prepare for
+      launch.
+      ANDROMEDA [OC]: Yes, sir.
+      HUNT: Rev, Trance, Harper
+
+      [Eureka Maru]
+
+      HUNT [OC]: Command.
+      HARPER: I'm busy.
+
+      [Command]
+
+      HUNT: Now!
+
+      [Eureka Maru]
+
+      HUNT [OC]: Get up here.
+
+      [Command]
+
+      (Harper obeys as Andromeda does a backward flip and leaves the
+      Station. The slipfighters enter slipstream.)
+      HUNT: Engaging slipstream now. Andromeda?
+      ROMMIE: The slipfighters have cut all communications. They're not
+      responding to hails.
+      BEM: They have a twenty minute head start. It's going to be
+      difficult catching them.
+      HUNT: I'm banking we're better pilots.
+      ROMMIE: We'd better be. If just one of those slipfighters reaches
+      the Dyhedra sun, it'll destroy the entire solar system.
+      (Harper enters.)
+      HARPER: Acting Apostle Harper reporting for duty.
+      HUNT: Man the First Officer's station. Configure for fire control.
+      HARPER: Wait a minute, isn't that Tyr's job?
+      HUNT: Improvise.
+      HARPER: Where's Tyr?
+      TRANCE: It's a secret.
+      HUNT: Prepare harpoons. We've got to intercept them.
+      (They leave slipstream at a binary system.)
+      BEM: We can only retrieve one ship at a time. Which one, right or
+      left?
+      HUNT: Right.
+      TRANCE: Left!
+      TRANCE: Er, it's just a choice. You know, fifty fifty?
+      HUNT: You heard the lady. Move to intercept. Maybe that'll
+      discourage the other one.
+      HARPER: Harpoons ready.
+      BEM: First target ship in range.
+      HUNT: Fire.
+      (An impossibly long cable whizzes out and grabs onto the first
+      slipfighter.)
+      HUNT: Got him. Trance, go see to the pilot. Andromeda, move in on
+      target two.
+      HARPER: He's going too fast. We're losing him!
+      ROMMIE: He's almost reached the sun.
+      HUNT: Can we destroy his ship?
+      ROMMIE: Our missiles'll never catch him in time. The system is
+      doomed, and if we're not careful, the chain reaction will destroy
+      us as well.
+      HUNT: We have to try. Continue pursuit.
+      HARPER: We are not gonna make it.
+      ROMMIE: He's still out of range. We have to turn around.
+      BEM: Seven seconds to impact.
+      HUNT: Andromeda, hard one eighty now. Maximum delta field.
+      (Andromeda does her back flip.)
+      BEM: Three seconds, two, one.
+      (KaBOOM! Flash!)
+      HUNT: Engage slipstream now!
+      (They escape.)
+      HUNT: Andromeda, is there any chance anyone survived the Nova?
+      ROMMIE: I'm sorry, Dylan. All the inhabited planets were
+      incinerated.
+      BEM: So many lives.
+      HUNT: A whole solar system of your people, gone.
+
+      [Hangar bay]
+
+      (Andromeda docks with the Guard Station.)
+      MAPES: Why did you stop me?
+      TRANCE: You're welcome.
+
+      [Corridor]
+
+      BEKA: Okay, so Tyr has most of the equipment in place. We just need
+      your help for a couple seconds.
+      HARPER: Fine, fine. I'll help you sabotage the kids' Slipfighters.
+      But personally? The kids are not the problem.
+      BEKA: They committed genocide, that's the problem.
+      HARPER: Yeah, not when it's justified.
+      BEKA: There's no justification for genocide.
+      HARPER: Tell that to the Magog.
+      BEKA: Harper, I didn't grow up on Earth, but I understand how you
+      must
+      HARPER: No, you don't. Listen, I had two cousins, Declan and
+      Siobhan. They were twins, actually, about my age. We grew up
+      together, you know? We used to share between us whatever little
+      scraps we could find. And then the Magog came. And these Magog
+      didn't have the courtesy to just kill and eat my cousins. No, my
+      cousins were left alive, paralyzed, to host little Magog eggs that
+      fed on their insides and grew until my family had two choices.
+      Either kill my own cousins, or wait for the Magog to hatch and kill
+      us. So, you know what? I say, good on them! Good on these kids.
+
+      [Meeting area]
+
+      HAYAK: The Magog of Dyhedra, gone. Their planets, gone. Their solar
+      system, gone. Their killing, murdering ways, gone. Forever! Soon,
+      the High Guard will return to bless more of our holy warriors and
+      to bring more peace to our enemies. Peace to the Neitzcheans of
+      Centauris A! Peace to the Magog of Albadar! Peace to the slavers of
+      Zoran Drift! Peace to all our enemies!
+      (The children cheer.)
+
+      [Kate's quarters]
+
+      KATE: High Guard, you really are here. I was afraid I was dreaming.
+      HUNT: I know all about dreams. I want to share mine. It's about
+      peace.
+      KATE: Yes, peace. We destroyed our enemies.
+      HUNT: You destroyed a solar system.
+      KATE: Filled with Magog.
+      HUNT: Some of whom may be innocent.
+      KATE: An innocent Magog? No one's going to cry over their deaths.
+      BEM: I will.
+      (A hooded figure enters.)
+      HUNT: Meet an innocent Magog.
+      (Bem removes his hood. Kate goes for her gun.)
+      HUNT: Put away the gun.
+      KATE: Sound the alert!
+      BEM: No. I understand her fear. If she feels more comfortable, she
+      can keep the gun trained on me. Let me talk to you. If after one
+      hour, you still want to kill me, I won't stop you.
+
+      [Outside Kate's quarters]
+
+      (Trance is standing guard.)
+      HAYAK: Who's in there?
+      TRANCE: High level High Guard conference.
+      HAYAK: Then I should be included.
+      TRANCE: The High Guard wants to talk to the G Stat Comm alone.
+      HAYAK: Is she near death?
+      TRANCE: Hayak, the High Guard moves in mysterious ways.
+      (Hayak leaves, muttering purple something.)
+
+      [Kate's quarters]
+
+      BEM: Have you ever wished for life without fear? Without enemies?
+      One that wasn't a constant struggle for survival.
+      KATE: Life is struggle.
+      BEM: That is what your life has been. But what if everything you
+      knew changed? What if there could be a life of peace?
+      KATE: It doesn't matter what I think. I'll be dead soon.
+      HUNT: It matters for your brother, and all the generations after
+      you.
+      KATE: All my life, I've worshipped you, waited for you. An absolute
+      faith that no matter how horrible our enemies had made our lives,
+      you'd come and save us.
+      HUNT: I have come to save you. From yourselves.
+      KATE: We don't live in mortal fear of ourselves. We don't worry
+      about getting eaten or raped by ourselves. We live in fear of
+      Magog. And you, you haven't said anything to change my mind about
+      wanting to kill you right here, right now.
+      BEM: Very well. But you did go one hour without killing me. And if
+      you can go an hour, maybe you could go a day, then a week. Then
+      maybe, just maybe, a lifetime.
+
+      [Meeting area]
+
+      (Hayak and others are watching on a hand-held screen.)
+      CHILDREN: What's she doing? Kill it.
+
+      [Outside Kate's quarters]
+
+      HAYAK: High Guard. Come immediately to the Noble shrine.
+      Something's leaking.
+      HUNT: I'll be right there. (sotto) Rev Bem, you're fifty metres
+      from the airlock. Go. I'll meet you ship-side.
+
+      [Eureka Maru]
+
+      BEKA: So, are you ever going to tell me what you're doing locked in
+      my ship with all the sensors cut?
+      HARPER: I can't. It's a secret.
+      BEKA: Harper, come on. We're friends. We have no secrets.
+      HARPER: Oh. Okay, what's your natural hair colour?
+      BEKA: I can't tell you. It's a secret.
+      HARPER: Hey!
+      (Beka turns and Harper pulls out one of her hairs.)
+      BEKA: Ow!
+      HARPER: Well, then let's find out.
+
+      [Meeting area]
+
+      KATE: I didn't understand it either, at first, but then I started
+      to think. What if our children could always live here at peace? And
+      every time I would think that way, the next attack would come, and
+      the next. We only survived because we had faith in the High Guard.
+      And now he's here, and he's brought friends. And today I met one of
+      his friends.
+      (Hayak enters.)
+      HAYAK: Is that what he is? Friend? Here's High Guard's friend.
+      (Bem is pushed off an upper catwalk to dangle in mid-air from a
+      rope tied around one ankle. Hayak hits him with a glowing stick.)
+      BEM: Divine Spirit, forgive these children.
+      HAYAK: Mia, your turn.
+      (Hunt enters and takes the stick from Mia.)
+      HUNT: Cut him down.
+      HAYAK: But High Guard, how are these kids going to learn if we
+      don't teach them?
+      HUNT: Nassan's teaching you a new way.
+      KATE: Hayak, listen to the High Guard.
+      HAYAK: I've listened enough. The both of you, talking to this
+      Magog, drinking his words like milk. I don't blame you, Nassan.
+      You're dying, you're not thinking clearly. But you. You're the High
+      Guard, yet everything you say spits on our sacred scripture. If
+      you're really our Messiah, you'll beat this Magog to death
+      yourself.
+      HUNT: I am the High Guard, and I am your Messiah, but my ways are
+      not your ways, and if what I say differs from sacred scripture,
+      then what I say is the truth! And I say, cut him down!
+      HAYAK: As you wish.
+      (Bem crashes to the floor.)
+
+      [Medical]
+
+      TRANCE: Fourteen broken ribs and a ruptured something that only
+      Magog seem to have.
+      BEM: It's akin to a pancreas.
+      TRANCE: Oh, I see. Okay. So, er, what's a pancreas?
+      BEM: It's a argh!
+      (Trance uses a large syringe to inject Bem.)
+      TRANCE: Okay. All right. Okay. The nanobots are just fixing your
+      ribs, okay?
+
+      [Command]
+
+      BEKA: We did it. Twenty two type two Arc Glide Slipfighters rigged
+      for remote control.
+      TYR: Our control.
+      BEKA: Once we get out of here, we can remote fly those babies and
+      their nova bombs off of GS nine whatever right into our hangars.
+      HUNT: Where at least they'll be our problem.
+      TYR: Or our solution.
+      HUNT: Only gods should have that much power.
+      TYR: Funny. Today, that's who you said you were.
+
+      [Medical]
+
+      TRANCE: I keep picturing you just hanging there. It seems so
+      unforgivable.
+      BEM: No transgression is unforgivable, except pride.
+      (Hunt enters.)
+      BEM: As a humble servant of Providence, I should be working towards
+      releasing any anger I felt towards those children throughout the
+      ordeal. I didn't want my last thoughts in this life to be dark.
+      HUNT: Even if you can forgive them, I can't. We're leaving.
+      BEM: Dylan, there's so much more to teach them.
+      HUNT: They'll have to learn on their own. Trance has injected
+      everyone with nanobots. Once the bombs are off their drift, the
+      kids won't be exposed to radiation and they can live a full life.
+      Hopefully, they'll mature on their own into people we could include
+      into the Commonwealth someday.
+      TRANCE: Oh, but some of them were coming around, like Mapes.
+      HUNT: We're leaving. That's final. Now go shut the airlocks and
+      prepare to depart.
+      (Trance leaves. Hunt sits on the bed next to Bem.)
+      BEM: What's really bothering you?
+      HUNT: I want my dream of a restored Commonwealth to come true, but
+      it's no good if it's based on a lie. I am not a Messiah. If there's
+      anyone I've met who could be a Messiah, it's you. It's not me.
+      BEM: I'm humbled, but please don't tempt me to commit the
+      transgression of pride.
+      HUNT: That's exactly the transgression I'm worried about
+      committing. My vision is to found a Commonwealth based on the
+      principles of truth. Today I compromised.
+      BEM: That may be true, but I do believe you are a messenger, of
+      light, of hope, of goodness, of civilisation. I think if you keep
+      this forefront in your mind, you'll make the right compromises.
+
+      [Outside an airlock]
+
+      MAPES [OC]: Trance! Trance, please let me in. I want to come with
+      you.
+      TRANCE: Oh, Mapes, you can't. We're leaving. But I will come back.
+      I promise, I will.
+      MAPES [on monitor]: Don't leave me here with Hayak. He thinks I've
+      been compromised. As soon as Nassan dies, he'll kill me. Please!
+      (Trance opens the airlock and Hayak walks in.)
+      HAYAK: All your brains must be in your tail.
+
+      [Command]
+
+      ROMMIE: Dylan, something strange is happening. I'm getting
+      peripheral sensations. Someone's cut my internal sensors.
+      HUNT: Contact Harper now.
+      BEM: Er, Harper has locked himself in the Maru.
+      (Where Harper hears a strange noise. The children enter Command
+      with Trance as their hostage.)
+      HAYAK: Hands up! Don't move!
+      BOY: Nietzschean, freeze!
+      BOY 2: Move! Everybody get down, right now!
+      BOY: Move or I'll shoot!
+      BEM: Suddenly my ribs hurt again.
+      GIRL: Relax! Stay back!
+      HUNT: Get off my ship.
+      HAYAK: You don't have any power over us.
+      (Hayak pushes Trance over to Hunt.)
+      HUNT: Actually, I do. From here.
+      HAYAK: Oh?
+      HUNT: Soon, I'll launch your Arc Glide fighters and fly them with
+      their noble bombs onto my ship.
+      HAYAK: Turn on your display.
+      (The tactical shows three slipfighters leaving the station, then
+      veering off. Hunt presses buttons to no avail.)
+      HAYAK: We're jamming your data link, Dylan. The real High Guard
+      would know that. That's scripture directive twenty three twenty.
+      But you're not the real High Guard, are you? Maybe there is no High
+      Guard. Or maybe I'm the High Guard, and I've just blessed twenty
+      two holy warriors. Each one of them, right now, is in an Arc Glide
+      slipfighter targeted for a different solar system. The Day of
+      Lightning is now!
+      CHILDREN: Victory! Victory!
+      (Shortly after, Beka is brought to Command. Dylan's hands are tied
+      behind his back.)
+      HAYAK: Look at this. It's not enough that Dylan's friends with
+      Magog. He holds hands with Nietzscheans, too.
+      TYR: I can assure you, Dylan and I are not friends. Let me join
+      you. I can train your holy warriors to command a galaxy.
+      (Hayak spits at Tyr.)
+      HAYAK: Seven of our holy warriors are headed for Nietzschean
+      systems.
+      MAPES [on screen]: This is Flight Leader Mapes. I know I speak for
+      we holy warriors, every one. We are sad yet proud to give our lives
+      until we are all reunited
+      HAYAK: Until we are all reunited in the great Commonwealth beyond
+      known space.
+      (While Hayak is distracted, Dylan uses a console. Little things
+      start flying around Command. One boy collapses in pain.)
+      HAYAK: Lester, I told you all to take nanobot inhibitors. Get him
+      to Medical.
+      MAPES [on screen]: Hayak, what's happening down there?
+      HAYAK: We're fine. They tried nanobot probes to paralyse our neuron
+      systems.
+      HUNT: You took NI's before you boarded.
+      HAYAK: We're not children. We're holy warriors. We've been fighting
+      our entire lives. Line them up for execution!
+      (Harper enters, carrying Kate.)
+      HARPER: You're not allowed to give that order. At least, not while
+      she's alive.
+      HAYAK: Nassan, I'm glad you've lived to see the Day of Lightning.
+      KATE: Tell the Noble Warriors to return. The High Guard's already
+      said he doesn't want the Day of Lightning.
+      HAYAK: That's when we thought he was our Messiah. But he's not. Ask
+      him.
+      KATE: Well?
+      HUNT: I'm sorry, Nassan. I'm not a god. I'm not a Messiah, I'm just
+      a man. I lied because I wanted your help, and I still do.
+      KATE: Everything I've believed in my whole life. I don't, I don't
+      know what to say, what to do.
+      HAYAK: You're sick, incapacitated. I proclaim myself G Stat Comm.
+      KATE: You can't do that.
+      HAYAK: I can. I have. Tie her up with the others.
+      (The children do not move.)
+      HAYAK: This is DefCon One, the Day of Lightning! Now do as I say!
+      (Some teenagers reluctantly obey. Trance uses her tail to loosen
+      her bonds.
+      Somewhere a naked woman steps through a doorway. She grabs one on
+      the boys helping Lester to Medical.)
+      HAYAK: Ready. Aim.
+      (The naked woman enters Command.)
+      HAYAK: Who are you?
+      ROMMIE: I am Andromeda. The ship made flesh.
+      HAYAK: You're just another liar, like all of them. Kill her!
+      ROMMIE: I don't think so.
+      (Hayak and his firing squad are pulled onto the deck.)
+      HARPER: Oh. Artificial gravity field. Don't it just suck?
+      (Trance's hands are free. She unties Hunt and the others.)
+      ROMMIE: Dylan may not be a god, but on this ship, I am.
+      HUNT: Andromeda. How? Your secret project.
+      HARPER: That is the Andromeda I know, love, and gave human form to.
+      HUNT: Okay, let's get those slipfighters.
+      (The ship undocks.)
+      HUNT: One minute twenty seven seconds before the fighters hit
+      slipstream. Harper, unjam this thing!
+      HARPER: Data link unjammed.
+      HUNT: If one gets through.
+      BEM: Forty three seconds to slipstream. Forty two.
+      TYR: We're in range.
+      ANDROMEDA: Link established.
+      HUNT: Good. Andromeda, eject pilots.
+      ANDROMEDA: Ejecting pilots.
+      HUNT: Give me an Arc Glide self-destruct sequence. Execute.
+      TYR: What is wrong with you!
+      HUNT: Take over the fighters. Order them to enter slipstream and
+      self-destruct.
+      TYR: Those empty fighters are transiting into slipstream with our
+      bombs.
+      HUNT: They're not our bombs. They're no one's.
+      (A slipstream window opens and KaBOOM!)
+      HUNT: There's your Day of Lightning. (to Beka) Take the Maru out.
+      Pick up the kids in the cockpits and return them to the drift.
+      (Hunt pulls Harper's blue Hawaiian shirt off him.)
+      HUNT: Tyr and I will escort these kids back.
+      (Hunt helps Rommie cover up.)
+      HUNT: Maybe you could help, too, Andromeda. Ah, first restore AG
+      field. Nice work.
+      HARPER: Hey! Don't forget, I created her. Now who's the god?
+
+      [Corridor]
+
+      (Docked again at the Guard station. Rommie is wearing the uniform
+      her hologram wears.)
+      ROMMIE: Captain. It's good to finally meet you face to face.
+      (They shake hands.)
+      HUNT: This is strange for me to see you like this.
+      ROMMIE: Me too. Strange, but nice.
+      HUNT: I'm er, so used to talking to you on the holo-screen. Waking
+      up in the morning, having breakfast, you seeing me
+      ROMMIE: Getting out of the shower.
+      HUNT: Can we just say, on many occasions.
+      ROMMIE: Of course.
+      HUNT: So, I, er, hope your new avatar won't change our, er
+      ROMMIE: Sir, Commonwealth protocol prohibits anything other than a
+      purely professional relationship.
+      HUNT: Well then, Andromeda. Welcome aboard.
+
+      [Hydroponics]
+
+      BEM: All those children, the potentiality. Seems such a waste. Do
+      you think we made any difference?
+      TRANCE: We might have. 
+
+      [Meeting area]
+
+      MAPES: We have survived and we've waited, but now, Dylan Hunt, the
+      High Guard, has given us a new Mish Brief. Not to prepare for the
+      Day of Lightning, but for membership in the restored Commonwealth.
+      As your new Onced-Off, I proclaim, begin Transmit!
+
+      [Bomb storage]
+
+      (Hunt pushes a trolley containing one secure box out of the
+      slipfighter bay, through bomb storage. He unlocks an extra-secure
+      safe in the wall.)
+      HUNT: Captain Dylan Hunt, Commanding officer. Nova containment
+      authorised. Ten break alpha.
+      HOLO-ROMMIE: Sir? Are you sure you want to retain a Nova bomb on
+      board ship?
+      HUNT: No. But all the same, Ten Break Alpha.
+
+<Back to the episode listing
+
+Andromeda and related marks are trademarks of Tribune Company. Copyright   2000
+- 2005. The web pages on this site are for educational and entertainment
+purposes only. All other copyrights property of their respective holders.
+

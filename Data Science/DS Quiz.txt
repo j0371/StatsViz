@@ -1,0 +1,9 @@
+stuff to study for DS quiz
+
+	Types of trees: categorical, regression, hybrids
+	
+	entropy: amount of uncertainty
+	
+	entropy formula: E = -p log(p)
+	
+	

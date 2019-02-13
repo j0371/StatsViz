@@ -1,0 +1,875 @@
+ 
+
+Angel Dark, Demon Bright
+
+Original Airdate: 6 Nov, 2000
+
+                         The Heavens burned, the stars
+                                   cried out
+                       And under the ashes of infinity,
+                          Hope, scarred and bleeding,
+                              Breathed its last.
+
+                               Ulatempa Poetess
+                          Elegy for the Commonwealth
+                                    CY 9823
+
+      [Command]
+
+      (Beka is strapping Trance into the pilot's seat while Tyr lectures
+      her. Rommie is pacing behind them.)
+      TYR: Now you must let your instincts guide you. Slipstream piloting
+      isn't a skill, it's an art. You'll have to feel your way to your
+      destination.
+      TRANCE: I don't know. It seems kind of complicated.
+      BEKA: Trance, I've seen you perform surgery on species you never
+      met. I've seen you make food out of dirt and spores. Compared to
+      that, this is easy.
+      TRANCE: Well, maybe for you, but those are plants and people. This
+      isn't alive. It's, like, switches and stuff.
+      TYR: Uh-huh. They're tools. Ways to interact with the slipstream.
+      And while the slipstream may not be alive, it feels like it is. It
+      changes, it shifts. As pilot, all you have to do is anticipate
+      those shifts, hmm?
+      TRANCE: Well, if it's so easy, why can't Andromeda do it herself?
+      BEKA: Well, Andromeda may be sentient, but she's still technically
+      a machine, and machines and slipstream don't get along.
+      TYR: Be confident and decisive. Remember this, if it helps you.
+      When an organic sentient makes a choice about their course in the
+      slipstream, most often, they choose correctly.
+      ROMMIE: Early Vedran physicists believed it had to do with the
+      interaction of an organic observer with collapsing probability
+      waves.
+      TRANCE: Oh. Well, that makes it all right, then.
+      BEKA: Maybe we should do this some other time.
+      TYR: No! Now, we've got six people on this crew. One day, our
+      survival may depend on Trance's slip-piloting skills. She will
+      learn.
+      (Beka picks a destination from a display.)
+      BEKA: 36 Ophiuchi's a quick slipstream from here.
+      TRANCE: Are you sure about this?
+      TYR: Yes, let's do it. Now, go with your instincts.
+      TRANCE: All right, then. Transiting to slipstream, now!
+      (Andromeda bucks and weaves in the slipstream.)
+      TRANCE: I don't think I'm doing this right!
+      TYR: Confidence is paramount. Maintain focus.
+      TRANCE: Look out!
+      (Andromeda bounces off the energy waves of the slipstream. Klaxons
+      blare.)
+      TRANCE: Is that supposed to happen?
+      ROMMIE: I can't navigate through this, remember? But I'm guessing
+      no.
+      TYR: Don't fight the streams!
+      TRANCE: It started it.
+      BEKA: Er, guys?
+      (The slipstream looks like a mass of spaghetti, not a tunnel.)
+      TRANCE: Oops!
+      (Andromeda returns to normal space slightly sideways and with
+      energy flickering over the hull.)
+      ROMMIE: We're back in normal space. Assuming flight control.
+      TRANCE: Did I do all right?
+      BEKA: Well, I'm just taking a stab at it, but that doesn't look
+      like 36 Ophiuchi.
+      ROMMIE: I can't get a fix on our location because of the nebula,
+      but we're definitely not where we should be.
+      BEKA: And that's the good news.
+      TYR: How can that possibly be good news?
+      BEKA: When compared with the bad news, which is that the slipstream
+      drive is broken.
+      TYR: Ship?
+      ROMMIE: My SPG lenses are completely fried. I'll have to rebuild
+      them and recalibrate.
+      BEKA: Which means we're not going anywhere any time soon.
+      (Dylan enters.)
+      HUNT: What the hell are you people doing to my ship!
+      TRANCE: I'm sorry. I'm very sorry. Sorry.
+      (Trance runs out. Hunt waits for an explanation.)
+
+      [Hydroponics]
+
+      HUNT: Trance? Trance, I know you're in here.
+      TRANCE [OC]: You do? How?
+      (Hunt finds her holding a bonsai tree.)
+      HUNT: Actually, I was bluffing.
+      TRANCE: I always fall for that one. I always fall for everything.
+      HUNT: That's your charm.
+      TRANCE: Charm? I got us lost, wrecked our engines, and nearly
+      killed us all.
+      HUNT: It was an accident.
+      TRANCE: You think I'm stupid?
+      HUNT: What? No. No, not at all. I just think you're inexperienced.
+      TRANCE: I'm a menace. Did Beka ever tell you the time where I tried
+      to fix the Eureka Maru's coffee maker, and I shorted out the
+      artificial gravity generator?
+      HUNT: I think she might have mentioned it, yes. But she also told
+      me that the AG system would've blown out anyway, and it might have
+      cut out while the ship was accelerating and killed everyone aboard.
+      TRANCE: Well, she was just being nice.
+      HUNT: Beka thinks that you're her good luck charm. As for me, well,
+      you're a gifted medic, you keep the life-support system in tip-top
+      shape, and ever since you came on board, the hydroponics gardens
+      have been growing like crazy.
+      TRANCE: Those are plants. Plants are easy. You water the ones you
+      want, you weed out the ones you don't. Sometimes you fertilise a
+      tree, and sometimes you prune it. Everything else, like machines
+      and then time and space, you know, like, it gets really complicated
+      sometimes.
+      HUNT: Yeah, I know what you mean. I felt the same way when I took
+      Beginning Astrophysics.
+      TRANCE: You're kidding.
+      HUNT: Yes, I am.
+      TRANCE: Oh.
+      HUNT: Don't worry. Once we repair the engines, we will be as good
+      as new.
+      (Judder.)
+      HUNT: Now who's driving?
+
+      [Command]
+
+      HUNT: Long-chain polymer webs.
+      HARPER: Hey, give the man a kewpie doll.
+      TYR: Trance dropped us in the middle of a minefield.
+      HUNT: After an unauthorised flying lesson.
+      TYR: Note taken.
+      ANDROMEDA: On the bright side, I think I know where we are. Milky
+      Way galaxy, Orion arm.
+      HUNT: Witchhead Nebula.
+      BEKA: Witchhead? As in the Battle of Witchhead?
+      HUNT: I've, er, spent the last few months trying to catch up on
+      three hundred years of history. Someone want to refresh my memory?
+      HARPER: Allow me. The Witchhead Nebula was the site of the
+      climactic battle of the Nietzschean rebellion.
+      TYR: Nietzschean Tactical Offensive.
+      HARPER: Whatever. The point is, this is where the Systems
+      Commonwealth made its last stand. One hundred High Guard ships,
+      the, er, broken remains of your team, commanded by Captain Teddy
+      Roosevelt on the flagship Thermopylae.
+      HUNT: Captain Teddy Roosevelt?
+      BEKA: Did you know him?
+      HUNT: Not personally, no.
+      HARPER: Anyway, Roosevelt was up against five thousand Nietzschean
+      ships.
+      TYR: Closer to five hundred.
+      HARPER: Who's telling this story? Me or you?
+      TYR: You. And that's precisely what you're telling, isn't it?
+      HARPER: Thank you. The Nietzscheans were commanded by Admiral Ho
+      Chi Minh of the Gunga Din Pride. Now, the battle lasted forty days
+      and forty nights, and by the time it all ended, the entire nebula
+      was flooded with fire. Finally, it's down to two ships. Roosevelt's
+      Thermopylae and Ho's Shining Path. Only, Roosevelt was dying. So,
+      he takes the Thermopylae and rams it straight into the Path
+      kamikaze-style, and boom! Takes Ho down in one last great act of
+      defiance, saving Earth.
+      ANDROMEDA: I thought Earth was conquered by the Magog.
+      HARPER: Well, metaphorically speaking.
+      HUNT: Translation, please?
+      TYR: The Nietzscheans ambushed the remnants of the High Guard
+      fleet. They had five hundred ships, the High Guard had less than a
+      hundred. Eventually, the Commonwealth forces were completely
+      destroyed. Not, however, before they inflicted heavy casualties on
+      the Nietzschean fleet, particularly on the ships of the ruling
+      Drago-Kasov Pride, consequently leaving them vulnerable. In the
+      aftermath, Pride Jaguar and their allies launched a surprise
+      attack. The ensuing civil war shattered the entire Nietzschean
+      Alliance.
+      BEKA: Which is why the Nietzscheans didn't take over after the war.
+      TYR: All hope for a united Nietzschean Empire died here. The Battle
+      of Witchhead was an unmitigated disaster for both sides.
+      HARPER: I like my version better.
+      TYR: The only virtue of my version is that it's the truth.
+      ANDROMEDA: As far as you know.
+      TYR: Meaning what, exactly?
+      ANDROMEDA: There's every chance your version is just as mythical as
+      Harper's. I'm not detecting any signs a battle was fought here. No
+      wreckage, no spent warheads, no blow-outs in the molecular cloud.
+      BEKA: Just the usual assortment of natural hazards.
+      HUNT: We can analyse the nebula later. Right now, we need to get
+      clear of all this chop. Beka, nice and slow, if you please.
+      (Beka pilots Andromeda out of the minefield.)
+      BEKA: And we're clear.
+      HUNT: Good job, Beka. All ahead full. Mister Harper, how are those
+      repairs coming along?
+      HARPER: Slowly but surely. You know how twitchy these slipstream
+      drives can be. They're a lot easier to break than they are to fix.
+      HUNT: My old engineer called it job security.
+      HARPER: Smart woman. I've been reading her manuals.
+      (A klaxon sounds and an Andromeda-class ship comes out of
+      slipstream.)
+      HUNT: Rommie?
+      ANDROMEDA: Checking. According to the ship's registry, that's the
+      Renewed Valour.
+      HUNT: That's Captain Yazgar's ship.
+      ANDROMEDA: They're hailing us.
+      HUNT: On screen. Close on me. I don't want them seeing Tyr until
+      we're sure what's going on.
+      ANDROMEDA: On screen.
+      (A not quite human female High Guard Captain appears on the
+      viewscreen.)
+      YAZGAR: Dylan? Dylan, is that you?
+      HUNT: Gar, what are you doing here?
+      YAZGAR: I could ask you the same question. We thought the Andromeda
+      was destroyed at the Battle of Hephaestus.
+      HUNT: I got away, barely.
+      YAZGAR: Dylan, you've been missing for thirteen months. The entire
+      duration of the war.
+      HUNT: I, er, there must have been some temporal distortion from the
+      black hole. I
+      YAZGAR: Well, you're back now, and not a moment too soon.
+      HUNT: What do you mean?
+      YAZGAR: This is the end of the line, Dylan. We've been fighting the
+      Nietzscheans for more than a year, and we have not been winning.
+      Admiral Stark has ordered every remaining High Guard ship to
+      assemble here. In two days, we're heading straight for
+      Fountainhead, to take out the Nietzschean homeworld.
+      HARPER: The Battle of Witchhead. We're here?
+      TYR: We're going to be right in the middle of it.
+      (Later, the crew assembles to discuss the situation.)
+      BEKA: Time travel. Daddy always said never mess with time travel.
+      ROMMIE: According to all the available evidence, the Battle of
+      Witchhead will take place in this general area in less than two
+      days.
+      HUNT: So, the question is what, if anything, do we do about it.
+      HARPER: Buy Intershipping at forty. Oh, corner the market on
+      independent courier ships. What?
+      TRANCE: Harper, this is serious.
+      HARPER: Well, so is this. Come on, open your eyes, people. We know
+      how the next 300 years are going to turn out.
+      BEM: Badly.
+      HARPER: Well, yes, badly. But, maybe not for us. I mean, in thirty
+      years there'll be a voltarium strike on Candislan, or the shark-fur
+      trade on Tsunami. Hell, in less than a decade, the Free Trade
+      Association's going to be formed. We could sit on the Board.
+      HUNT: Or we can save the Commonwealth. If we warn them about the
+      Nietzschean ambush, it might shift the odds in their favour.
+      TYR: Then what?
+      HUNT: We can prevent the Fall, keep the Commonwealth intact.
+      TYR: The Commonwealth is already dead. One ship, ten, or even a
+      hundred, won't change that. Think, Dylan. By now, the Vedran
+      homeworld is cut off from the slipstream. The Empress is dead.
+      Warlords and opportunists are about their business even as we
+      speak, and in just a few months the Magog will begin their
+      invasion.
+      BEM: True. Unfortunately, my people will descend upon what's left
+      of the Commonwealth like vultures.
+      TYR: And the only ones who will even be able to slow them down will
+      be the Nietzscheans.
+      HUNT: Well, God bless the Nietzscheans. Where would the
+      Commonwealth be without them?
+      TYR: Yes, well, good, bad, or indifferent, if you want to save
+      lives, you've got but one choice. Help the Nietzscheans.
+      HARPER: Like hell!
+      TYR: Will you let go of your useless emotional bias and look at
+      this logically? Right now, the Nietzscheans are organised, unified,
+      strong! Aid them in this battle, and perhaps we could shorten the
+      long night by a hundred years. Two hundred. Perhaps prevent it
+      altogether.
+      BEKA: By helping the very people who created it.
+      TYR: The irony isn't lost upon me, either. But you've said you want
+      to prevent war and chaos. Now you've got your chance.
+
+      [Observation deck]
+
+      (Rev Bem and Hunt look at the Renewed Valour.)
+      BEM: So beautiful and yet so fragile. It's a heavy burden that
+      Providence has laid upon you.
+      HUNT: Providence can have it back. We shouldn't even be here.
+      BEM: Are you certain of that?
+      HUNT: This is all some kind of cosmic joke.
+      BEM: While I admit the Universe does have a sense of humour, I
+      doubt very much this is a joke. Think about it. What are the odds
+      that we should arrive here at this place, at this critical time in
+      history?
+      HUNT: Come on, Rev. You think I'm supposed to be here?
+      BEM: I find it hard to believe something like this would happen
+      without purpose.
+      HUNT: And I find it hard to believe that we're supposed to help the
+      Nietzscheans.
+      BEM: Even if it stops a Magog invasion of Earth?
+      HUNT: The Magog attacks were brutal, yes, but your people never
+      stayed anywhere for long. They came and went like locusts.
+      BEM: Yes, leaving a trail of corpses in their wakes.
+      HUNT: True. But planets occupied by the Nietzscheans suffered
+      decades, even centuries, of brutal oppression. Purges, slavery,
+      genocide. You're asking me to choose the lesser of two evils. And
+      that's not a choice I care to make.
+
+      [Command]
+
+      BEKA: We're leaving?
+      HUNT: As soon as the slipstream drive is repaired. We don't belong
+      here.
+      TYR: You're wrong. We have an opportunity. We should seize it.
+      HUNT: A dangerous opportunity. Rommie, a little basic temporal
+      mechanics for our friends.
+      ROMMIE: Theory One. Our timeline is continuous with this one.
+      HUNT: In that case, everything we do has already happened. Nothing
+      will change.
+      ROMMIE: Theory Two. Multiple possible futures. Everything we do
+      could have massive implications.
+      HUNT: Make the wrong decision, and three hundred years later we
+      could prevent Tyr's birth or Andromeda's rescue from the black
+      hole. Anything. There's no way of telling which of Rommie's two
+      theories applies, but we can't afford to take chances.
+      BEKA: Well, you won't get any arguments from me.
+      TYR: All right, we leave. Assuming we can repair this ship.
+
+      [Conduit]
+
+      (Harper is making a home movie of himself.)
+      HARPER: Harper Historical Document one point one. How I saved the
+      future. The Autobiography of Seamus Zelazny Harper. Now, for
+      reasons of his own, our captain, Dylan Hunt, has decided not to
+      interfere in the Battle of the Witchhead Nebula. Now, while I
+      respect his decision, I do not share in his evaluation of the
+      situation. Therefore, I have decided to take matters into my own
+      hands. After ,ahem, blinding Andromeda's internal sensors, I have
+      begun to modify key systems of her power core. These modifications,
+      when complete, will allow me to cause a single, cataclysmic
+      explosion in the nebula. Note to sculptors. Statues of me should
+      look, er, I don't know, wise, concerned. I suggest posing me with a
+      soldering wand over my head like a sword. Oh! I almost forgot. For
+      those of you who have already done the math and are thinking, well,
+      clearly this is a brilliant idea, but in order to hit the
+      Nietzschean fleet, Harper will have to anticipate their exact
+      position several minutes in advance. And you are correct. That is
+      where this comes in. A complete history of the Battle of the
+      Witchhead, courtesy of the Maru's database. So, to summarise. A
+      genius, young, somewhat good-looking engineer sets trap.
+      Nietzscheans arrive. Nietzscheans go boom and everybody lives
+      happily ever after. Harper out.
+
+      [Hunt's quarters]
+
+      HUNT: Our current theory is that the AG field interacted with the
+      black hole during my slingshot approach.
+      YAZGAR [on monitor]: Which would explain the time dilation.
+      HUNT: I lost a year, but to me it felt like five seconds.
+      YAZGAR [on monitor]: We missed you. You and the Andromeda both.
+      HUNT: Did any of my crew make it through the evacuation?
+      YAZGAR [on monitor]: Most of them. They say you drew off the
+      Nietzscheans, bought them enough time to make it to safety.
+      HUNT: I'm glad. Ordering everyone to abandon ship, it was one of
+      the hardest things I've ever done. What about Sarah? Is she okay?
+      YAZGAR [on monitor]: Last I heard, she was attempting to mount a
+      rescue mission, but resources are stretched pretty thin. Guess it's
+      a good thing you didn't need it.
+      HUNT: Yeah, yeah, lucky me.
+      YAZGAR [on monitor]: Dylan, do we have to do this?
+      HUNT: Do what?
+      YAZGAR [on monitor]: I recognise the eyes-only shuffle when I see
+      it.
+      HUNT: You think I'm holding something back?
+      YAZGAR [on monitor]: You always were a stickler for that kind of
+      thing. Hell, it's been years, and you still haven't told me how you
+      got that stomach wound.
+      HUNT: It's, er, it's classified.
+      YAZGAR [on monitor]: You'll tell me the truth when you think I need
+      to hear it. Until then, in Dylan Hunt we trust.
+
+      [Command]
+
+      BEKA: What a mess.
+      ROMMIE: I'd take that personally if it weren't true.
+      BEKA: On the bright side, with all the pounding you've been through
+      in the last few weeks, it's a wonder you're working at all.
+      ROMMIE: And here I was starting to feel proud of the way my systems
+      were functioning. For the first time since you rescued me from the
+      black hole, I'm almost fully combat ready.
+      BEKA: I'm happy for you.
+      ROMMIE: I'm not. I admit I don't have many fighters, but I don't
+      have the crew to fly them anyway. But everything else, point
+      defence system, offensive missiles, sensor drones. They're all in
+      perfect shape. I could make a difference out there, but instead
+      BEKA: Dylan wants you to run.
+      ROMMIE: I've checked the Maru's historical records. I've seen the
+      casualty lists. The Vanguard, the Continuation of Politics, the
+      Salient Debate, the Fires of Orion. A lot of good ships and good
+      people are going to die tomorrow, and he wants me to stand aside
+      and let it happen.
+      BEKA: He's the captain.
+      ROMMIE: I know. But I'm a warship, and I don't like walking away
+      from a fight.
+
+      [Slipstream core]
+
+      (A massive, echoing place with a sparkling globe at the heart of
+      it. Trance hangs from a ladder head down.)  
+      TRANCE: Hey, Harper, what's this?
+      HARPER: Er, beats me.
+      (It's his recording.)
+      TRANCE: Isn't it one of your techno-widgets?
+      HARPER: Hey, you're right. I was wondering where I left that.
+      (Trance jumps down onto the catwalk.)
+      TRANCE: I found it next to one of those AP reactors.
+      HARPER: Huh. Fancy that.
+      TRANCE: Yeah, I didn't know what it was doing there, so I
+      cross-referenced the way it was wired with one of those schematic
+      thingies?
+      (Trance reads from a flexi.)
+      TRANCE: Harnessing gravity fields for anti-proton catalysed fusion.
+      HARPER: I don't suppose I could convince you it's just a harmless
+      science experiment.
+      TRANCE: Oh, sure, As long as your experiment includes killing tens
+      of thousands of Nietzscheans.
+      HARPER: Hey, what do you know, it does. Bravo, you figured it out.
+      Now, give me that, so I can
+      TRANCE: Harper, I can't do that.
+      HARPER: Trance, this isn't a game. I need that.
+      TRANCE: Well, Dylan said we're not supposed to interfere.
+      HARPER: Dylan doesn't know what he's talking about. All right,
+      look, I'm sorry, okay? I grew up on Earth. I lived through
+      Nietzschean raids, and Magog attacks, and famines, and plagues, and
+      you know what? The Nietzscheans were the worst.
+      TRANCE: Because they're so strong?
+      HARPER: No. Because when push comes to shove, they're human. And
+      nobody beats us humans for downright nastiness. Let me lay a few
+      ancient Earth human words on you. Crucifixion. The electric chair.
+      The guillotine. Feel free to look them up.
+      TRANCE: I think I get the point.
+      HARPER: No, you don't. The point is, sure, I could be changing the
+      future, but it doesn't matter what future I create, because
+      anything is better than letting the Nietzscheans win.
+      TRANCE: But you can't take that chance, because if you fire that
+      off, it could destroy the nebula and kill everything in it. The
+      Nietzscheans, the High Guard crew members, and us.
+      HARPER: That's a risk I'm willing to take.
+      TRANCE: I'm not.
+
+      [Command]
+
+      ANDROMEDA: Sensors, combat systems, and environmental control are
+      optimal. Unfortunately, fixing the slipstream drive is proving to
+      be difficult, as usual.
+      HUNT: You know the old saying. Slipstream. It's not the best way to
+      travel faster than light, it's just the only way. How much longer?
+      ANDROMEDA: Three or four hours at the earliest.
+      HUNT: Plenty of time.
+      TRANCE [OC]: Help! Help!
+      (Trance runs in.)
+      TRANCE: Help, help! He's trying to kill me. He's trying to kill me.
+      HUNT: Who's trying to kill you?
+      (Harper runs in.)
+      TRANCE: Him. Him.
+      HARPER: I can explain.
+      (After the explanation, Rommie stalks out past Rev Bem.)
+      ROMMIE: Self-centred jerk.
+      BEM: Excuse me?
+      ROMMIE: Nothing. Let's just fix the drive and get out of here.
+
+      [Corridor]
+
+      HARPER: Rommie, can't we at least talk about this?
+      (A defence cannon zaps his bottom.)
+      HARPER: Ow!
+      ROMMIE: Move.
+      HARPER: You know, I can find my quarters on my own, thank you.
+      ROMMIE: I'm guarding you, Harper, not guiding you. There's a
+      difference.
+      HARPER: Don't be like this. I was only trying to stop the
+      Nietzscheans from conquering Earth.
+      ROMMIE: If I tried to re-arrange your internal organs, tried to
+      force you to violate your most important moral imperatives, how
+      would you feel?
+      HARPER: I'd say that actually that sounds kind of fun.
+      ROMMIE: This isn't the time for humour.
+      (Harper steps inside his quarters.)
+      ROMMIE: Seamus Harper, you are confined to quarters until further
+      notice. Feel free to rearrange the furniture to your heart's
+      content. But I'd recommend against making yourself invisible to me
+      again. I might forget you even existed, and then you'd starve to
+      death.
+
+      [Conduit]
+
+      (Tyr comes down a ladder to where Beka is working.)
+      TYR: Anything I can do to help?
+      BEKA: Help? That's not a very Tyr thing to say.
+      TYR: Well, unpredictability's the mark of a thoughtful soldier.
+      What have you got?
+      BEKA: Well, can you realign a slipstream lens?
+      TYR: I can fieldstrip a gauss rifle blind and one-handed. I imagine
+      I can calibrate your lens.
+      BEKA: All right. Down, boy.
+      (They are very close, actually touching.)
+      TYR: You know, I can cook, too. You'd be surprised at the kind of
+      skills you acquire as a mercenary.
+      BEKA: You don't seem very upset about Dylan's decision to leave.
+      TYR: Leaving increases our chances of survival. Why should I
+      object? Done.
+
+      [Command]
+
+      ROMMIE: The slipstream drive is back online. We can leave whenever
+      you're ready.
+      HUNT: Have you checked my astrogational data?
+      ROMMIE: It looks valid. If you retrace Trance's route and I reverse
+      the stream polarity at exactly the right moment, we should end up
+      back in our own time. Theoretically.
+      HUNT: Everything is theoretical until you try it.
+      ROMMIE: Hmm. Some things are more theoretical than others. Shall I
+      assemble the crew?
+      HUNT: Not yet. There's one last thing I need to do.
+      ROMMIE: Another repair?
+      HUNT: That's one way of putting it.
+
+      [Hunt's quarters]
+
+      YAZGAR [on monitor]: Time travel.
+      HUNT: I know it's hard to believe.
+      YAZGAR [on monitor]: The word you're looking for is impossible.
+      HUNT: You said when I was ready to tell you the truth, I would.
+      Well, this is it.
+      YAZGAR [on monitor]: I was expecting something more cloak and
+      dagger.
+      HUNT: There is no cavalry. It's just me.
+      YAZGAR [on monitor]: And you're leaving.
+      HUNT: I don't belong here, Gar. There's a lot more I need to tell
+      you, and I will if you come with me.
+      YAZGAR [on monitor]: You want me to abandon the fleet.
+      HUNT: What's going to happen here in the next few days, neither of
+      us can change. But if you come with me, you can make a difference.
+      YAZGAR [on monitor]: Your word as an officer.
+      HUNT: And a friend.
+      YAZGAR [on monitor]: Tell me what to do.
+
+      [Command]
+
+      (Hunt enters. Beka is in the pilot's seat.)
+      TYR: The Renewed Valour has almost reached the slipstream portal.
+      HUNT: What's our ETA?
+      BEM: Another ten minutes at least.
+      ROMMIE: I still can't do much more than thirty PSL.
+      TRANCE: I'm sorry. I'm really sorry. I promise I will never do that
+      again.
+      HUNT: It all turned out fine. You helped me save a friend and you
+      doubled the size of our fleet. Not a bad day's work.
+      TYR: Luck.
+      BEKA: Don't knock it. Everyone can use a little.
+      (Then a fleet comes out of slipstream.)
+      ANDROMEDA: I'm detecting a swarm of new ships. Multiple vectors
+      bearing zero mark zero. Range, three light minutes.
+      HUNT: Slipstream portal on screen. The Valour.
+      (The new arrivals make the Renewed Valour go KaBOOM!)
+      TYR: Too late.
+      ROMMIE: It was too late when we saw them. These images are already
+      three minutes old.
+      TYR: And now?
+      HUNT: Come about one eighty, maximum stealth mode.
+      BEKA: What about your friend?
+      HUNT: My friend died over three hundred years ago. Take us deeper
+      into the nebula, nice and smooth. I don't want to attract
+      attention.
+      BEKA: Whatever you say.
+      BEM: Dylan, something is not right here. Tyr, how many ships did
+      you say the Nietzscheans had?
+      TYR: The historical record reads five hundred.
+      BEM: I'm reading closer to fifteen hundred.
+      TRANCE: Three times as many as they're supposed to have.
+      (They watch the deployment of the fleet on the tactical display.)
+      BEKA: That's right, keep moving. No one here but us plasma clouds.
+      HUNT: They won't find us. They're too busy setting up ambush
+      locations, getting ready for the slaughter.
+      ANDROMEDA: Dylan, I've finished sorting the Maru's records.
+      HUNT: And?
+      ANDROMEDA: I did locate seventeen different accounts of the Battle
+      of Witchhead. All of them are quite consistent. The Nietzschean
+      fleet was comprised of five hundred ships, no more.
+      BEKA: Well, then how do you explain those extra ships?
+      HUNT: We must have changed history. Something we did influenced the
+      timeline.
+      ROMMIE: Or something we will do.
+      BEKA: Before the battle.
+      ANDROMEDA: Which, according to my analysis, is in less than four
+      hours.
+      BEKA: Harper's device.
+      HUNT: A fusion catalyst. If these records are right, the only way
+      we can preserve history and prevent the rise of a Nietzschean
+      Empire, and ensure that our timeline remains intact is to destroy
+      over a thousand Nietzschean ships.
+
+      [Observation deck]
+
+      (Hunt has his head in his hands. Bem enters.)
+      BEM: May I?
+      HUNT: I'd like to be alone for a while, if you don't mind.
+      BEM: I understand. I, myself, prefer solitude while doing
+      mathematics.
+      HUNT: How'd you know?
+      BEM: Oh, it wasn't difficult. In fact, I suspect I could guess the
+      equation. Let me see one thousand ships, average crew size, one
+      hundred. Simple multiplication.
+      HUNT: One hundred thousand people. How can I even consider it?
+      BEM: Dylan, fate brought you to this battle. Destiny demands your
+      actions. I know, this is not easy for you, but perhaps you are
+      merely a tool of Divine Will.
+      HUNT: That's a nice excuse. Humans have been using it since the
+      dawn of time. I had to kill my enemies. It's what God wanted.
+      BEM: Just because humans use it as an excuse does not negate the
+      possibility.
+      HUNT: What kind of divine plan requires the deaths of tens of
+      thousands of people?
+      BEM: Tiger, tiger burning bright
+      In the forests of the night,
+      What immortal hand or eye
+      Could frame thy fearful symmetry?
+      Humans have been asking this question since the dawn of time. My
+      people don't bother. We Magog know the Divine exists. We know it
+      created the stars and the planets, the soft winds and the gentle
+      rain. We also know He created nightmares, because He created us.
+      HUNT: You're saying it created this situation.
+      BEM: You ask me how this could be God's will. My answer is this,
+      how can it not be? The Divine lives in all places, but most
+      importantly, the Divine lives here (Hunt's heart) and here (Hunt's
+      head). This is my mathematics. I'll leave you to yours.
+
+      [Eureka Maru engine room]
+
+      (Tyr is working at a panel.)
+      COMPUTER: Override command denied. Override command denied.
+      Override command denied.
+      (Tyr kicks the panel, destroying it. The door opens and Tyr pulls
+      his weapon.)
+      TRANCE: Hi.
+      TYR: Let me save you some time. Hello. How are you? I'm fine. Well,
+      you have a nice day. I will, thank you. Goodbye.
+      TRANCE: This is one of those really awkward situations, isn't it,
+      where I walked in on you at exactly the wrong moment and I'm
+      supposed to pretend that nothing's really happening, and you're
+      supposed to pretend like it's no big deal, and then when I turn to
+      leave, you kill me, right?
+      TYR: If it is?
+      TRANCE: Well then, I think it's my duty as a friend to explain to
+      you why I think that would be a really terrible mistake.
+      (Tyr blocks her exit.)
+      TYR: Please do.
+      TRANCE: Okay, well, theoretically speaking, you're here on the Maru
+      because you're debating whether or not to go over to the
+      Nietzscheans and warn them that Dylan might try to kill them. But,
+      you know, I just thought of something right now and it's kind of
+      funny that you weren't at all surprised when the Nietzschean fleet
+      turned out to be so big. You know, it was almost like you knew that
+      there were many more ships and that something was going to happen
+      to them. Something like Harper's explosion?
+      TYR: So far, you're only talking about me. We were supposed to be
+      talking about you.
+      TRANCE: Right. You're right. So, er, you have two options here. You
+      can side with the Nietzscheans, or you can stick with Dylan. You
+      can't do both. And if you approach the Nietzschean fleet in the
+      Maru, you're only going to draw fire, which means that you're
+      weighing a victory for your people against your own personal
+      survival.
+      TYR: Again, we seem to be straying from the subject.
+      TRANCE: Okay. Er, the point is, your best plan for survival is to
+      keep your options open. But if you kill me, you have committed
+      yourself to abandoning the Andromeda.
+      TYR: If what you're saying were true, just for the sake of
+      argument.
+      TRANCE: Yeah.
+      TYR: Then right now, I'd still have no choice. I would have to
+      eliminate you and take my chances with the Nietzscheans.
+      TRANCE: Why? This is just a theoretical discussion, isn't it? A
+      game.
+      TYR: I take my games very seriously.
+      TRANCE: I don't. In fact, when I leave here, I'll probably forget
+      that the whole thing even happened.
+      TYR: What whole thing?
+      TRANCE: Exactly. Bye!
+
+      [Command]
+
+      ROMMIE: The battle is less than two hours away. Whatever you're
+      going to do, you're going to have to decide soon.
+      HUNT: Do you believe in fate?
+      ROMMIE: The idea that the universe is a vast, pre-programmed
+      machine does have a certain appeal.
+      HUNT: Not for me. I've always believed a man makes his own fate,
+      that life is made up of a series of choices.
+      ROMMIE: You do have a choice.
+      HUNT: Do I? Occam's Razor. The simplest explanation is usually the
+      right one. There are three times as many enemy ships as there
+      should be. We have the means to destroy them. What is the simplest
+      explanation? Let Harper out of his quarters. Get him to deploy his
+      fusion catalyst. We are going in.
+      ROMMIE: Aye, aye.
+
+      [Corridor]
+
+      HARPER: Rommie!
+      (Harper runs up and offers her a bouquet.)
+      ROMMIE: Flowers.
+      HARPER: Well, yeah, but they're a gift for you.
+      ROMMIE: Just what I always wanted. Flowers from my own hydroponics
+      garden.
+      HARPER: I know, I know, but we're a long way from the nearest
+      flower shop, and I wanted to say I'm sorry. What I did, modifying
+      you like that without your permission, it was, you know, wrong.
+      Horribly wrong. And I hope you can find it in your heart to forgive
+      me.
+      ROMMIE: I'll think about it.
+      HARPER: I can respect that. Don't you want these?
+      ROMMIE: They're inside of me, Harper. I already have them.
+      (Rommie leaves.)
+      HARPER: You guys want to go get some water? I thought so.
+
+      [Machine shop]
+
+      HUNT: Well?
+      HARPER: Well, it's really nice that you finally decided to kill the
+      bad guys and everything, but, er, it's too late.
+      HUNT: How so?
+      HARPER: Well, this isn't exactly a precise weapon, okay? It's more
+      like a plasma mine than a gauss rifle. You see, the idea was to rig
+      it before they arrived, when we could predict their exact location.
+      But now
+      HUNT: They're scattered all over the nebula.
+      HARPER: Exactly. Which means a catalyst is not going to work,
+      unless you can get them all to politely line up to be incinerated.
+      HUNT: I'll see what I can do.
+      HARPER: What?
+      HUNT: You get the catalyst working. I'll handle the Nietzscheans.
+
+      [Command]
+
+      HOLO-ROMMIE: Emerging from the molecular cloud.
+      HUNT: Mister Harper?
+
+      [Conduit]
+
+      (Harper is recording this for posterity.)
+      HARPER: Finally! Harper's plan, put into action.
+
+      [Command]
+
+      HUNT: What was that?
+
+      [Conduit]
+
+      HARPER: Er, ready. Ladies?
+
+      [Machine shop]
+
+      TRANCE: Ready here.
+      ROMMIE: You know, you don't have to do this.
+      TRANCE: I want to. I'm the one who got us into this, and I'm as
+      responsible for what's going to happen as anyone.
+
+      [Command]
+
+      HUNT: Where's Tyr?
+      HOLO-ROMMIE: In his quarters.
+      HUNT: Let's do this. Rommie, route weapon control to my station.
+      Rev, turn on the active sensors.
+      ANDROMEDA: That'll get their attention.
+      HUNT: Battle stations. Full power to the engines.
+      (Beka flies Andromeda out of the nebula. They start firing as they
+      fly through the fleet. Some even go KaBOOM!)
+      HOLO-ROMMIE: We've engaged multiple targets. Light damage to each.
+      Enemy ships are moving to intercept.
+      HUNT: Keep moving. Jab and weave. Launch combat drones.
+      BEKA: Well, if you're trying to stir up a hornet's nest, you've
+      done it. And they're starting to sting.
+      (Tyr enters.)
+      BEM: Tyr.
+      HUNT: Mister Anasazi, can we help you?
+      TYR: My people have a legend about the Battle of Witchhead. They
+      say that the Nietzschean forces arrived here with overwhelming
+      numbers. Their victory seemed assured. But then, in the critical
+      hour, the Angel of Death appeared, summoning forth the fires of
+      hell. The Nietzschean fleet was struck down, crippled, their
+      glorious victory turned to ashes.
+      BEKA: You knew all along?
+      TYR: I've never seen an Angel before.
+      (Andromeda takes hard hits.)
+      HUNT: Rommie, how long to ground zero?
+      HOLO-ROMMIE: Forty-five seconds.
+      HUNT: Harper, initiate the fusion catalyst.
+
+      [Conduit]
+
+      HARPER: Harper saves the world, take one.
+
+      [Machine shop]
+
+      ROMMIE: The catalyst is ready.
+      TRANCE: Routing fire controls to Command.
+      ROMMIE: It's all yours, Dylan.
+
+      [Command]
+
+      (Andromeda swoops back into the nebula.)
+      BEM: The Nietzschean ships are in position.
+      BEKA: Dylan!
+      HOLO-ROMMIE: Dylan.
+      HUNT: I am become Death, Destroyer of Worlds.
+      (He presses the button. Energy surges from Andromeda into the
+      nebula. She flies out as the purple swirly turns red then goes
+      mega-KaBOOM)
+      HOLO-ROMMIE: I'm reading multiple explosions. Two thirds of the
+      Nietzschean fleet were in the target zone.
+      TYR: One hundred thousand.
+      ANDROMEDA: Brace for impact.
+      (The shock wave catches up with them.)
+      HOLO-ROMMIE: All systems functioning normally.
+      BEM: What's left of the Nietzschean fleet is peeling off.
+      BEKA: It's over.
+      HUNT: Yeah, it's over.
+
+      [Conduit]
+
+      (Harper watches the tactical display of the carnage, but doesn't
+      rejoice.)
+      HARPER: We win.
+
+      [Command]
+
+      BEKA: We're approaching the slipstream portal.
+      HUNT: Take us in as soon as we're in range. What's the status on
+      the Nietzscheans?
+      BEM: Survivors are scattered throughout the nebula.
+      TYR: When the High Guard arrives, the Nietzscheans will be
+      off-balance, out of position. You've succeeded.
+      HUNT: Tell me again how this is all pre-destined.
+      HOLO-ROMMIE: Slipstream events, multiple vectors.
+      BEKA: The High Guard fleet.
+      BEM: They're hailing us.
+      BEKA: The Nietzscheans are moving to intercept.
+      HUNT: Take us out of here. Maintain radio silence.
+      BEKA: Transiting into slipstream in three, two, one.
+      HUNT: Good luck.
+      (The Battle of Witchhead begins as Andromeda flies the slipstream.)
+      BEKA: I'm reversing slipstream polarity now!
+      BEM: Exiting slipstream.
+      HUNT: Rommie?
+      HOLO-ROMMIE: Star positions and galactic expansion are consistent
+      with CY 10087. We're back where we started.
+
+      [Observation deck]
+
+      HUNT: I wish there had been another way.
+      TYR: Guilt is a wasted emotion, or so I keep telling myself.
+      HUNT: You blame yourself for what happened?
+      TYR: I didn't say that. But I could have sabotaged the Andromeda. I
+      could have killed us all and saved one hundred thousand Nietzschean
+      lives. I didn't do it.
+      HUNT: No, you didn't.
+      TYR: I let my own need for survival outweigh the fate of an entire
+      people. My people.
+      HUNT: That's a very Nietzschean thing to do.
+      TYR: Yes, it is, isn't it.
+      HUNT: Maybe on some level, you knew that what we did was somehow
+      necessary and right.
+      (A tear runs down Tyr's cheek.)
+      TYR: Dylan, do you really believe that?
+      HUNT: I have to.
+
+      [Hydroponics]
+
+      (Trance looks at her bonsai tree, then chops an entire bough off.)
+      TRANCE: That's better.
+
+<Back to the episode listing
+
+Andromeda and related marks are trademarks of Tribune Company. Copyright   2000
+- 2005. The web pages on this site are for educational and entertainment
+purposes only. All other copyrights property of their respective holders.
+
