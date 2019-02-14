@@ -16,11 +16,11 @@ def makeScatter(event):
 
     for i in range(0,len(data)):
         row = data[i].split(",")
-        print(row[1])
-        xs.append(row[1])
-        ys.append(row[2])
+        xs.append(row[0])
+        ys.append(row[1])
 
     mplot.scatter(xs,ys,color="red")
+
     mplot.show()
 
 root = Tk()
