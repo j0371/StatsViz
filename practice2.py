@@ -1,27 +1,51 @@
 import matplotlib.pyplot as mplot
 import numpy
 import scipy.stats as stats
+from tkinter import filedialog
+from tkinter import *
 
-xs = []
-ys = []
+root = Tk()
 
-data = open("signals.csv", "r")
-data = data.read()
-data = data.split("\n")
+button = Button(root, text="button")
+button.pack()
 
-while (data[-1] == ""):
-    data.pop()
+check = Checkbutton(root)
+check.pack()
 
-row2 = []
+entry = Entry(root)
+entry.pack()
 
-for i in range(0,len(data)):
-    row = data[i].split(",")
+label = Label(root, text="label")
+label.pack()
 
-    row2.append(float(row[2]))    
+listbox = Listbox(root, selectmode="multiple")
+listbox.insert(END, "column 1")
+listbox.insert(END, "column 2")
+listbox.pack()
 
+#menu
 
-print(stats.t.interval(0.95, len(row2)-1, loc=numpy.mean(row2), scale=stats.sem(row2)))
+msg = Message(root, text="message")
+msg.pack()
 
-stuff = [10,20,30,40,50]
+radio = Radiobutton(root)
+radio.pack()
 
-print(stats.t.interval(0.95, len(stuff)-1, loc=numpy.mean(stuff), scale=stats.sem(stuff)))
+scale = Scale(root)
+scale.pack()
+
+#scrollbar
+
+text = Text(root)
+text.insert(INSERT, "text")
+text.pack()
+
+spin = Spinbox(root)
+spin.pack()
+
+labelframe = LabelFrame(root, text="LabelFrame")
+labelframe.pack(fill="both", expand="yes")
+left = Label(labelframe, text="Inside the LabelFrame")
+left.pack()
+
+root.mainloop()
