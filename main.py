@@ -10,7 +10,7 @@ class mainWindow:
 #Frames
 #====================================================================
         self.mainFrame = Frame(root, borderwidth=1, relief=SUNKEN)
-        self.mainFrame.grid(row=0,column=0, padx=3, pady=3, sticky="nsew")
+        self.mainFrame.grid(row=0,column=0, padx=3, pady=3)
         
         self.scatterFrame = Frame(root, borderwidth=1, relief=SUNKEN)
 
@@ -24,20 +24,21 @@ class mainWindow:
         self.graphType = StringVar(root)
         self.graphType.set("Select Graph Type")
 
+
 #Main Frame column 0
 #====================================================================
         self.fileButton = Button(self.mainFrame, text="Select File", command=self.loadFile)
-        self.fileButton.grid(row=0, column=0)
+        self.fileButton.grid(row=0, column=0, sticky="W", padx=(25,0), pady=(25,0))
 
-        self.selectedFile = Label(self.mainFrame, text="selected CSV file")
-        self.selectedFile.grid(row=1, column=0)
+        self.graphOptions = OptionMenu(self.mainFrame, self.graphType, "Select Graph Type", "Scatterplot", "Interval Plot", command=self.graphOptionSelected)
+        self.graphOptions.config(width=15)
+        self.graphOptions.grid(row=1, column=0, columnspan=2, padx=(25,0), pady=5, sticky="W")
 
 
 #Main Frame column 1
 #====================================================================
-        self.graphOptions = OptionMenu(self.mainFrame, self.graphType, "Select Graph Type", "Scatterplot", "Interval Plot", command=self.graphOptionSelected)
-        self.graphOptions.config(width=15)
-        self.graphOptions.grid(row=0, column=1)
+        self.selectedFile = Label(self.mainFrame, text="File path of currently selected CSV")
+        self.selectedFile.grid(row=0, column=1, sticky="W", padx=(3,0), pady=(25,0))
 
 
 #====================================================================
@@ -50,10 +51,18 @@ class mainWindow:
 #Scatter Frame column 0
 #====================================================================
         self.SxVar = OptionMenu(self.scatterFrame, self.SxVarSelection, "Select X Variable Column") #!WHEN CSV IS LOADABLE, USE A LIST TO SHOW COLUMNS!
+        self.SxVar.config(width=30)
+        self.SxVar.grid(row=0, column=0)
 
-
-#Interval Plot Frame
+#Scatter Frame column 0
 #====================================================================
+
+
+
+#====================================================================
+#=========================Interval Plot Frame========================
+#====================================================================
+
         self.intervalLabel = Label(self.intervalFrame, text="Interval Plot Label")
         self.intervalLabel.grid(row=0,column=0)
 
@@ -81,7 +90,5 @@ class mainWindow:
 
 
 root = Tk()
-root.geometry("640x480")
-root.resizable(0,0)
 main = mainWindow(root)
 root.mainloop()
