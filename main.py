@@ -1,4 +1,5 @@
 from tkinter import *
+from tkinter import ttk
 import matplotlib.pyplot as mplot
 
 
@@ -21,7 +22,7 @@ class mainWindow:
 #==============================Main Frame============================
 #====================================================================
 
-        self.graphType = StringVar(root)
+        self.graphType = StringVar()
         self.graphType.set("Select Graph Type")
 
 
@@ -30,9 +31,9 @@ class mainWindow:
         self.fileButton = Button(self.mainFrame, text="Select File", command=self.loadFile)
         self.fileButton.grid(row=0, column=0, sticky="W", padx=(25,0), pady=(25,0))
 
-        self.graphOptions = OptionMenu(self.mainFrame, self.graphType, "Select Graph Type", "Scatterplot", "Interval Plot", command=self.graphOptionSelected)
-        self.graphOptions.config(width=15)
-        self.graphOptions.grid(row=1, column=0, columnspan=2, padx=(25,0), pady=5, sticky="W")
+        self.graphOptions = ttk.Combobox(self.mainFrame, textvariable=self.graphType, values=["Scatterplot", "Interval Plot"], state="readonly")
+        self.graphOptions.bind("<<ComboboxSelected>>", self.graphOptionSelected)
+        self.graphOptions.grid(row=1, column=0, columnspan=2, padx=(23,0), pady=5, sticky="W")
 
 
 #Main Frame column 1
@@ -45,19 +46,37 @@ class mainWindow:
 #=============================Scatter Frame==========================
 #====================================================================
 
-        self.SxVarSelection = StringVar(root)
-        self.SxVarSelection.set("Select X Variable Column")
+        self.SxVarSelection = StringVar()
+        self.SxVarSelection.set("X Variable Column")
+
+        self.SyVarSelection = StringVar()
+        self.SyVarSelection.set("Y Variable Column")
+
+        self.ScVarSelection = StringVar()
+        self.ScVarSelection.set("Category Column")
 
 #Scatter Frame column 0
 #====================================================================
-        self.SxVar = OptionMenu(self.scatterFrame, self.SxVarSelection, "Select X Variable Column") #!WHEN CSV IS LOADABLE, USE A LIST TO SHOW COLUMNS!
-        self.SxVar.config(width=30)
+        self.SxVar = ttk.Combobox(self.scatterFrame, textvariable=self.SxVarSelection, values=[], state="readonly")
         self.SxVar.grid(row=0, column=0)
 
-#Scatter Frame column 0
+        self.SyVar = ttk.Combobox(self.scatterFrame, textvariable=self.SyVarSelection, values=[], state="readonly")
+        self.SyVar.grid(row=1, column=0)
+
+        self.ScVar = ttk.Combobox(self.scatterFrame, textvariable=self.ScVarSelection, values=["No Categories"], state="readonly")
+        self.ScVar.grid(row=2, column=0)
+
+#Scatter Frame column 1
 #====================================================================
 
+        self.Stitle = Entry(self.scatterFrame)
+        self.Stitle.grid(row=0, column=1)
 
+        self.Stitle = Entry(self.scatterFrame)
+        self.Stitle.grid(row=0, column=1)
+
+        self.Stitle = Entry(self.scatterFrame)
+        self.Stitle.grid(row=0, column=1)
 
 #====================================================================
 #=========================Interval Plot Frame========================
@@ -68,18 +87,17 @@ class mainWindow:
 
 #function to show options for selected graph type
 #====================================================================
-    def graphOptionSelected(self, selected):
+    def graphOptionSelected(self, event):
 
-        if selected == "Scatterplot":
+        if self.graphType.get() == "Scatterplot":
             self.intervalFrame.grid_remove()
             self.scatterFrame.grid(row=2, column=0, padx=3, pady=3)
-        elif selected == "Interval Plot":
+        elif self.graphType.get() == "Interval Plot":
             self.scatterFrame.grid_remove()
             self.intervalFrame.grid(row=2, column=0, padx=3, pady=3)
         else:
             self.intervalFrame.grid_remove()
             self.scatterFrame.grid_remove()
-
 
 #function to prompt file selection dialogue
 #====================================================================
