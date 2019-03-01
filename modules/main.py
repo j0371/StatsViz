@@ -7,10 +7,16 @@ class mainWindow:
 
     def __init__(self, root):
 
+#Root modifcations
+#====================================================================  
+        root.title("Data Visualizer")
+
+        root.grid_columnconfigure(0, weight=1)
+
 #Frames
 #====================================================================
         self.mainFrame = Frame(root, borderwidth=1, relief=SUNKEN)
-        self.mainFrame.grid(row=0,column=0, padx=3, pady=3)
+        self.mainFrame.grid(row=0,column=0, padx=3, pady=3, sticky="EW")
         
         self.scatterFrame = Frame(root, borderwidth=1, relief=SUNKEN)
 
@@ -28,17 +34,17 @@ class mainWindow:
 #Main Frame column 0
 #====================================================================
         self.fileButton = Button(self.mainFrame, text="Select File", command=self.loadFile)
-        self.fileButton.grid(row=0, column=0, sticky="W", padx=(25,0), pady=(25,0))
+        self.fileButton.grid(row=0, column=0, sticky="W", padx=(10,0), pady=10)
 
         self.graphOptions = ttk.Combobox(self.mainFrame, textvariable=self.graphType, values=["Scatterplot", "Interval Plot"], state="readonly")
         self.graphOptions.bind("<<ComboboxSelected>>", self.graphOptionSelected)
-        self.graphOptions.grid(row=1, column=0, columnspan=2, padx=(23,0), pady=5, sticky="W")
+        self.graphOptions.grid(row=1, column=0, columnspan=2, padx=(10,0), pady=5, sticky="W")
 
 
 #Main Frame column 1
 #====================================================================
         self.selectedFile = Label(self.mainFrame, text="File path of currently selected CSV")
-        self.selectedFile.grid(row=0, column=1, sticky="W", padx=(3,0), pady=(25,0))
+        self.selectedFile.grid(row=0, column=1, sticky="W", padx=(3,0), pady=10)
 
 
 #====================================================================
@@ -65,8 +71,14 @@ class mainWindow:
         self.ScVar = ttk.Combobox(self.scatterFrame, textvariable=self.ScVarSelection, values=["No Categories"], state="readonly")
         self.ScVar.grid(row=5, column=0)
 
+        self.sButton = Button(self.scatterFrame, text="Create Graph", command=self.createGraph)
+        self.sButton.grid(row=6, column=0, columnspan=2, pady=10)
+
 #Scatter Frame column 1
 #====================================================================
+
+        self.scatterFrame.grid_columnconfigure(0, pad=25)
+        self.scatterFrame.grid_columnconfigure(1, pad=25)
 
         self.titleText = Label(self.scatterFrame, text="Graph Title")
         self.titleText.grid(row=0, column=1)
@@ -93,19 +105,6 @@ class mainWindow:
         self.intervalLabel = Label(self.intervalFrame, text="Interval Plot Label")
         self.intervalLabel.grid(row=0,column=0)
 
-#function to show options for selected graph type
-#====================================================================
-    def graphOptionSelected(self, event):
-
-        if self.graphType.get() == "Scatterplot":
-            self.intervalFrame.grid_remove()
-            self.scatterFrame.grid(row=2, column=0, padx=3, pady=3)
-        elif self.graphType.get() == "Interval Plot":
-            self.scatterFrame.grid_remove()
-            self.intervalFrame.grid(row=2, column=0, padx=3, pady=3)
-        else:
-            self.intervalFrame.grid_remove()
-            self.scatterFrame.grid_remove()
 
 #function to prompt file selection dialogue
 #====================================================================
@@ -113,9 +112,27 @@ class mainWindow:
         print("will prompt file dialogue")
 
 
+#function to show options for selected graph type
+#====================================================================
+    def graphOptionSelected(self, event):
+
+        if self.graphType.get() == "Scatterplot":
+            self.intervalFrame.grid_remove()
+            self.scatterFrame.grid(row=2, column=0, padx=3, pady=3, sticky="EW")
+        elif self.graphType.get() == "Interval Plot":
+            self.scatterFrame.grid_remove()
+            self.intervalFrame.grid(row=2, column=0, padx=3, pady=3, sticky="EW")
+        else:
+            self.intervalFrame.grid_remove()
+            self.scatterFrame.grid_remove()
+
+
+#function to create the graph
+#====================================================================
+    def createGraph(self):
+        print("Plot will be created")
 
 
 root = Tk()
-root.title("Data Visualizer")
 main = mainWindow(root)
 root.mainloop()
