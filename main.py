@@ -7,7 +7,6 @@ class mainWindow:
 
     def __init__(self, root):
 
-
 #Frames
 #====================================================================
         self.mainFrame = Frame(root, borderwidth=1, relief=SUNKEN)
@@ -58,25 +57,34 @@ class mainWindow:
 #Scatter Frame column 0
 #====================================================================
         self.SxVar = ttk.Combobox(self.scatterFrame, textvariable=self.SxVarSelection, values=[], state="readonly")
-        self.SxVar.grid(row=0, column=0)
+        self.SxVar.grid(row=1, column=0)
 
         self.SyVar = ttk.Combobox(self.scatterFrame, textvariable=self.SyVarSelection, values=[], state="readonly")
-        self.SyVar.grid(row=1, column=0)
+        self.SyVar.grid(row=3, column=0)
 
         self.ScVar = ttk.Combobox(self.scatterFrame, textvariable=self.ScVarSelection, values=["No Categories"], state="readonly")
-        self.ScVar.grid(row=2, column=0)
+        self.ScVar.grid(row=5, column=0)
 
 #Scatter Frame column 1
 #====================================================================
 
-        self.Stitle = Entry(self.scatterFrame)
-        self.Stitle.grid(row=0, column=1)
+        self.titleText = Label(self.scatterFrame, text="Graph Title")
+        self.titleText.grid(row=0, column=1)
 
         self.Stitle = Entry(self.scatterFrame)
-        self.Stitle.grid(row=0, column=1)
+        self.Stitle.grid(row=1, column=1)
 
-        self.Stitle = Entry(self.scatterFrame)
-        self.Stitle.grid(row=0, column=1)
+        self.xLabelText = Label(self.scatterFrame, text="X-Axis Label")
+        self.xLabelText.grid(row=2, column=1)
+
+        self.SxLabel = Entry(self.scatterFrame)
+        self.SxLabel.grid(row=3, column=1)
+
+        self.yLabelText = Label(self.scatterFrame, text="Y-Axis Label")
+        self.yLabelText.grid(row=4, column=1)
+
+        self.SyLabel = Entry(self.scatterFrame)
+        self.SyLabel.grid(row=5, column=1)
 
 #====================================================================
 #=========================Interval Plot Frame========================
@@ -108,5 +116,6 @@ class mainWindow:
 
 
 root = Tk()
+root.title("Data Visualizer")
 main = mainWindow(root)
 root.mainloop()
