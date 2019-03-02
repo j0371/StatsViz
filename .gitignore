@@ -1,2 +1,5 @@
 #folders#
 ./practice
+
+#compiled files#
+*.pyc
