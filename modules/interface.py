@@ -1,5 +1,7 @@
 from tkinter import *
 from tkinter import ttk
+from tkinter import filedialog
+import tkinter.scrolledtext as st
 import rw
 import calculation
 
@@ -45,7 +47,7 @@ class MainWindow:
 
 #Main Frame column 1
 #====================================================================
-        self.selectedFile = Label(self.mainFrame, text="File path of currently selected CSV")
+        self.selectedFile = Label(self.mainFrame, text="Selected CSV File")
         self.selectedFile.grid(row=0, column=1, sticky="W", padx=(3,0), pady=10)
 
 
@@ -108,12 +110,18 @@ class MainWindow:
         self.intervalLabel.grid(row=0,column=0)
 
 
-#function to prompt file selection dialogue
+#====================================================================
+#============================Functions===============================
+#====================================================================
+
+
+#function to prompt file selection dialogue and load file
 #====================================================================
     def loadFile(self):
-        self.data = rw.read("../sampleData/sample.csv")
 
-        print(calculation.getColumns(data=self.data,xCol=1,yCol=2,groups=[0,2]))
+        fileName = filedialog.askopenfilename(initialdir = "./",title = "Select a file", filetypes = (("CSV files","*.csv"),))
+        self.selectedFile.config(text=fileName)
+        self.data = rw.read(fileName)
 
 
 #function to show options for selected graph type

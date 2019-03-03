@@ -1,5 +1,5 @@
 
-def read(fileName: str) -> [[]]:
+def read(fileName: str) -> []:
     
     data = open(fileName, "r")
     data = data.read()
