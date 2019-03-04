@@ -1,9 +1,13 @@
 from tkinter import *
 from tkinter import ttk
 from tkinter import filedialog
+from tkinter import messagebox
 import tkinter.scrolledtext as st
+from pathlib import Path
+
 import rw
 import calculation
+import graphing
 
 
 class MainWindow:
@@ -14,7 +18,6 @@ class MainWindow:
 #Root modifcations
 #====================================================================  
         root.title("Data Visualizer")
-
         root.grid_columnconfigure(0, weight=1)
 
 #Frames
@@ -56,23 +59,29 @@ class MainWindow:
 #====================================================================
 
         self.SxVarSelection = StringVar()
-        self.SxVarSelection.set("X Variable Column")
-
         self.SyVarSelection = StringVar()
-        self.SyVarSelection.set("Y Variable Column")
-
         self.ScVarSelection = StringVar()
-        self.ScVarSelection.set("Category Column")
+        
 
 #Scatter Frame column 0
 #====================================================================
+
+        self.SxVarLabel = Label(self.scatterFrame, text="X Axis Column")
+        self.SxVarLabel.grid(row=0, column=0)
+
         self.SxVar = ttk.Combobox(self.scatterFrame, textvariable=self.SxVarSelection, values=[], state="readonly")
         self.SxVar.grid(row=1, column=0)
+
+        self.SyVarLabel = Label(self.scatterFrame, text="Y Axis Column")
+        self.SyVarLabel.grid(row=2, column=0)
 
         self.SyVar = ttk.Combobox(self.scatterFrame, textvariable=self.SyVarSelection, values=[], state="readonly")
         self.SyVar.grid(row=3, column=0)
 
-        self.ScVar = ttk.Combobox(self.scatterFrame, textvariable=self.ScVarSelection, values=["No Categories"], state="readonly")
+        self.ScVarLabel = Label(self.scatterFrame, text="Category Column")
+        self.ScVarLabel.grid(row=4, column=0)
+
+        self.ScVar = ttk.Combobox(self.scatterFrame, textvariable=self.ScVarSelection, values=[], state="readonly")
         self.ScVar.grid(row=5, column=0)
 
         self.sButton = Button(self.scatterFrame, text="Create Scatterplot", command=self.createScatter)
@@ -119,14 +128,33 @@ class MainWindow:
 #====================================================================
     def loadFile(self):
 
+        #fileName = "../sampleData/sample.csv"
         fileName = filedialog.askopenfilename(initialdir = "./",title = "Select a file", filetypes = (("CSV files","*.csv"),))
         self.selectedFile.config(text=fileName)
         self.data = rw.read(fileName)
+
+        self.columnLabels = calculation.shaveLabels(data=self.data)
+
+        self.SxVar.config(values=self.columnLabels)
+        self.SyVar.config(values=self.columnLabels)
+        self.ScVar.config(values=["No Categories"]+self.columnLabels)
+
+        self.SxVarSelection.set("Select a Column")
+        self.SyVarSelection.set("Select a Column")
+        self.ScVarSelection.set("No Categories")
+
+
+
 
 
 #function to show options for selected graph type
 #====================================================================
     def graphOptionSelected(self, event):
+
+        if( not Path(self.selectedFile.cget("text")).is_file()):
+                messagebox.showinfo("Error", "Please select a file first")
+                self.graphType.set("Select Graph Type")
+                return
 
         if self.graphType.get() == "Scatterplot":
             self.intervalFrame.grid_remove()
@@ -142,4 +170,19 @@ class MainWindow:
 #function to create the graph
 #====================================================================
     def createScatter(self):
-        print("Plot will be created")
+
+        if(self.SxVar.current() == (-1) or self.SyVar.current() == (-1)):
+                messagebox.showinfo("Error", "Please select an X and Y axis column")
+                return
+
+        if(self.SxLabel.get() == ""):
+                self.SxLabel.insert(0, self.columnLabels[self.SxVar.current()])
+        if(self.SyLabel.get() == ""):
+                self.SyLabel.insert(0, self.columnLabels[self.SyVar.current()])
+        if(self.Stitle.get() == ""):
+                self.Stitle.insert(0, self.columnLabels[self.SxVar.current()] + " VS " + self.columnLabels[self.SyVar.current()])
+
+        self.graphData = calculation.getColumns(data=self.data, xCol=self.SxVar.current(), yCol=self.SyVar.current(), groups =[self.ScVar.current()-1])
+
+        graphing.graphScatter(xs=self.graphData[0], ys=self.graphData[1], groups=self.graphData[2], xLabel=self.SxLabel.get(), yLabel=self.SyLabel.get(), title=self.Stitle.get())
+        
