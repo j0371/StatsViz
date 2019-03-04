@@ -16,9 +16,11 @@ class MainWindow:
     def __init__(self, root):
 
 #Root modifcations
-#====================================================================  
+#====================================================================
+        self.root = root
         root.title("Data Visualizer")
         root.grid_columnconfigure(0, weight=1)
+        root.geometry("325x265")
 
 #Frames
 #====================================================================
@@ -37,21 +39,29 @@ class MainWindow:
         self.graphType = StringVar()
         self.graphType.set("Select Graph Type")
 
+        self.selectedFileVar = StringVar()
+        self.selectedFileVar.set("Selected CSV File")
+
 
 #Main Frame column 0
 #====================================================================
         self.fileButton = Button(self.mainFrame, text="Select File", command=self.loadFile)
-        self.fileButton.grid(row=0, column=0, sticky="W", padx=(10,0), pady=10)
+        self.fileButton.grid(row=0, column=0, sticky="W", padx=(10,0), pady=(10,0))
 
         self.graphOptions = ttk.Combobox(self.mainFrame, textvariable=self.graphType, values=["Scatterplot", "Interval Plot"], state="readonly")
         self.graphOptions.bind("<<ComboboxSelected>>", self.graphOptionSelected)
-        self.graphOptions.grid(row=1, column=0, columnspan=2, padx=(10,0), pady=5, sticky="W")
+        self.graphOptions.grid(row=2, column=0, columnspan=2, padx=(10,0), pady=5, sticky="W")
 
 
 #Main Frame column 1
 #====================================================================
-        self.selectedFile = Label(self.mainFrame, text="Selected CSV File")
-        self.selectedFile.grid(row=0, column=1, sticky="W", padx=(3,0), pady=10)
+        self.selectedFile = Entry(self.mainFrame, textvariable=self.selectedFileVar, state="readonly", width=39)
+        self.selectedFile.grid(row=0, column=1, padx=(3,0), pady=(10,0))
+
+        self.selectedFileScroll = Scrollbar(self.mainFrame, orient="horizontal", command=self.selectedFile.xview)
+        self.selectedFileScroll.grid(row=1,column=1,sticky="ew", pady=(0,10))
+
+        self.selectedFile.config(xscrollcommand=self.selectedFileScroll.set)
 
 
 #====================================================================
@@ -128,9 +138,10 @@ class MainWindow:
 #====================================================================
     def loadFile(self):
 
-        fileName = "..\sampleData\weight-height(edited).csv"
-        #fileName = filedialog.askopenfilename(initialdir = "./",title = "Select a file", filetypes = (("CSV files","*.csv"),))
-        self.selectedFile.config(text=fileName)
+        #fileName = "..\sampleData\weight-height(edited).csv"
+        fileName = filedialog.askopenfilename(initialdir = "./",title = "Select a file", filetypes = (("CSV files","*.csv"),))
+        self.selectedFileVar.set(fileName)
+        self.selectedFile.xview_moveto(1)
         self.data = rw.read(fileName)
 
         self.columnLabels = calculation.shaveLabels(data=self.data)
@@ -155,10 +166,10 @@ class MainWindow:
 #====================================================================
     def graphOptionSelected(self, event):
 
-        if( not Path(self.selectedFile.cget("text")).is_file()):
-                messagebox.showinfo("Error", "Please select a file first")
-                self.graphType.set("Select Graph Type")
-                return
+        if( not Path(self.selectedFileVar.get()).is_file()):
+            messagebox.showinfo("Error", "Please select a file first")
+            self.graphType.set("Select Graph Type")
+            return
 
         if self.graphType.get() == "Scatterplot":
             self.intervalFrame.grid_remove()
@@ -176,17 +187,16 @@ class MainWindow:
     def createScatter(self):
 
         if(self.SxVar.current() == (-1) or self.SyVar.current() == (-1)):
-                messagebox.showinfo("Error", "Please select an X and Y axis column")
-                return
+            messagebox.showinfo("Error", "Please select an X and Y axis column")
+            return
 
         if(self.SxLabel.get() == ""):
-                self.SxLabel.insert(0, self.columnLabels[self.SxVar.current()])
+            self.SxLabel.insert(0, self.columnLabels[self.SxVar.current()])
         if(self.SyLabel.get() == ""):
-                self.SyLabel.insert(0, self.columnLabels[self.SyVar.current()])
+            self.SyLabel.insert(0, self.columnLabels[self.SyVar.current()])
         if(self.Stitle.get() == ""):
-                self.Stitle.insert(0, self.columnLabels[self.SxVar.current()] + " VS " + self.columnLabels[self.SyVar.current()])
+            self.Stitle.insert(0, self.columnLabels[self.SxVar.current()] + " VS " + self.columnLabels[self.SyVar.current()])
 
         self.graphData = calculation.getColumns(data=self.data, xCol=self.SxVar.current(), yCol=self.SyVar.current(), groups =[self.ScVar.current()-1])
 
         graphing.graphScatter(xs=self.graphData[0], ys=self.graphData[1], groups=self.graphData[2], xLabel=self.SxLabel.get(), yLabel=self.SyLabel.get(), title=self.Stitle.get())
-        

@@ -14,11 +14,12 @@ def graphScatter( *, xs: int, ys: int, groups: list, title: str, xLabel: str, yL
             yPoints[groups[0][i]].append(ys[i])
 
         for i in range(0, len(groupSet)):
-            mplot.scatter(xPoints[groupSet[i]], yPoints[groupSet[i]])
+            mplot.scatter(xPoints[groupSet[i]], yPoints[groupSet[i]], label=groupSet[i])
     else:
         mplot.scatter(xs, ys)
 
     mplot.title(title)
     mplot.xlabel(xLabel)
     mplot.ylabel(yLabel)
+    mplot.legend(loc="best")
     mplot.show()
