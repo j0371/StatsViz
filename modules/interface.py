@@ -128,8 +128,8 @@ class MainWindow:
 #====================================================================
     def loadFile(self):
 
-        #fileName = "../sampleData/sample.csv"
-        fileName = filedialog.askopenfilename(initialdir = "./",title = "Select a file", filetypes = (("CSV files","*.csv"),))
+        fileName = "..\sampleData\weight-height(edited).csv"
+        #fileName = filedialog.askopenfilename(initialdir = "./",title = "Select a file", filetypes = (("CSV files","*.csv"),))
         self.selectedFile.config(text=fileName)
         self.data = rw.read(fileName)
 
@@ -142,6 +142,10 @@ class MainWindow:
         self.SxVarSelection.set("Select a Column")
         self.SyVarSelection.set("Select a Column")
         self.ScVarSelection.set("No Categories")
+
+        self.SxLabel.delete(0, END)
+        self.SyLabel.delete(0, END)
+        self.Stitle.delete(0, END)
 
 
 
