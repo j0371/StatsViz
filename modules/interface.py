@@ -20,7 +20,7 @@ class MainWindow:
         self.root = root
         root.title("Data Visualizer")
         root.grid_columnconfigure(0, weight=1)
-        root.geometry("325x265")
+        root.geometry("343x282")
 
 #Frames
 #====================================================================
@@ -106,19 +106,19 @@ class MainWindow:
         self.titleText = Label(self.scatterFrame, text="Graph Title")
         self.titleText.grid(row=0, column=1)
 
-        self.Stitle = Entry(self.scatterFrame)
+        self.Stitle = Entry(self.scatterFrame, width=23)
         self.Stitle.grid(row=1, column=1)
 
         self.xLabelText = Label(self.scatterFrame, text="X-Axis Label")
         self.xLabelText.grid(row=2, column=1)
 
-        self.SxLabel = Entry(self.scatterFrame)
+        self.SxLabel = Entry(self.scatterFrame, width=23)
         self.SxLabel.grid(row=3, column=1)
 
         self.yLabelText = Label(self.scatterFrame, text="Y-Axis Label")
         self.yLabelText.grid(row=4, column=1)
 
-        self.SyLabel = Entry(self.scatterFrame)
+        self.SyLabel = Entry(self.scatterFrame, width=23)
         self.SyLabel.grid(row=5, column=1)
 
 #====================================================================
@@ -138,8 +138,12 @@ class MainWindow:
 #====================================================================
     def loadFile(self):
 
-        #fileName = "..\sampleData\weight-height(edited).csv"
-        fileName = filedialog.askopenfilename(initialdir = "./",title = "Select a file", filetypes = (("CSV files","*.csv"),))
+        try:
+            #fileName = "..\sampleData\weight-height(edited).csv"
+            fileName = filedialog.askopenfilename(initialdir = "./",title = "Select a file", filetypes = (("CSV files","*.csv"),))
+        except:
+            pass
+
         self.selectedFileVar.set(fileName)
         self.selectedFile.xview_moveto(1)
         self.data = rw.read(fileName)
@@ -157,8 +161,6 @@ class MainWindow:
         self.SxLabel.delete(0, END)
         self.SyLabel.delete(0, END)
         self.Stitle.delete(0, END)
-
-
 
 
 
