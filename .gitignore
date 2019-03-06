@@ -1,5 +1,6 @@
 #folders#
 practice/
+__pycache__/
 
 #compiled files#
 *.pyc
