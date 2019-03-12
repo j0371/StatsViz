@@ -1,5 +1,5 @@
-import interface
+import interfaceRoot
 
-root = interface.Tk()
-main = interface.MainWindow(root)
+root = interfaceRoot.Tk()
+main = interfaceRoot.RootWindow(root)
 root.mainloop()
