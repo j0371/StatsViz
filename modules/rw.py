@@ -1,4 +1,3 @@
-
 def read(fileName: str) -> []:
     
     data = open(fileName, "r")

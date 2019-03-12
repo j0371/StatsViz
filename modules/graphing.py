@@ -2,7 +2,8 @@
 import matplotlib.pyplot as mplot
 from collections import defaultdict
 
-def graphScatter( *, xs: int, ys: int, groups: list, title: str, xLabel: str, yLabel: str):
+def graphScatter( *, xs: int, ys: int, groups: list = None, title: str = None,
+                  xLabel: str = None, yLabel: str = None, gridLines: str = ""):
     
     if(groups != None):
         xPoints = defaultdict(list)
@@ -22,4 +23,11 @@ def graphScatter( *, xs: int, ys: int, groups: list, title: str, xLabel: str, yL
     mplot.xlabel(xLabel)
     mplot.ylabel(yLabel)
     mplot.legend(loc="best")
+
+    if len(gridLines)==1:
+        mplot.grid(which="major", axis=gridLines)
+    elif gridLines == "xy":
+        mplot.grid(which="major", axis="both")
+
+
     mplot.show()

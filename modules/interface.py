@@ -20,7 +20,7 @@ class MainWindow:
         self.root = root
         root.title("Data Visualizer")
         root.grid_columnconfigure(0, weight=1)
-        root.geometry("343x282")
+        #root.geometry("343x282")                       #!!!SET TO NEW DIMENSIONS!!!#
 
 #Frames
 #====================================================================
@@ -71,10 +71,15 @@ class MainWindow:
         self.SxVarSelection = StringVar()
         self.SyVarSelection = StringVar()
         self.ScVarSelection = StringVar()
+
+        self.xGridCheckVal = StringVar()
+        self.yGridCheckVal = StringVar()
         
 
 #Scatter Frame column 0
 #====================================================================
+
+        self.scatterFrame.grid_columnconfigure(0, pad=25)
 
         self.SxVarLabel = Label(self.scatterFrame, text="X Axis Column")
         self.SxVarLabel.grid(row=0, column=0)
@@ -94,13 +99,18 @@ class MainWindow:
         self.ScVar = ttk.Combobox(self.scatterFrame, textvariable=self.ScVarSelection, values=[], state="readonly")
         self.ScVar.grid(row=5, column=0)
 
-        self.sButton = Button(self.scatterFrame, text="Create Scatterplot", command=self.createScatter)
-        self.sButton.grid(row=6, column=0, columnspan=2, pady=10)
+        self.xGridCheck = Checkbutton(self.scatterFrame, variable=self.xGridCheckVal, onvalue="x", offvalue="", text="X-axis grid lines")
+        self.xGridCheck.grid(row=6, column=0)
+
+        self.yGridCheck = Checkbutton(self.scatterFrame, variable=self.yGridCheckVal, onvalue="y", offvalue="", text="Y-axis grid lines")
+        self.yGridCheck.grid(row=7, column=0)
+
+        
 
 #Scatter Frame column 1
 #====================================================================
 
-        self.scatterFrame.grid_columnconfigure(0, pad=25)
+        
         self.scatterFrame.grid_columnconfigure(1, pad=25)
 
         self.titleText = Label(self.scatterFrame, text="Graph Title")
@@ -121,6 +131,9 @@ class MainWindow:
         self.SyLabel = Entry(self.scatterFrame, width=23)
         self.SyLabel.grid(row=5, column=1)
 
+        self.sButton = Button(self.scatterFrame, text="Create Scatterplot", command=self.createScatter)
+        self.sButton.grid(row=6, column=1, rowspan=2, pady=10)
+
 #====================================================================
 #=========================Interval Plot Frame========================
 #====================================================================
@@ -139,8 +152,8 @@ class MainWindow:
     def loadFile(self):
 
         try:
-            #fileName = "..\sampleData\weight-height(edited).csv"
-            fileName = filedialog.askopenfilename(initialdir = "./",title = "Select a file", filetypes = (("CSV files","*.csv"),))
+            fileName = "..\sampleData\weight-height(edited).csv"
+            #fileName = filedialog.askopenfilename(initialdir = "./",title = "Select a file", filetypes = (("CSV files","*.csv"),))
         except:
             pass
 
@@ -199,6 +212,8 @@ class MainWindow:
         if(self.Stitle.get() == ""):
             self.Stitle.insert(0, self.columnLabels[self.SxVar.current()] + " VS " + self.columnLabels[self.SyVar.current()])
 
-        self.graphData = calculation.getColumns(data=self.data, xCol=self.SxVar.current(), yCol=self.SyVar.current(), groups =[self.ScVar.current()-1])
+        self.graphData = calculation.getColumns(data=self.data, xCol=self.SxVar.current(),
+                                                yCol=self.SyVar.current(), groups =[self.ScVar.current()-1])
 
-        graphing.graphScatter(xs=self.graphData[0], ys=self.graphData[1], groups=self.graphData[2], xLabel=self.SxLabel.get(), yLabel=self.SyLabel.get(), title=self.Stitle.get())
+        graphing.graphScatter(xs=self.graphData[0], ys=self.graphData[1], groups=self.graphData[2], xLabel=self.SxLabel.get(),
+                              yLabel=self.SyLabel.get(), title=self.Stitle.get(), gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get())
