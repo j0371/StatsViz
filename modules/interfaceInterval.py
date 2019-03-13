@@ -5,5 +5,7 @@ class IntervalFrame:
 
     def __init__(self, frame):
 
+        self.frame = frame
+
         self.intervalLabel = tk.Label(frame, text="Interval Plot Label")
         self.intervalLabel.grid(row=0,column=0)

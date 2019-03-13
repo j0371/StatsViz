@@ -14,7 +14,6 @@ import graphing
 
 class RootWindow:
 
-#initializer function
     def __init__(self, root):
 
 #Root modifcations
@@ -33,13 +32,14 @@ class RootWindow:
         self.scatterFrame = interfaceScatter.ScatterFrame(self.scatterFrame)
 
         self.intervalFrame = tk.Frame(root, borderwidth=1, relief=tk.SUNKEN)
+        self.intervalFrame = interfaceInterval.IntervalFrame(self.intervalFrame)
 
 #Event Bindings
 #====================================================================
         self.commonFrame.fileButton.bind("<Button-1>", self.loadFile)
         self.commonFrame.graphOptions.bind("<<ComboboxSelected>>", self.graphOptionSelected)
 
-        self.scatterFrame.sButton.bind("<Button-1>", self.createScatter)
+        self.scatterFrame.graphButton.bind("<Button-1>", self.createScatter)
 
 
 
@@ -52,9 +52,11 @@ class RootWindow:
 #====================================================================
     def loadFile(self, event):
 
+        self.commonFrame.fileButton.config(relief=tk.SUNKEN)
+
         try:
-            #fileName = "..\sampleData\weight-height(edited).csv"
-            fileName = filedialog.askopenfilename(initialdir = "./",title = "Select a file", filetypes = (("CSV files","*.csv"),))
+            fileName = "..\sampleData\weight-height(edited).csv"
+            #fileName = filedialog.askopenfilename(initialdir = "./",title = "Select a file", filetypes = (("CSV files","*.csv"),))
         except:
             pass
 
@@ -92,22 +94,25 @@ class RootWindow:
             return
 
         if self.commonFrame.graphType.get() == "Scatterplot":
-            self.intervalFrame.grid_remove()
+            self.intervalFrame.frame.grid_remove()
             self.scatterFrame.frame.grid(row=2, column=0, padx=3, pady=3, sticky="EW")
         elif self.commonFrame.graphType.get() == "Interval Plot":
             self.scatterFrame.frame.grid_remove()
-            self.intervalFrame.grid(row=2, column=0, padx=3, pady=3, sticky="EW")
+            self.intervalFrame.frame.grid(row=2, column=0, padx=3, pady=3, sticky="EW")
         else:
-            self.intervalFrame.grid_remove()
-            self.scatterFrame.grid_remove()
+            self.intervalFrame.frame.grid_remove()
+            self.scatterFrame.frame.grid_remove()
 
 
 #function to create the graph
 #====================================================================
     def createScatter(self, event):
 
+        self.scatterFrame.graphButton.config(relief=tk.SUNKEN)
+
         if(self.scatterFrame.xVar.current() == (-1) or self.scatterFrame.yVar.current() == (-1)):
             messagebox.showinfo("Error", "Please select an X and Y axis column")
+            self.scatterFrame.graphButton.config(relief=tk.RAISED)
             return
 
         if(self.scatterFrame.xLabel.get() == ""):

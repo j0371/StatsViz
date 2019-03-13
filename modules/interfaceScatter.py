@@ -70,5 +70,9 @@ class ScatterFrame:
         self.yLabel = tk.Entry(frame, width=23)
         self.yLabel.grid(row=5, column=1)
 
-        self.sButton = tk.Button(frame, text="Create Scatterplot")
-        self.sButton.grid(row=6, column=1, rowspan=2, pady=10)
+        self.graphButton = tk.Button(frame, text="Create Scatterplot")
+        self.graphButton.bind("<ButtonRelease-1>", self.raiseButton)
+        self.graphButton.grid(row=6, column=1, rowspan=2, pady=10)
+
+    def raiseButton(self, event):
+        self.graphButton.config(relief=tk.RAISED)

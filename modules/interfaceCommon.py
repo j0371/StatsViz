@@ -18,10 +18,10 @@ class CommonFrame:
 #column 0
 #====================================================================
         self.fileButton = tk.Button(frame, text="Select File")
+        self.fileButton.bind("<ButtonRelease-1>", self.raiseFileButton)
         self.fileButton.grid(row=0, column=0, sticky="W", padx=(10,0), pady=(10,0))
 
         self.graphOptions = ttk.Combobox(frame, textvariable=self.graphType, values=["Scatterplot", "Interval Plot"], state="readonly")
-        self.graphOptions.bind("<<ComboboxSelected>>")
         self.graphOptions.grid(row=2, column=0, columnspan=2, padx=(10,0), pady=5, sticky="W")
 
 
@@ -34,3 +34,6 @@ class CommonFrame:
         self.selectedFileScroll.grid(row=1,column=1,sticky="ew", pady=(0,10))
 
         self.selectedFile.config(xscrollcommand=self.selectedFileScroll.set)
+
+    def raiseFileButton(self, event):
+        self.fileButton.config(relief=tk.RAISED)
