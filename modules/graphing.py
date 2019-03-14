@@ -1,8 +1,8 @@
 
-import matplotlib.pyplot as mplot
+import matplotlib.pyplot as plt
 from collections import defaultdict
 
-def graphScatter( *, xs: int, ys: int, groups: list = None, title: str = None,
+def graphScatter( *, xs: list, ys: list, groups: list = None, title: str = None,
                   xLabel: str = None, yLabel: str = None, gridLines: str = ""):
     
     if(groups != None):
@@ -15,19 +15,20 @@ def graphScatter( *, xs: int, ys: int, groups: list = None, title: str = None,
             yPoints[groups[0][i]].append(ys[i])
 
         for i in range(0, len(groupSet)):
-            mplot.scatter(xPoints[groupSet[i]], yPoints[groupSet[i]], label=groupSet[i])
+            plt.scatter(xPoints[groupSet[i]], yPoints[groupSet[i]], label=groupSet[i])
     else:
-        mplot.scatter(xs, ys)
+        plt.scatter(xs, ys)
 
-    mplot.title(title)
-    mplot.xlabel(xLabel)
-    mplot.ylabel(yLabel)
-    mplot.legend(loc="best")
+    plt.title(title)
+    plt.xlabel(xLabel)
+    plt.ylabel(yLabel)
+
+    if(groups != None):
+        plt.legend(loc="best")
 
     if len(gridLines)==1:
-        mplot.grid(which="major", axis=gridLines)
+        plt.grid(which="major", axis=gridLines)
     elif gridLines == "xy":
-        mplot.grid(which="major", axis="both")
+        plt.grid(which="major", axis="both")
 
-
-    mplot.show()
+    plt.show()

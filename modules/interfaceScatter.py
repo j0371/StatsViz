@@ -20,13 +20,13 @@ class ScatterFrame:
 
         frame.grid_columnconfigure(0, pad=25)
 
-        self.xVarLabel = tk.Label(frame, text="X Axis Column")
+        self.xVarLabel = tk.Label(frame, text="X-Axis Column")
         self.xVarLabel.grid(row=0, column=0)
 
         self.xVar = ttk.Combobox(frame, textvariable=self.xVarSelection, values=[], state="readonly")
         self.xVar.grid(row=1, column=0)
 
-        self.yVarLabel = tk.Label(frame, text="Y Axis Column")
+        self.yVarLabel = tk.Label(frame, text="Y-Axis Column")
         self.yVarLabel.grid(row=2, column=0)
 
         self.yVar = ttk.Combobox(frame, textvariable=self.yVarSelection, values=[], state="readonly")
@@ -76,3 +76,20 @@ class ScatterFrame:
 
     def raiseButton(self, event):
         self.graphButton.config(relief=tk.RAISED)
+
+    def setFrame(self, columnLabels: list):
+
+        self.xVar.config(values=columnLabels)
+        self.yVar.config(values=columnLabels)
+        self.cVar.config(values=["No Categories"]+columnLabels)
+
+        self.xVarSelection.set("Select a Column")
+        self.yVarSelection.set("Select a Column")
+        self.cVarSelection.set("No Categories")
+
+        self.xLabel.delete(0, tk.END)
+        self.yLabel.delete(0, tk.END)
+        self.title.delete(0, tk.END)
+
+        self.xGridCheckVal.set("")
+        self.yGridCheckVal.set("")

@@ -65,23 +65,10 @@ class RootWindow:
 
         self.data = rw.read(fileName)
 
-        self.columnLabels = calculation.shaveLabels(data=self.data)
+        self.columnLabels = calculation.popLabels(data=self.data)
 
-        self.scatterFrame.xVar.config(values=self.columnLabels)
-        self.scatterFrame.yVar.config(values=self.columnLabels)
-        self.scatterFrame.cVar.config(values=["No Categories"]+self.columnLabels)
-
-        self.scatterFrame.xVarSelection.set("Select a Column")
-        self.scatterFrame.yVarSelection.set("Select a Column")
-        self.scatterFrame.cVarSelection.set("No Categories")
-
-        self.scatterFrame.xLabel.delete(0, tk.END)
-        self.scatterFrame.yLabel.delete(0, tk.END)
-        self.scatterFrame.title.delete(0, tk.END)
-
-        self.scatterFrame.xGridCheckVal.set("")
-        self.scatterFrame.yGridCheckVal.set("")
-
+        self.scatterFrame.setFrame(self.columnLabels)
+        self.intervalFrame.setFrame(self.columnLabels)
 
 
 #function to show options for selected graph type
