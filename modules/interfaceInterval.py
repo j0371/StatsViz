@@ -45,9 +45,11 @@ class IntervalFrame:
 #====================================================================
 
         self.selectButton = tk.Button(frame, text="-->")
+        self.selectButton.bind("<Button-1>", self.addCategory)
         self.selectButton.grid(row=4, column=1)
 
         self.deselectButton = tk.Button(frame, text="<--")
+        self.deselectButton.bind("<Button-1>", self.removeCategory)
         self.deselectButton.grid(row=6, column=1)
 
 
@@ -96,8 +98,16 @@ class IntervalFrame:
 
 
     def setFrame(self, columnLabels: list):
+
+        self.columnLabels = columnLabels
+        
         self.yVar.config(values=columnLabels)
-        self.cVar.config(values=columnLabels)
+
+        self.cVar.delete(0, tk.END)
+        self.cVarSelected.delete(0, tk.END)
+
+        for label in columnLabels:
+                self.cVar.insert("end", label)
 
         self.yVarSelection.set("Select a Column")
 
@@ -107,3 +117,21 @@ class IntervalFrame:
 
         self.xGridCheckVal.set("")
         self.yGridCheckVal.set("")
+
+    def addCategory(self, event):
+
+        if self.cVar.curselection():
+            selectedIndex = self.cVar.curselection()[0]
+            selectedValue = self.cVar.get(selectedIndex)
+
+            self.cVarSelected.insert(tk.END, selectedValue)
+            self.cVar.delete(selectedIndex)
+
+    def removeCategory(self, event):
+
+        if self.cVarSelected.curselection():
+            selectedIndex = self.cVarSelected.curselection()[0]
+            selectedValue = self.cVarSelected.get(selectedIndex)
+
+            self.cVar.insert(self.columnLabels.index(selectedValue), selectedValue)
+            self.cVarSelected.delete(selectedIndex)

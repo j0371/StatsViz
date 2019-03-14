@@ -23,24 +23,24 @@ def getColumns(*, data: [], xCol: int = None, yCol: int, groups: list):
     else:
         return (xs, ys, None)
 
-def concatGroup(*, ys: list, groups: list):
+# def concatGroup(*, ys: list, groups: list):
 
-    strings = []
-    groupVal = {}
+#     strings = []
+#     groupVal = {}
 
-    for i in range(len(groups[0])):
-        string = []
-        for j in range(len(groups)):
-            if(j != len(groups)-1):
-                string.append(str(groups[j][i])+"\n")
-            else:
-                string.append(str(groups[j][i]))
+#     for i in range(len(groups[0])):
+#         string = []
+#         for j in range(len(groups)):
+#             if(j != len(groups)-1):
+#                 string.append(str(groups[j][i])+"\n")
+#             else:
+#                 string.append(str(groups[j][i]))
 
-        strings.append("".join(string))
-        groupVal["".join(string)] = ys[i]
+#         strings.append("".join(string))
+#         groupVal["".join(string)] = ys[i]
 
 
-    return groupVal
+#     return groupVal
 
 
 

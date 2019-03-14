@@ -79,6 +79,8 @@ class ScatterFrame:
 
     def setFrame(self, columnLabels: list):
 
+        self.columnLabels = columnLabels
+
         self.xVar.config(values=columnLabels)
         self.yVar.config(values=columnLabels)
         self.cVar.config(values=["No Categories"]+columnLabels)
