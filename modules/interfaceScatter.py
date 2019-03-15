@@ -120,7 +120,7 @@ class ScatterFrame:
             self.title.insert(0, self.columnLabels[self.xVar.current()] + " VS " + self.columnLabels[self.yVar.current()])
 
         groupColumn = [self.cVar.current()-1]
-        if groupColumn == -1: groupColumn = None
+        if groupColumn == [-1]: groupColumn = None
 
         graphData = calculation.getColumns(data=self.data, xCol=self.xVar.current(),
                                            yCol=self.yVar.current(), groups=groupColumn)

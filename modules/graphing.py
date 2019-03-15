@@ -38,6 +38,8 @@ def graphScatter(*, xs: list, ys: list, groups: list = None, title: str = None,
 def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
                   yLabel: str = None, gridLines: str = ""):
 
+    fig, ax = plt.subplots()
+
     xticks = []
 
     sortedData = sorted(data.items())
@@ -89,6 +91,10 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
             plt.scatter(key, None)
 
     plt.xticks(labels=labels, ticks=(range(tickRange)))
+
+    for i in range(len(xticks)-1):
+        for j in range(len(xticks[i])):
+            plt.text((j/len(xticks[i]))+(1/tickRange), -.1, xticks[i][j], transform=ax.transAxes)
 
     plt.title(title)
     plt.xlabel(xLabel)
