@@ -12,8 +12,11 @@ def read(fileName: str) -> []:
 
         for j in range(0,len(data[i])):
             try:
-                data[i][j] = float(data[i][j])
+                data[i][j] = int(data[i][j])
             except:
-                pass
+                try:
+                    data[i][j] = float(data[i][j])
+                except:
+                    pass
 
     return data

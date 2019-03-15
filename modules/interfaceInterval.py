@@ -154,9 +154,6 @@ class IntervalFrame:
         if(self.iType.current() == (-1)):
             messagebox.showinfo("Error", "Please select an interval type")
             return
-        elif(len(self.cVarSelected.get(0, tk.END)) == 0):
-            messagebox.showinfo("Error", "Please select at least one column for the X-Axis")
-            return
         elif(self.yVar.current() == (-1)):
             messagebox.showinfo("Error", "Please select a column for the Y-axis")
             return
@@ -181,8 +178,11 @@ class IntervalFrame:
         cVals = self.cVarSelected.get(0, tk.END)
         cIndices = []
 
-        for val in cVals:
-            cIndices.append(self.columnLabels.index(val))
+        if len(cVals) > 0:
+            for val in cVals:
+                cIndices.append(self.columnLabels.index(val))
+        else:
+            cIndices = None
 
         rawGraphData = calculation.getColumns(data=self.data,
                                            yCol=self.yVar.current(), groups=cIndices)

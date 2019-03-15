@@ -119,8 +119,11 @@ class ScatterFrame:
         if(self.title.get() == ""):
             self.title.insert(0, self.columnLabels[self.xVar.current()] + " VS " + self.columnLabels[self.yVar.current()])
 
+        groupColumn = [self.cVar.current()-1]
+        if groupColumn == -1: groupColumn = None
+
         graphData = calculation.getColumns(data=self.data, xCol=self.xVar.current(),
-                                           yCol=self.yVar.current(), groups =[self.cVar.current()-1])
+                                           yCol=self.yVar.current(), groups=groupColumn)
 
         graphing.graphScatter(xs=graphData[0], ys=graphData[1], groups=graphData[2], xLabel=self.xLabel.get(),
                               yLabel=self.yLabel.get(), title=self.title.get(), gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get())

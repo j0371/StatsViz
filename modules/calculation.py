@@ -2,13 +2,13 @@ from collections import defaultdict
 from scipy import stats
 import numpy as np
 
-def getColumns(*, data: [], xCol: int = None, yCol: int, groups: list):
+def getColumns(*, data: [], xCol: int = None, yCol: int, groups: list = None):
 
     xs = []
     ys = []
     groupData = []
 
-    if(groups != [-1]):
+    if(groups != None):
         for i in range(0,len(groups)):
             groupData.append([])
     
@@ -56,16 +56,17 @@ def getIntervals(*, type: str, ys: list, groups: list):
             if groupConcat[j] == groupSet[i]:
                 groupVals[groupSet[i]].append(ys[j])
 
-        if type == "se":
-            mean = np.mean(groupVals[groupSet[i]])
+        mean = np.mean(groupVals[groupSet[i]])
 
-            if len(groupVals[groupSet[i]]) > 1:
+        if len(groupVals[groupSet[i]]) > 1:
+            if type == "se":  
                 interval = stats.sem(groupVals[groupSet[i]])
-                calculatedData[groupSet[i]] = (mean+interval, mean, mean-interval)
-            else:
-                calculatedData[groupSet[i]] = (None, mean, None)
-
+            elif type == "sd":
+                interval = np.std(groupVals[groupSet[i]])
+            elif type == "ci":
+                interval = stats.sem(groupVals[groupSet[i]]) * stats.t.ppf((1.95) / 2, len(groupVals[groupSet[i]])-1)
+            calculatedData[groupSet[i]] = (mean+interval, mean, mean-interval)
         else:
-            return "interval type not implemented"
+            calculatedData[groupSet[i]] = (None, mean, None)
 
     return calculatedData
