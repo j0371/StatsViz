@@ -115,7 +115,7 @@ class ScatterFrame:
         self.graphButton.config(relief=tk.SUNKEN)
 
         if(self.xVar.current() == (-1) or self.yVar.current() == (-1)):
-            messagebox.showinfo("Error", "Please select an X and Y axis column")
+            messagebox.showinfo("Error", "Please select a column for the X-axis and Y-axis")
             self.graphButton.config(relief=tk.RAISED)
             return
 
@@ -131,3 +131,7 @@ class ScatterFrame:
 
         graphing.graphScatter(xs=graphData[0], ys=graphData[1], groups=graphData[2], xLabel=self.xLabel.get(),
                               yLabel=self.yLabel.get(), title=self.title.get(), gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get())
+
+        self.xLabel.delete(0, tk.END)
+        self.yLabel.delete(0, tk.END)
+        self.title.delete(0, tk.END)

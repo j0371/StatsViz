@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import messagebox
 from tkinter import ttk
 
 import calculation
@@ -11,7 +12,6 @@ class IntervalFrame:
         self.frame = frame
 
         self.iTypeSelection = tk.StringVar()
-        self.iTypeSelection.set("Select Type")
 
         self.yVarSelection = tk.StringVar()
         #self.cVarSelection = tk.StringVar()
@@ -122,6 +122,7 @@ class IntervalFrame:
                 self.cVar.insert("end", label)
 
         self.yVarSelection.set("Select a Column")
+        self.iTypeSelection.set("Select Type")
 
         self.xLabel.delete(0, tk.END)
         self.yLabel.delete(0, tk.END)
@@ -150,6 +151,33 @@ class IntervalFrame:
 
     def createInterval(self, event):
 
+        if(self.iType.current() == (-1)):
+            messagebox.showinfo("Error", "Please select an interval type")
+            return
+        elif(len(self.cVarSelected.get(0, tk.END)) == 0):
+            messagebox.showinfo("Error", "Please select at least one column for the X-Axis")
+            return
+        elif(self.yVar.current() == (-1)):
+            messagebox.showinfo("Error", "Please select a column for the Y-axis")
+            return
+
+        if(self.yLabel.get() == ""):
+            self.yLabel.insert(0, self.columnLabels[self.yVar.current()])
+        if(self.title.get() == ""):
+            self.title.insert(0, self.iTypeSelection.get() + " of " + self.columnLabels[self.yVar.current()])
+        if(self.xLabel.get() == "" and len(self.cVarSelected.get(0, tk.END)) == 1):
+            self.xLabel.insert(0, self.cVarSelected.get(0))
+
+        typeParam = ""
+
+        if(self.iType.current() == 0):
+            typeParam = "se"
+        elif(self.iType.current() == 1):
+            typeParam = "sd"
+        elif(self.iType.current() == 2):
+            typeParam = "ci"
+
+
         cVals = self.cVarSelected.get(0, tk.END)
         cIndices = []
 
@@ -159,6 +187,11 @@ class IntervalFrame:
         rawGraphData = calculation.getColumns(data=self.data,
                                            yCol=self.yVar.current(), groups=cIndices)
 
-        graphData = calculation.getIntervals(type="se", ys=rawGraphData[1], groups=rawGraphData[2])
+        graphData = calculation.getIntervals(type=typeParam, ys=rawGraphData[1], groups=rawGraphData[2])
 
-        graphing.graphInterval(data=graphData)
+        graphing.graphInterval(data=graphData, title=self.title.get(), xLabel=self.xLabel.get(),
+                                yLabel=self.yLabel.get(), gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get())
+
+        self.xLabel.delete(0, tk.END)
+        self.yLabel.delete(0, tk.END)
+        self.title.delete(0, tk.END)

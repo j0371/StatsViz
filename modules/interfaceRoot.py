@@ -52,8 +52,8 @@ class RootWindow:
         self.commonFrame.fileButton.config(relief=tk.SUNKEN)
 
         try:
-            #fileName = "..\sampleData\weight-height(edited).csv"
-            fileName = filedialog.askopenfilename(initialdir = "./",title = "Select a file", filetypes = (("CSV files","*.csv"),))
+            fileName = "..\sampleData\weight-height(edited).csv"
+            #fileName = filedialog.askopenfilename(initialdir = "./",title = "Select a file", filetypes = (("CSV files","*.csv"),))
         except:
             pass
 

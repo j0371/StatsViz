@@ -31,6 +31,8 @@ def graphScatter(*, xs: list, ys: list, groups: list = None, title: str = None,
     elif gridLines == "xy":
         plt.grid(which="major", axis="both")
 
+    plt.tight_layout()
+
     plt.show()
 
 def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
@@ -40,13 +42,22 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
 
         if value[0] != None:
             plt.scatter(key, value[0], color="blue", marker="_")
-        plt.scatter(key, value[1], color="blue", marker="o")
+        plt.scatter(key, value[1], color="blue", marker=".")
         if value[2] != None:
             plt.scatter(key, value[2], color="blue", marker="_")
         if value[0] != None and value[2] != None:
-            plt.plot([key]*3, [value[0], value[1], value[2]], color="blue")
-        else:
-            plt.plot(key, value[1])
+            plt.plot([key]*3, [value[0], value[1], value[2]], color="blue", linewidth=.85)
+
+    plt.title(title)
+    plt.xlabel(xLabel)
+    plt.ylabel(yLabel) 
+
+    if len(gridLines)==1:
+        plt.grid(which="major", axis=gridLines)
+    elif gridLines == "xy":
+        plt.grid(which="major", axis="both")
+
+    plt.tight_layout()
 
     plt.show()
 
