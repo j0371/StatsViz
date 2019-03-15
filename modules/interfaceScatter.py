@@ -74,9 +74,7 @@ class ScatterFrame:
         self.yLabel = tk.Entry(frame, width=23)
         self.yLabel.grid(row=5, column=1)
 
-        self.graphButton = tk.Button(frame, text="Create Scatterplot")
-        self.graphButton.bind("<Button-1>", self.createScatter)
-        self.graphButton.bind("<ButtonRelease-1>", self.raiseButton)
+        self.graphButton = tk.Button(frame, text="Create Scatterplot", command=self.createScatter)
         self.graphButton.grid(row=6, column=1, rowspan=2, pady=10)
 
         
@@ -84,11 +82,6 @@ class ScatterFrame:
 #====================================================================
 #============================Functions===============================
 #====================================================================
-
-
-
-    def raiseButton(self, event):
-        self.graphButton.config(relief=tk.RAISED)
 
     def setFrame(self, columnLabels: list, data: list):
 
@@ -110,7 +103,7 @@ class ScatterFrame:
         self.xGridCheckVal.set("")
         self.yGridCheckVal.set("")
 
-    def createScatter(self, event):
+    def createScatter(self):
 
         self.graphButton.config(relief=tk.SUNKEN)
 
@@ -131,7 +124,3 @@ class ScatterFrame:
 
         graphing.graphScatter(xs=graphData[0], ys=graphData[1], groups=graphData[2], xLabel=self.xLabel.get(),
                               yLabel=self.yLabel.get(), title=self.title.get(), gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get())
-
-        self.xLabel.delete(0, tk.END)
-        self.yLabel.delete(0, tk.END)
-        self.title.delete(0, tk.END)

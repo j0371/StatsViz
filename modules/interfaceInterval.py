@@ -96,8 +96,8 @@ class IntervalFrame:
         self.yLabel = tk.Entry(frame, width=23)
         self.yLabel.grid(row=8, column=3)
 
-        self.graphButton = tk.Button(frame, text="Create Interval Plot")
-        self.graphButton.bind("<Button-1>", self.createInterval)
+        self.graphButton = tk.Button(frame, text="Create Interval Plot", command=self.createInterval)
+        #self.graphButton.bind("<Button-1>", self.createInterval)
         self.graphButton.grid(row=9, column=3, rowspan=2, pady=10)
 
 
@@ -149,7 +149,7 @@ class IntervalFrame:
             self.cVar.insert(self.columnLabels.index(selectedValue), selectedValue)
             self.cVarSelected.delete(selectedIndex)
 
-    def createInterval(self, event):
+    def createInterval(self):
 
         if(self.iType.current() == (-1)):
             messagebox.showinfo("Error", "Please select an interval type")
@@ -191,7 +191,3 @@ class IntervalFrame:
 
         graphing.graphInterval(data=graphData, title=self.title.get(), xLabel=self.xLabel.get(),
                                 yLabel=self.yLabel.get(), gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get())
-
-        self.xLabel.delete(0, tk.END)
-        self.yLabel.delete(0, tk.END)
-        self.title.delete(0, tk.END)
