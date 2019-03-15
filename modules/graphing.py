@@ -2,7 +2,7 @@
 import matplotlib.pyplot as plt
 from collections import defaultdict
 
-def graphScatter( *, xs: list, ys: list, groups: list = None, title: str = None,
+def graphScatter(*, xs: list, ys: list, groups: list = None, title: str = None,
                   xLabel: str = None, yLabel: str = None, gridLines: str = ""):
     
     if(groups != None):
@@ -32,3 +32,22 @@ def graphScatter( *, xs: list, ys: list, groups: list = None, title: str = None,
         plt.grid(which="major", axis="both")
 
     plt.show()
+
+def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
+                  yLabel: str = None, gridLines: str = ""):
+    
+    for key, value in sorted(data.items()):
+
+        if value[0] != None:
+            plt.scatter(key, value[0], color="blue", marker="_")
+        plt.scatter(key, value[1], color="blue", marker="o")
+        if value[2] != None:
+            plt.scatter(key, value[2], color="blue", marker="_")
+        if value[0] != None and value[2] != None:
+            plt.plot([key]*3, [value[0], value[1], value[2]], color="blue")
+        else:
+            plt.plot(key, value[1])
+
+    plt.show()
+
+    

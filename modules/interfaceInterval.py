@@ -1,6 +1,9 @@
 import tkinter as tk
 from tkinter import ttk
 
+import calculation
+import graphing
+
 class IntervalFrame:
 
     def __init__(self, frame):
@@ -94,12 +97,21 @@ class IntervalFrame:
         self.yLabel.grid(row=8, column=3)
 
         self.graphButton = tk.Button(frame, text="Create Interval Plot")
+        self.graphButton.bind("<Button-1>", self.createInterval)
         self.graphButton.grid(row=9, column=3, rowspan=2, pady=10)
 
 
-    def setFrame(self, columnLabels: list):
+
+#====================================================================
+#============================Functions===============================
+#====================================================================
+
+
+
+    def setFrame(self, columnLabels: list, data: list):
 
         self.columnLabels = columnLabels
+        self.data = data
         
         self.yVar.config(values=columnLabels)
 
@@ -135,3 +147,18 @@ class IntervalFrame:
 
             self.cVar.insert(self.columnLabels.index(selectedValue), selectedValue)
             self.cVarSelected.delete(selectedIndex)
+
+    def createInterval(self, event):
+
+        cVals = self.cVarSelected.get(0, tk.END)
+        cIndices = []
+
+        for val in cVals:
+            cIndices.append(self.columnLabels.index(val))
+
+        rawGraphData = calculation.getColumns(data=self.data,
+                                           yCol=self.yVar.current(), groups=cIndices)
+
+        graphData = calculation.getIntervals(type="se", ys=rawGraphData[1], groups=rawGraphData[2])
+
+        graphing.graphInterval(data=graphData)

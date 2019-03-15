@@ -1,5 +1,9 @@
 import tkinter as tk
+from tkinter import messagebox
 from tkinter import ttk
+
+import calculation
+import graphing
 
 class ScatterFrame:
 
@@ -71,15 +75,25 @@ class ScatterFrame:
         self.yLabel.grid(row=5, column=1)
 
         self.graphButton = tk.Button(frame, text="Create Scatterplot")
+        self.graphButton.bind("<Button-1>", self.createScatter)
         self.graphButton.bind("<ButtonRelease-1>", self.raiseButton)
         self.graphButton.grid(row=6, column=1, rowspan=2, pady=10)
+
+        
+
+#====================================================================
+#============================Functions===============================
+#====================================================================
+
+
 
     def raiseButton(self, event):
         self.graphButton.config(relief=tk.RAISED)
 
-    def setFrame(self, columnLabels: list):
+    def setFrame(self, columnLabels: list, data: list):
 
         self.columnLabels = columnLabels
+        self.data = data
 
         self.xVar.config(values=columnLabels)
         self.yVar.config(values=columnLabels)
@@ -95,3 +109,25 @@ class ScatterFrame:
 
         self.xGridCheckVal.set("")
         self.yGridCheckVal.set("")
+
+    def createScatter(self, event):
+
+        self.graphButton.config(relief=tk.SUNKEN)
+
+        if(self.xVar.current() == (-1) or self.yVar.current() == (-1)):
+            messagebox.showinfo("Error", "Please select an X and Y axis column")
+            self.graphButton.config(relief=tk.RAISED)
+            return
+
+        if(self.xLabel.get() == ""):
+            self.xLabel.insert(0, self.columnLabels[self.xVar.current()])
+        if(self.yLabel.get() == ""):
+            self.yLabel.insert(0, self.columnLabels[self.yVar.current()])
+        if(self.title.get() == ""):
+            self.title.insert(0, self.columnLabels[self.xVar.current()] + " VS " + self.columnLabels[self.yVar.current()])
+
+        graphData = calculation.getColumns(data=self.data, xCol=self.xVar.current(),
+                                           yCol=self.yVar.current(), groups =[self.cVar.current()-1])
+
+        graphing.graphScatter(xs=graphData[0], ys=graphData[1], groups=graphData[2], xLabel=self.xLabel.get(),
+                              yLabel=self.yLabel.get(), title=self.title.get(), gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get())
