@@ -51,11 +51,8 @@ class RootWindow:
 
         self.commonFrame.fileButton.config(relief=tk.SUNKEN)
 
-        try:
-            #fileName = "..\sampleData\weight-height(edited).csv"
-            fileName = filedialog.askopenfilename(initialdir = "./",title = "Select a file", filetypes = (("CSV files","*.csv"),))
-        except:
-            pass
+        #fileName = "C:/Users/halo2_000/Desktop/StatsViz/sampleData/PaintHardness.csv"
+        fileName = filedialog.askopenfilename(initialdir = "./",title = "Select a file", filetypes = (("CSV files","*.csv"),))
 
         self.commonFrame.selectedFileVar.set(fileName)
         self.commonFrame.selectedFile.xview_moveto(1)

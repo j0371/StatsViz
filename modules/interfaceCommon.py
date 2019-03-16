@@ -12,7 +12,6 @@ class CommonFrame:
         self.graphType.set("Select Graph Type")
 
         self.selectedFileVar = tk.StringVar()
-        self.selectedFileVar.set("Selected CSV File")
 
 
 #column 0

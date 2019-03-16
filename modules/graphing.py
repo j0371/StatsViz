@@ -4,6 +4,8 @@ from collections import defaultdict
 
 def graphScatter(*, xs: list, ys: list, groups: list = None, title: str = None,
                   xLabel: str = None, yLabel: str = None, gridLines: str = ""):
+
+    fig, ax = plt.subplots()
     
     if(groups != None):
         xPoints = defaultdict(list)
@@ -92,9 +94,15 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
 
     plt.xticks(labels=labels, ticks=(range(tickRange)))
 
-    for i in range(len(xticks)-1):
-        for j in range(len(xticks[i])):
-            plt.text((j/len(xticks[i]))+(1/tickRange), -.1, xticks[i][j], transform=ax.transAxes)
+    # for i in range(len(xticks)-1):
+    #     for j in range(len(xticks[i])):
+    #         plt.text((j/len(xticks[i]))+(1/tickRange)+(25/540), -.1, xticks[i][j], horizontalalignment='center', transform=ax.transAxes)
+
+    if len(xticks) == 2:
+        for i in range(len(xticks[0])):
+            xPlacement = (i/len(xticks[0]))+(1/tickRange)+(25/540)
+            plt.text(xPlacement, -.1, xticks[0][i], horizontalalignment="center", transform=ax.transAxes) #-(.1+len(xticks)/100)
+            #categoryPlacement(xticks, xPlacement, 1, ax)
 
     plt.title(title)
     plt.xlabel(xLabel)
@@ -109,4 +117,25 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
 
     plt.show()
 
-    
+# def categoryPlacement(categories, higherCatPlace, index, ax):
+
+#     if index != len(categories)-1:
+
+#         print("yes")
+
+#         i = 0
+#         for j in range(-(int(len(categories[index])/2)), int(len(categories[index])/2)+1):
+
+#             if j != 0:
+#                 xPlacement = higherCatPlace/(j/len(categories[index][i]))
+#             else:
+#                 xPlacement = higherCatPlace
+
+#             plt.text(xPlacement, -.11, categories[index][i], horizontalalignment="center", transform=ax.transAxes) #-(.1+len(categories)-index)/100
+
+#             categoryPlacement(categories, xPlacement, index+1, ax)
+
+#             i += 1
+
+#     else:
+#         pass
