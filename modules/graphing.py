@@ -56,12 +56,12 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
         for i in range(len(keyList)):
             xticks[i].append(keyList[i])
 
-    tickRange = 1
+    maxTick = 1
 
     for i in range(len(xticks)):
         xticks[i] = sorted(list(set(xticks[i])))
 
-        tickRange *= len(xticks[i])
+        maxTick *= len(xticks[i])
 
     allKeys = []
 
@@ -92,17 +92,39 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
         else:
             plt.scatter(key, None)
 
-    plt.xticks(labels=labels, ticks=(range(tickRange)))
+    # tickRange = []
 
-    # for i in range(len(xticks)-1):
-    #     for j in range(len(xticks[i])):
-    #         plt.text((j/len(xticks[i]))+(1/tickRange)+(25/540), -.1, xticks[i][j], horizontalalignment='center', transform=ax.transAxes)
+    # for i in range(maxTick):
+    #     if i == 0:
+    #         tickRange.append(0)
+    #     else:
+    #         tickRange.append(1/i)
 
-    if len(xticks) == 2:
-        for i in range(len(xticks[0])):
-            xPlacement = (i/len(xticks[0]))+(1/tickRange)+(25/540)
-            plt.text(xPlacement, -.1, xticks[0][i], horizontalalignment="center", transform=ax.transAxes) #-(.1+len(xticks)/100)
-            #categoryPlacement(xticks, xPlacement, 1, ax)
+    plt.xticks(labels=labels, ticks=(range(maxTick)))
+
+    tickPositions, _ = plt.xticks()
+
+    scale = 25/540
+
+    # for i in range(0,len(tickPositions)):
+    #     plt.text((((tickPositions[i])/(maxTick-1)))*(1-2*scale)+scale, -.1, s=tickPositions[i], transform=ax.transAxes, horizontalalignment="center")
+
+    posMidPoints = []
+
+    if len(xticks) > 1:
+        for i in range(0,len(xticks[-2])):
+
+            posMidPoint = 0
+            for j in range(0, len(xticks[-1])):
+                posMidPoint += tickPositions[j+i*len(xticks[-1])]
+            posMidPoint /= len(xticks[-1])
+            posMidPoints.append(posMidPoint)
+
+            plt.text((((posMidPoint)/(maxTick-1)))*(1-2*scale)+scale, -.1, s=xticks[-2][i], transform=ax.transAxes, horizontalalignment="center")
+
+    if len xticks > 2:
+        
+
 
     plt.title(title)
     plt.xlabel(xLabel)
@@ -113,29 +135,6 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
     elif gridLines == "xy":
         plt.grid(which="major", axis="both")
 
-    #plt.tight_layout()
+    plt.tight_layout()
 
     plt.show()
-
-# def categoryPlacement(categories, higherCatPlace, index, ax):
-
-#     if index != len(categories)-1:
-
-#         print("yes")
-
-#         i = 0
-#         for j in range(-(int(len(categories[index])/2)), int(len(categories[index])/2)+1):
-
-#             if j != 0:
-#                 xPlacement = higherCatPlace/(j/len(categories[index][i]))
-#             else:
-#                 xPlacement = higherCatPlace
-
-#             plt.text(xPlacement, -.11, categories[index][i], horizontalalignment="center", transform=ax.transAxes) #-(.1+len(categories)-index)/100
-
-#             categoryPlacement(categories, xPlacement, index+1, ax)
-
-#             i += 1
-
-#     else:
-#         pass
