@@ -14,7 +14,6 @@ class IntervalFrame:
         self.iTypeSelection = tk.StringVar()
 
         self.yVarSelection = tk.StringVar()
-        #self.cVarSelection = tk.StringVar()
 
         self.xGridCheckVal = tk.StringVar()
         self.yGridCheckVal = tk.StringVar()

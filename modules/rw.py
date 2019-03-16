@@ -2,9 +2,8 @@ def read(fileName: str) -> []:
     
     try:
         data = open(fileName, "r")
-    except OSError as e:
-        print(e)
-        return
+    except OSError:
+        raise
 
 
 
