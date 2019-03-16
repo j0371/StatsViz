@@ -1,13 +1,12 @@
 import calculation
 import rw
+import numpy as np
 
-data = rw.read("..\sampleData\PaintHardness.csv")
 
-labels = calculation.popLabels(data=data)
+data = rw.read("../sampleData/sample.csv")
 
-data = calculation.getColumns(data=data, yCol=2, groups=[0,3,1])
+calculation.popLabels(data=data)
 
-concat = calculation.concatGroup(ys=data[1], groups=data[2])
+_,ys,_ = calculation.getColumns(data=data, yCol=1)
 
-print(concat)
-
+print(np.std(ys))

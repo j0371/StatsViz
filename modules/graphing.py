@@ -5,7 +5,7 @@ from collections import defaultdict
 def graphScatter(*, xs: list, ys: list, groups: list = None, title: str = None,
                   xLabel: str = None, yLabel: str = None, gridLines: str = ""):
 
-    fig, ax = plt.subplots()
+    _, _ = plt.subplots()
     
     if(groups != None):
         xPoints = defaultdict(list)
@@ -40,7 +40,7 @@ def graphScatter(*, xs: list, ys: list, groups: list = None, title: str = None,
 def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
                   yLabel: str = None, gridLines: str = ""):
 
-    fig, ax = plt.subplots()
+    _, ax = plt.subplots()
 
     xticks = []
 
@@ -113,7 +113,7 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
     elif gridLines == "xy":
         plt.grid(which="major", axis="both")
 
-    plt.tight_layout()
+    #plt.tight_layout()
 
     plt.show()
 

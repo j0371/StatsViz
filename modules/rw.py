@@ -1,11 +1,6 @@
 def read(fileName: str) -> []:
-    
-    try:
-        data = open(fileName, "r")
-    except OSError:
-        raise
 
-
+    data = open(fileName, "r")
 
     data = data.read()
     data = data.split("\n")
