@@ -38,103 +38,56 @@ def graphScatter(*, xs: list, ys: list, groups: list = None, title: str = None,
     plt.show()
 
 def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
-                  yLabel: str = None, gridLines: str = ""):
+                  yLabel: str = None, gridLines: str = "", groupNames: list=[]):
 
     _, ax = plt.subplots()
+
+    for i,name in enumerate(list(reversed(groupNames))):
+        plt.text(-.2,-.05*(i+1),s=name, horizontalalignment="center", transform=ax.transAxes)
 
     xticks = []
 
     sortedData = sorted(data.items())
  
-    for i in range(len(sortedData[0][0].split(","))):
+    for i in range(len(sortedData[0][0].split("\n"))):
         xticks.append([])
     
     for key, _ in sortedData:
 
-        keyList = key.split(",")
+        keyList = key.split("\n")
 
         for i in range(len(keyList)):
             xticks[i].append(keyList[i])
 
-    maxTick = 1
-
     for i in range(len(xticks)):
         xticks[i] = sorted(list(set(xticks[i])))
-
-        maxTick *= len(xticks[i])
 
     allKeys = []
 
     for crossProduct in itertools.product(*xticks):
 
         key = ""
+        inverseKey = ""
         for i in range(len(crossProduct)-1):
-            key += crossProduct[i]+","
+            key += crossProduct[i]+"\n"
+            inverseKey += crossProduct[-i-1]+"\n"
         key += crossProduct[-1]
+        inverseKey += crossProduct[0]
 
         allKeys.append(key)
-
-        labels = []
-
-        for key in allKeys:
-            labels.append(key.split(",")[-1])
 
         if key in data:
 
             if data[key][0] != None:
-                plt.scatter(key, data[key][0], color="blue", marker="_")
-            plt.scatter(key, data[key][1], color="blue", marker=".")
+                plt.scatter(inverseKey, data[key][0], color="blue", marker="_")
+            plt.scatter(inverseKey, data[key][1], color="blue", marker=".")
             if data[key][2] != None:
-                plt.scatter(key, data[key][2], color="blue", marker="_")
+                plt.scatter(inverseKey, data[key][2], color="blue", marker="_")
             if data[key][0] != None and data[key][2] != None:
-                plt.plot([key]*3, [data[key][0], data[key][1], data[key][2]], color="blue", linewidth=.85)
+                plt.plot([inverseKey]*3, [data[key][0], data[key][1], data[key][2]], color="blue", linewidth=.85)
 
-        else:
-            plt.scatter(key, None)
-
-    # tickRange = []
-
-    # for i in range(maxTick):
-    #     if i == 0:
-    #         tickRange.append(0)
-    #     else:
-    #         tickRange.append(1/i)
-
-    plt.xticks(labels=labels, ticks=(range(maxTick)))
-
-    tickPositions, _ = plt.xticks()
-
-    scale = 76/1641
-
-    # for i in range(0,len(tickPositions)):
-    #     plt.text((((tickPositions[i])/(maxTick-1)))*(1-2*scale)+scale, -.1, s=tickPositions[i], transform=ax.transAxes, horizontalalignment="center")
-
-    
-
-    if len(xticks) == 2:
-        for i in range(0,len(xticks[-2])):
-
-            posMidPoint = 0
-            for j in range(0, len(xticks[-1])):
-                posMidPoint += tickPositions[j+i*len(xticks[-1])]
-            posMidPoint /= len(xticks[-1])
-
-            plt.text((((posMidPoint)/(maxTick-1)))*(1-2*scale)+scale, -.1, s=xticks[-2][i], transform=ax.transAxes, horizontalalignment="center")
-            #plt.text(((posMidPoint)/(maxTick-1)), -.1, s=xticks[-2][i], transform=ax.transAxes, horizontalalignment="center")
-
-    elif len(xticks) == 3:
-
-        posMidPoints = []
-
-        for i in range(0, len(xticks[-3])):
-            for j in range(0, len(xticks[-2])):
-
-                posMidPoint = 0
-                for k in range(0, len(xticks[-1])):
-                    posMidPoint += tickPositions[k+j*len(xticks[-1])+i*len(xticks[-1])*len(xticks[-2])]
-                posMidPoint /= len(xticks[-1])
-
-                plt.text((((posMidPoint)/(maxTick-1)))*(1-2*scale)+scale, -.1, s=xticks[-2][j], transform=ax.transAxes, horizontalalignment="center")
+        #else:
+            #plt.scatter(inverseKey, None)
 
     plt.title(title)
     plt.xlabel(xLabel)

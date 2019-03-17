@@ -189,4 +189,4 @@ class IntervalFrame:
         graphData = calculation.getIntervals(type=typeParam, ys=rawGraphData[1], groups=rawGraphData[2])
 
         graphing.graphInterval(data=graphData, title=self.title.get(), xLabel=self.xLabel.get(),
-                                yLabel=self.yLabel.get(), gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get())
+                                yLabel=self.yLabel.get(), gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get(), groupNames=cVals)

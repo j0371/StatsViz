@@ -45,7 +45,7 @@ def getIntervals(*, type: str, ys: list, groups: list = None):
             string = []
             for j in range(len(groups)):
                 if(j != len(groups)-1):
-                    string.append(str(groups[j][i])+",")
+                    string.append(str(groups[j][i])+"\n")
                 else:
                     string.append(str(groups[j][i]))
 
