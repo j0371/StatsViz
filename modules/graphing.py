@@ -104,27 +104,37 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
 
     tickPositions, _ = plt.xticks()
 
-    scale = 25/540
+    scale = 76/1641
 
     # for i in range(0,len(tickPositions)):
     #     plt.text((((tickPositions[i])/(maxTick-1)))*(1-2*scale)+scale, -.1, s=tickPositions[i], transform=ax.transAxes, horizontalalignment="center")
 
-    posMidPoints = []
+    
 
-    if len(xticks) > 1:
+    if len(xticks) == 2:
         for i in range(0,len(xticks[-2])):
 
             posMidPoint = 0
             for j in range(0, len(xticks[-1])):
                 posMidPoint += tickPositions[j+i*len(xticks[-1])]
             posMidPoint /= len(xticks[-1])
-            posMidPoints.append(posMidPoint)
 
             plt.text((((posMidPoint)/(maxTick-1)))*(1-2*scale)+scale, -.1, s=xticks[-2][i], transform=ax.transAxes, horizontalalignment="center")
+            #plt.text(((posMidPoint)/(maxTick-1)), -.1, s=xticks[-2][i], transform=ax.transAxes, horizontalalignment="center")
 
-    if len xticks > 2:
-        
+    elif len(xticks) == 3:
 
+        posMidPoints = []
+
+        for i in range(0, len(xticks[-3])):
+            for j in range(0, len(xticks[-2])):
+
+                posMidPoint = 0
+                for k in range(0, len(xticks[-1])):
+                    posMidPoint += tickPositions[k+j*len(xticks[-1])+i*len(xticks[-1])*len(xticks[-2])]
+                posMidPoint /= len(xticks[-1])
+
+                plt.text((((posMidPoint)/(maxTick-1)))*(1-2*scale)+scale, -.1, s=xticks[-2][j], transform=ax.transAxes, horizontalalignment="center")
 
     plt.title(title)
     plt.xlabel(xLabel)
