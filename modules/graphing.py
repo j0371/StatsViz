@@ -147,4 +147,4 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
 
     plt.tight_layout()
 
-    plt.show()
+    plt.show() 
