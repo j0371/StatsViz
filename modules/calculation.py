@@ -28,8 +28,6 @@ def getColumns(*, data: [], xCol: int = None, yCol: int, groups: list = None):
 
     return (xs, ys, groupData)
 
-
-
 def popLabels(*, data: []):
     return data.pop(0)
 

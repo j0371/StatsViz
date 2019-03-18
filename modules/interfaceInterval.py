@@ -111,14 +111,24 @@ class IntervalFrame:
 
         self.columnLabels = columnLabels
         self.data = data
+
+        yLabels = []
+
+        for i in range(len(columnLabels)):
+            try:
+                float(data[0][i])
+                yLabels.append(columnLabels[i])
+            except:
+                pass
+
         
-        self.yVar.config(values=columnLabels)
+        self.yVar.config(values=yLabels)
 
         self.cVar.delete(0, tk.END)
         self.cVarSelected.delete(0, tk.END)
 
         for label in columnLabels:
-                self.cVar.insert("end", label)
+            self.cVar.insert("end", label)
 
         self.yVarSelection.set("Select a Column")
         self.iTypeSelection.set("Select Type")
@@ -156,6 +166,10 @@ class IntervalFrame:
         elif(self.yVar.current() == (-1)):
             messagebox.showinfo("Error", "Please select a column for the Y-axis")
             return
+        # try:
+        #     float(self.data[0][self.yVar.current()])
+        # else:
+        #     messagebox.showinfo("Error", "")
 
         if(self.yLabel.get() == ""):
             self.yLabel.insert(0, self.columnLabels[self.yVar.current()])
@@ -184,7 +198,7 @@ class IntervalFrame:
             cIndices = None
 
         rawGraphData = calculation.getColumns(data=self.data,
-                                           yCol=self.yVar.current(), groups=cIndices)
+                                           yCol=self.columnLabels.index(self.yVarSelection.get()), groups=cIndices)
 
         graphData = calculation.getIntervals(type=typeParam, ys=rawGraphData[1], groups=rawGraphData[2])
 
