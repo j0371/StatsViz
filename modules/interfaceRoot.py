@@ -51,18 +51,21 @@ class RootWindow:
 
         self.commonFrame.fileButton.config(relief=tk.SUNKEN)
 
-        #fileName = "C:/Users/halo2_000/Desktop/StatsViz/sampleData/PaintHardness2.csv"
+
+        #fileName = "C:/Users/halo2_000/Desktop/StatsViz/sampleData/created.csv"
         fileName = filedialog.askopenfilename(initialdir = "./",title = "Select a file", filetypes = (("CSV files","*.csv"),))
 
-        self.commonFrame.selectedFileVar.set(fileName)
-        self.commonFrame.selectedFile.xview_moveto(1)
+        if Path(fileName).is_file():
 
-        self.data = rw.read(fileName)
+            self.commonFrame.selectedFileVar.set(fileName)
+            self.commonFrame.selectedFile.xview_moveto(1)
 
-        self.columnLabels = calculation.popLabels(data=self.data)
+            self.data = rw.read(fileName)
 
-        self.scatterFrame.setFrame(self.columnLabels, self.data)
-        self.intervalFrame.setFrame(self.columnLabels, self.data)
+            self.columnLabels = calculation.popLabels(data=self.data)
+
+            self.scatterFrame.setFrame(self.columnLabels, self.data)
+            self.intervalFrame.setFrame(self.columnLabels, self.data)
 
 
 #function to show options for selected graph type
@@ -80,6 +83,3 @@ class RootWindow:
         elif self.commonFrame.graphType.get() == "Interval Plot":
             self.scatterFrame.frame.grid_remove()
             self.intervalFrame.frame.grid(row=2, column=0, padx=3, pady=3, sticky="EW")
-        else:
-            self.intervalFrame.frame.grid_remove()
-            self.scatterFrame.frame.grid_remove()

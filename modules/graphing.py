@@ -38,60 +38,36 @@ def graphScatter(*, xs: list, ys: list, groups: list = None, title: str = None,
     plt.show()
 
 def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
-                  yLabel: str = None, gridLines: str = "", groupNames: list=[]):
+                  yLabel: str = None, gridLines: str = "", groupNames: tuple=()):
 
     _, ax = plt.subplots()
 
-    for i,name in enumerate(list(reversed(groupNames))):
-        plt.text(-.2,-.05*(i+1),s=name, horizontalalignment="center", transform=ax.transAxes)
-
-    xticks = []
+    if len(groupNames) > 1:
+        groupNames = (":\n".join(reversed(groupNames)))+":"
+        plt.text(-.015,-.02, s=groupNames, horizontalalignment="right", verticalalignment="top", transform=ax.transAxes)
 
     sortedData = sorted(data.items())
- 
-    for i in range(len(sortedData[0][0].split("\n"))):
-        xticks.append([])
-    
-    for key, _ in sortedData:
 
-        keyList = key.split("\n")
+    for key, value in sortedData:
 
-        for i in range(len(keyList)):
-            xticks[i].append(keyList[i])
-
-    for i in range(len(xticks)):
-        xticks[i] = sorted(list(set(xticks[i])))
-
-    allKeys = []
-
-    for crossProduct in itertools.product(*xticks):
-
-        key = ""
-        inverseKey = ""
-        for i in range(len(crossProduct)-1):
-            key += crossProduct[i]+"\n"
-            inverseKey += crossProduct[-i-1]+"\n"
-        key += crossProduct[-1]
-        inverseKey += crossProduct[0]
-
-        allKeys.append(key)
+        inverseKey = "\n".join(reversed(key.split("\n")))
 
         if key in data:
 
-            if data[key][0] != None:
-                plt.scatter(inverseKey, data[key][0], color="blue", marker="_")
-            plt.scatter(inverseKey, data[key][1], color="blue", marker=".")
-            if data[key][2] != None:
-                plt.scatter(inverseKey, data[key][2], color="blue", marker="_")
-            if data[key][0] != None and data[key][2] != None:
-                plt.plot([inverseKey]*3, [data[key][0], data[key][1], data[key][2]], color="blue", linewidth=.85)
+            if value[0] != None:
+                plt.scatter(inverseKey, value[0], color="blue", marker="_")
+            plt.scatter(inverseKey, value[1], color="blue", marker=".")
+            if value[2] != None:
+                plt.scatter(inverseKey, value[2], color="blue", marker="_")
+            if value[0] != None and value[2] != None:
+                plt.plot([inverseKey]*3, [value[0], value[1], value[2]], color="blue", linewidth=.85)
 
         #else:
             #plt.scatter(inverseKey, None)
 
     plt.title(title)
     plt.xlabel(xLabel)
-    plt.ylabel(yLabel) 
+    plt.ylabel(yLabel)
 
     if len(gridLines)==1:
         plt.grid(which="major", axis=gridLines)

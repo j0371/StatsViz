@@ -12,6 +12,9 @@ def read(fileName: str) -> []:
         data[i] = data[i].split(",")
 
         for j in range(0,len(data[i])):
+
+            data[i][j] = data[i][j].strip("\"")
+
             try:
                 data[i][j] = int(data[i][j])
             except:
