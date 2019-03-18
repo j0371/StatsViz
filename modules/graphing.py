@@ -48,22 +48,44 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
 
     sortedData = sorted(data.items())
 
+    labels = []
+
+    l2Seen = []
+    l1Seen = []
+
     for key, value in sortedData:
 
-        inverseKey = "\n".join(reversed(key.split("\n")))
+        keySplit = key.split("\n")
+        label = ""
 
-        if key in data:
+        if keySplit[1] in l2Seen:
+            label += keySplit[0]+"\n"
 
-            if value[0] != None:
-                plt.scatter(inverseKey, value[0], color="blue", marker="_")
-            plt.scatter(inverseKey, value[1], color="blue", marker=".")
-            if value[2] != None:
-                plt.scatter(inverseKey, value[2], color="blue", marker="_")
-            if value[0] != None and value[2] != None:
-                plt.plot([inverseKey]*3, [value[0], value[1], value[2]], color="blue", linewidth=.85)
+        l2Seen.append(keySplit[1])
+        l1Seen.append(keySplit[2])
 
-        #else:
-            #plt.scatter(inverseKey, None)
+        if value[0] != None:
+            plt.scatter(key, value[0], color="blue", marker="_")
+        plt.scatter(key, value[1], color="blue", marker=".")
+        if value[2] != None:
+            plt.scatter(key, value[2], color="blue", marker="_")
+        if value[0] != None and value[2] != None:
+            plt.plot([key]*3, [value[0], value[1], value[2]], color="blue", linewidth=.85)
+
+
+    # index = 0
+    # for i in range(len(xticks[0])):
+    #     for j in range(len(xticks[1])):
+    #         for k in range(len(xticks[2])):
+    #             if key in data:
+    #                 if k == 0:
+    #                     labels[index] += "\n"+xticks[1].pop(0)
+    #                 if j == 0:
+    #                     labels[index] += "\n"+xticks[0].pop(0)
+    #                 index += 1
+
+
+    plt.xticks(labels=labels, ticks=range(len(sortedData)))
 
     plt.title(title)
     plt.xlabel(xLabel)
