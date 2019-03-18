@@ -1,0 +1,17 @@
+room,off,bagel,value
+room1,original,no,131
+room1,original,yes,653
+room1,offset,no,123
+room1,offset,yes,522
+room2,original,no,517
+room2,original,yes,136
+room2,offset,no,179
+room2,offset,yes,658
+room3,original,no,131
+room3,original,yes,653
+room3,offset,no,123
+room3,offset,yes,522
+room4,original,no,517
+room4,original,yes,136
+room4,offset,no,179
+room4,offset,yes,658
