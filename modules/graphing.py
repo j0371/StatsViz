@@ -50,19 +50,24 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
 
     labels = []
 
-    l2Seen = []
-    l1Seen = []
+    l3Last = ""
+    l2Last = ""
 
     for key, value in sortedData:
 
         keySplit = key.split("\n")
-        label = ""
 
-        if keySplit[1] in l2Seen:
-            label += keySplit[0]+"\n"
+        label = keySplit[2]+"\n"
 
-        l2Seen.append(keySplit[1])
-        l1Seen.append(keySplit[2])
+        if keySplit[1] != l2Last:
+            label += keySplit[2]+"\n"
+        if keySplit[0] != l3Last:
+            label += keySplit[0]
+
+        labels.append(label)
+
+        l2Last = keySplit[1]
+        l3Last = keySplit[0]
 
         if value[0] != None:
             plt.scatter(key, value[0], color="blue", marker="_")
