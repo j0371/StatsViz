@@ -166,15 +166,11 @@ class IntervalFrame:
         elif(self.yVar.current() == (-1)):
             messagebox.showinfo("Error", "Please select a column for the Y-axis")
             return
-        # try:
-        #     float(self.data[0][self.yVar.current()])
-        # else:
-        #     messagebox.showinfo("Error", "")
 
         if(self.yLabel.get() == ""):
-            self.yLabel.insert(0, self.columnLabels[self.yVar.current()])
+            self.yLabel.insert(0, self.yVarSelection.get())
         if(self.title.get() == ""):
-            self.title.insert(0, self.iTypeSelection.get() + " of " + self.columnLabels[self.yVar.current()])
+            self.title.insert(0, self.iTypeSelection.get() + " of " + self.yVarSelection.get())
         if(self.xLabel.get() == "" and len(self.cVarSelected.get(0, tk.END)) == 1):
             self.xLabel.insert(0, self.cVarSelected.get(0))
 
