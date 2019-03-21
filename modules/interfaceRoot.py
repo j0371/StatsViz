@@ -60,7 +60,11 @@ class RootWindow:
             self.commonFrame.selectedFileVar.set(fileName)
             self.commonFrame.selectedFile.xview_moveto(1)
 
-            self.data = rw.read(fileName)
+            self.data, inconsistentCell = rw.read(fileName)
+
+            if inconsistentCell != []:
+                messagebox.showinfo("Warning", "The data at row "+str(inconsistentCell[0])+" is inconsistent with the rest of the data in column "
+                                    +str(inconsistentCell[1])+". The dataset may not plot properly")
 
             self.columnLabels = calculation.popLabels(data=self.data)
 

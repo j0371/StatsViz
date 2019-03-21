@@ -8,6 +8,10 @@ def read(fileName: str) -> []:
     while (data[-1] == ""):
         data.pop()
 
+    dataType = []
+
+    inconsistentCell = None
+
     for i in range(0,len(data)):
         data[i] = data[i].split(",")
 
@@ -23,4 +27,9 @@ def read(fileName: str) -> []:
                 except:
                     pass
 
-    return data
+            if i == 1:
+                dataType.append(type(data[i][j]))
+            elif i > 1 and type(data[i][j]) != dataType[j]:
+                inconsistentCell = (i+1,j+1)
+                
+    return (data, inconsistentCell)
