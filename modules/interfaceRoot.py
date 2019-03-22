@@ -62,7 +62,7 @@ class RootWindow:
 
             self.data, inconsistentCell = rw.read(fileName)
 
-            if inconsistentCell != []:
+            if inconsistentCell != None:
                 messagebox.showinfo("Warning", "The data at row "+str(inconsistentCell[0])+" is inconsistent with the rest of the data in column "
                                     +str(inconsistentCell[1])+". The dataset may not plot properly")
 

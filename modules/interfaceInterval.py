@@ -106,7 +106,7 @@ class IntervalFrame:
 #====================================================================
 
 
-
+#code that sets the up the data to view for the interval frame
     def setFrame(self, columnLabels: list, data: list):
 
         self.columnLabels = columnLabels

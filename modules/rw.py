@@ -1,5 +1,8 @@
+#function that reads data from a csv file and formats it in a way that the rest of the
+#program can interpret
 def read(fileName: str) -> []:
 
+#reads data from a file
     data = open(fileName, "r")
 
     data = data.read()
@@ -8,17 +11,21 @@ def read(fileName: str) -> []:
     while (data[-1] == ""):
         data.pop()
 
-    dataType = []
+    dataType = [] #variable that saves datatype of first row in each column
 
-    inconsistentCell = None
+    inconsistentCell = None #last cell that has inconsistent data in the column (if exists)
 
+#loops through each row of the csv (i is the row index)
     for i in range(0,len(data)):
         data[i] = data[i].split(",")
 
+#loops through each column at row i (j is the column index)
         for j in range(0,len(data[i])):
 
             data[i][j] = data[i][j].strip("\"")
 
+#iff the data can be converted to int it will be, otherwise it'll be converted to
+#float, and if it can't convert to float it will stay as a string
             try:
                 data[i][j] = int(data[i][j])
             except:

@@ -103,6 +103,7 @@ class ScatterFrame:
         self.xGridCheckVal.set("")
         self.yGridCheckVal.set("")
 
+#event handler that uses the gui specified data to create a scatterplot
     def createScatter(self):
 
         self.graphButton.config(relief=tk.SUNKEN)

@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import itertools
 from collections import defaultdict
 
+#function that creates and shows the scatterplot
 def graphScatter(*, xs: list, ys: list, groups: list = None, title: str = None,
                   xLabel: str = None, yLabel: str = None, gridLines: str = ""):
 
@@ -21,12 +22,12 @@ def graphScatter(*, xs: list, ys: list, groups: list = None, title: str = None,
     else:
         plt.scatter(xs, ys)
 
+    if(groups != None):
+        plt.legend(loc="best")   
+
     plt.title(title)
     plt.xlabel(xLabel)
     plt.ylabel(yLabel)
-
-    if(groups != None):
-        plt.legend(loc="best")
 
     if len(gridLines)==1:
         plt.grid(which="major", axis=gridLines)
@@ -37,6 +38,7 @@ def graphScatter(*, xs: list, ys: list, groups: list = None, title: str = None,
 
     plt.show()
 
+#function that creates and shows the interval plot
 def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
                   yLabel: str = None, gridLines: str = "", groupNames: tuple=()):
 
@@ -76,4 +78,4 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
 
     plt.tight_layout()
 
-    plt.show() 
+    plt.show()
