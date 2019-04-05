@@ -1,12 +1,12 @@
 import matplotlib.pyplot as plt
 import itertools
 from collections import defaultdict
+import pickle
+import natsort
 
 #function that creates and shows the scatterplot
 def graphScatter(*, xs: list, ys: list, groups: list = None, title: str = None,
                   xLabel: str = None, yLabel: str = None, gridLines: str = ""):
-
-    _, _ = plt.subplots()
     
     if(groups != None):
         xPoints = defaultdict(list)
@@ -23,20 +23,24 @@ def graphScatter(*, xs: list, ys: list, groups: list = None, title: str = None,
         plt.scatter(xs, ys)
 
     if(groups != None):
-        plt.legend(loc="best")   
+        plt.legend(loc="best").set_draggable(True)
 
     plt.title(title)
     plt.xlabel(xLabel)
     plt.ylabel(yLabel)
 
     if len(gridLines)==1:
+        pass
         plt.grid(which="major", axis=gridLines)
     elif gridLines == "xy":
+        pass
         plt.grid(which="major", axis="both")
 
     plt.tight_layout()
 
     plt.show()
+
+    #pickle.dump(figure, open("figure.pickle", "wb"))
 
 #function that creates and shows the interval plot
 def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
@@ -48,7 +52,7 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
         groupNames = (":\n".join(reversed(groupNames)))+":"
         plt.text(-.015,-.02, s=groupNames, horizontalalignment="right", verticalalignment="top", transform=ax.transAxes)
 
-    sortedData = sorted(data.items())
+    sortedData = natsort.natsorted(data.items(), key = lambda t: t[0])
 
     for key, value in sortedData:
 
@@ -79,3 +83,6 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
     plt.tight_layout()
 
     plt.show()
+
+def showPickle(figure):
+    figure.show()

@@ -1,6 +1,8 @@
+import pickle
+
 #function that reads data from a csv file and formats it in a way that the rest of the
 #program can interpret
-def read(fileName: str) -> []:
+def read(fileName: str):
 
 #reads data from a file
     data = open(fileName, "r")
@@ -40,3 +42,6 @@ def read(fileName: str) -> []:
                 inconsistentCell = (i+1,j+1)
                 
     return (data, inconsistentCell)
+
+def readPickle(fileName: str):
+    return pickle.load(open(fileName,'rb'))

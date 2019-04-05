@@ -53,23 +53,31 @@ class RootWindow:
 
 
         #fileName = "C:/Users/halo2_000/Desktop/StatsViz/sampleData/created.csv"
-        fileName = filedialog.askopenfilename(initialdir = "./",title = "Select a file", filetypes = (("CSV files","*.csv"),))
+        fileName = filedialog.askopenfilename(initialdir = "./",title = "Select a file", filetypes = (("csv and pickle files","*.csv *.pickle"),))
 
         if Path(fileName).is_file():
 
-            self.commonFrame.selectedFileVar.set(fileName)
-            self.commonFrame.selectedFile.xview_moveto(1)
+            if fileName[len(fileName)-3:len(fileName)] == "csv":
 
-            self.data, inconsistentCell = rw.read(fileName)
+                self.commonFrame.selectedFileVar.set(fileName)
+                self.commonFrame.selectedFile.xview_moveto(1)
 
-            if inconsistentCell != None:
-                messagebox.showinfo("Warning", "The data at row "+str(inconsistentCell[0])+" is inconsistent with the rest of the data in column "
-                                    +str(inconsistentCell[1])+". The dataset may not plot properly")
+                self.data, inconsistentCell = rw.read(fileName)
 
-            self.columnLabels = calculation.popLabels(data=self.data)
+                if inconsistentCell != None:
+                    messagebox.showinfo("Warning", "The data at row "+str(inconsistentCell[0])+" is inconsistent with the rest of the data in column "
+                                        +str(inconsistentCell[1])+". The dataset may not plot properly")
 
-            self.scatterFrame.setFrame(self.columnLabels, self.data)
-            self.intervalFrame.setFrame(self.columnLabels, self.data)
+                self.columnLabels = calculation.popLabels(data=self.data)
+
+                self.scatterFrame.setFrame(self.columnLabels, self.data)
+                self.intervalFrame.setFrame(self.columnLabels, self.data)
+
+            elif fileName[len(fileName)-6:len(fileName)] == "pickle":
+                graphing.showPickle(rw.readPickle(fileName))
+
+            else:
+                messagebox.showinfo("Error", "Unsupported file type")
 
 
 #function to show options for selected graph type
