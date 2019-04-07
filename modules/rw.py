@@ -95,6 +95,7 @@ def saveInterval(*,data: dict, title: str = None, xLabel: str = None,
     for key,value in data.items():
 
         key = key.replace("\n", "\\n")
+        key = key.replace(" ", "**SPACE**")
 
         dataKeys.append(key)
         dataUppers.append(value[0])
@@ -202,6 +203,7 @@ def loadFigure(fileName):
 
         for i in range(len(keys)):
             keys[i] = keys[i].replace("\\n", "\n")
+            keys[i] = keys[i].replace("**SPACE**", " ")
 
         for i in range(len(uppers)):
             if uppers[i] == "None":
@@ -224,9 +226,6 @@ def loadFigure(fileName):
         dataDict = {}
 
         for i in range(len(keys)):
-
-            print(keys[i], uppers[i], means[i], lowers[i])
-
             dataDict[keys[i]] = (uppers[i], means[i], lowers[i])
 
         title = lines[5]
