@@ -224,6 +224,9 @@ def loadFigure(fileName):
         dataDict = {}
 
         for i in range(len(keys)):
+
+            print(keys[i], uppers[i], means[i], lowers[i])
+
             dataDict[keys[i]] = (uppers[i], means[i], lowers[i])
 
         title = lines[5]
