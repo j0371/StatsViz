@@ -43,5 +43,79 @@ def read(fileName: str):
                 
     return (data, inconsistentCell)
 
-def readPickle(fileName: str):
-    return pickle.load(open(fileName,'rb'))
+def saveScatter(*, xs: list, ys: list, groups: list = None, title: str = None,
+                  xLabel: str = None, yLabel: str = None, gridLines: str = "", fileName: str):
+    
+    fw = open(fileName, "w")
+    fw.write("scatter\n")
+    for x in xs:
+        fw.write(str(x)+" ")
+    fw.write("\n")
+    for y in ys:
+        fw.write(str(y)+" ")
+    fw.write("\n")
+
+    if groups != None:
+        for group in groups[0]:
+            fw.write(str(group)+" ")
+    else:
+        fw.write(" ")
+
+    fw.write("\n")
+    fw.write(title+"\n")
+    fw.write(xLabel+"\n")
+    fw.write(yLabel+"\n")
+    fw.write(gridLines)
+    fw.close()
+
+def loadFigure(fileName):
+    
+    fr = open(fileName, "r")
+
+    lines = fr.readlines()
+
+    figType = lines[0]
+
+    if figType == "scatter":
+        xs = lines[1].split()
+
+        for x in xs:
+            try:
+                x = int(x)
+            except:
+                try:
+                    x = float(x)
+                except:
+                    pass
+
+        ys = lines[2].split()
+
+        for y in ys:
+            try:
+                y = int(y)
+            except:
+                try:
+                    y = float(y)
+                except:
+                    pass
+
+        groups = []
+        groups.append([])
+        groups[0] = lines[3].split()
+
+        if (groups[0]) < 2:
+            groups = None
+
+        title = lines[4]
+        xLabel = lines[5]
+        yLabel = lines[6]
+
+        if(len(lines) > 7):
+            gridLines = lines[7]
+        else:
+            gridLines = ""
+
+        return (figType, xs, ys, groups, title, xLabel, yLabel, gridLines)
+
+    elif figType == "interval":
+        pass

@@ -1,6 +1,9 @@
 import tkinter as tk
 from tkinter import messagebox
 from tkinter import ttk
+from tkinter import filedialog
+from pathlib import Path
+import rw
 
 import calculation
 import graphing
@@ -75,7 +78,10 @@ class ScatterFrame:
         self.yLabel.grid(row=5, column=1)
 
         self.graphButton = tk.Button(frame, text="Create Scatterplot", command=self.createScatter)
-        self.graphButton.grid(row=6, column=1, rowspan=2, pady=10)
+        self.graphButton.grid(row=6, column=1, pady=(10,1))
+
+        self.pickleButton = tk.Button(frame, text=" Save Scatterplot ", command=self.saveScatter)
+        self.pickleButton.grid(row=7, column=1)
 
         
 
@@ -106,8 +112,6 @@ class ScatterFrame:
 #event handler that uses the gui specified data to create a scatterplot
     def createScatter(self):
 
-        self.graphButton.config(relief=tk.SUNKEN)
-
         if(self.xVar.current() == (-1) or self.yVar.current() == (-1)):
             messagebox.showinfo("Error", "Please select a column for the X-axis and Y-axis")
             self.graphButton.config(relief=tk.RAISED)
@@ -127,4 +131,29 @@ class ScatterFrame:
                                            yCol=self.yVar.current(), groups=groupColumn)
 
         graphing.graphScatter(xs=graphData[0], ys=graphData[1], groups=graphData[2], xLabel=self.xLabel.get(),
-                              yLabel=self.yLabel.get(), title=self.title.get(), gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get())
+                              yLabel=self.yLabel.get(), title=self.title.get(), gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get(), show = True)
+
+    def saveScatter(self):
+        if(self.xVar.current() == (-1) or self.yVar.current() == (-1)):
+            messagebox.showinfo("Error", "Please select a column for the X-axis and Y-axis")
+            self.graphButton.config(relief=tk.RAISED)
+            return
+
+        if(self.xLabel.get() == ""):
+            self.xLabel.insert(0, self.columnLabels[self.xVar.current()])
+        if(self.yLabel.get() == ""):
+            self.yLabel.insert(0, self.columnLabels[self.yVar.current()])
+        if(self.title.get() == ""):
+            self.title.insert(0, self.columnLabels[self.xVar.current()] + " VS " + self.columnLabels[self.yVar.current()])
+
+        groupColumn = [self.cVar.current()-1]
+        if groupColumn == [-1]: groupColumn = None
+
+        graphData = calculation.getColumns(data=self.data, xCol=self.xVar.current(),
+                                           yCol=self.yVar.current(), groups=groupColumn)
+
+        fileName = filedialog.asksaveasfilename(title = "Save File", defaultextension=".txt")
+
+        if Path(fileName).is_file():
+            rw.saveScatter(xs=graphData[0], ys=graphData[1], groups=graphData[2], xLabel=self.xLabel.get(),
+                                yLabel=self.yLabel.get(), title=self.title.get(), gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get(), fileName=fileName)

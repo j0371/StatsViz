@@ -53,7 +53,7 @@ class RootWindow:
 
 
         #fileName = "C:/Users/halo2_000/Desktop/StatsViz/sampleData/created.csv"
-        fileName = filedialog.askopenfilename(initialdir = "./",title = "Select a file", filetypes = (("csv and pickle files","*.csv *.pickle"),))
+        fileName = filedialog.askopenfilename(title = "Select a file", filetypes = (("csv and pickle files","*.csv *.pickle"),))
 
         if Path(fileName).is_file():
 
@@ -73,11 +73,8 @@ class RootWindow:
                 self.scatterFrame.setFrame(self.columnLabels, self.data)
                 self.intervalFrame.setFrame(self.columnLabels, self.data)
 
-            elif fileName[len(fileName)-6:len(fileName)] == "pickle":
-                graphing.showPickle(rw.readPickle(fileName))
-
             else:
-                messagebox.showinfo("Error", "Unsupported file type")
+                graphing.figureFromFile(fileName, show=True)
 
 
 #function to show options for selected graph type

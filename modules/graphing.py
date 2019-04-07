@@ -3,10 +3,11 @@ import itertools
 from collections import defaultdict
 import pickle
 import natsort
+import rw
 
 #function that creates and shows the scatterplot
 def graphScatter(*, xs: list, ys: list, groups: list = None, title: str = None,
-                  xLabel: str = None, yLabel: str = None, gridLines: str = ""):
+                  xLabel: str = None, yLabel: str = None, gridLines: str = "", show: bool = False):
     
     if(groups != None):
         xPoints = defaultdict(list)
@@ -38,9 +39,10 @@ def graphScatter(*, xs: list, ys: list, groups: list = None, title: str = None,
 
     plt.tight_layout()
 
-    plt.show()
-
-    #pickle.dump(figure, open("figure.pickle", "wb"))
+    if show:
+        plt.show()
+    else:
+        return plt.gcf()
 
 #function that creates and shows the interval plot
 def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
@@ -84,5 +86,11 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
 
     plt.show()
 
-def showPickle(figure):
-    figure.show()
+def figureFromFile(fileName, show: bool=False):
+    figType,xs,ys,groups,title,xLabel,yLabel,gridLines = rw.loadFigure(fileName)
+
+    if figType == "scatter":
+
+        graphScatter(xs=xs, ys=ys, groups=groups, title=title, xLabel=xLabel, yLabel=yLabel,gridLines=gridLines,show=show)
+
+

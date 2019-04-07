@@ -3,4 +3,5 @@ import interfaceRoot
 
 root = tk.Tk()
 main = interfaceRoot.RootWindow(root)
+#root.lift()
 root.mainloop()
