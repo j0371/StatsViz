@@ -53,7 +53,7 @@ class RootWindow:
 
 
         #fileName = "C:/Users/halo2_000/Desktop/StatsViz/sampleData/created.csv"
-        fileName = filedialog.askopenfilename(title = "Select a file", filetypes = (("csv and pickle files","*.csv *.pickle"),))
+        fileName = filedialog.askopenfilename(title = "Select a file", filetypes = (("csv and plot files","*.csv *.plot"),))
 
         if Path(fileName).is_file():
 

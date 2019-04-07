@@ -96,8 +96,10 @@ class IntervalFrame:
         self.yLabel.grid(row=8, column=3)
 
         self.graphButton = tk.Button(frame, text="Create Interval Plot", command=self.createInterval)
-        #self.graphButton.bind("<Button-1>", self.createInterval)
-        self.graphButton.grid(row=9, column=3, rowspan=2, pady=10)
+        self.graphButton.grid(row=9, column=3, pady=(10,1))
+
+        self.saveButton = tk.Button(frame, text=" Save Interval Plot ", command=self.saveInterval)
+        self.saveButton.grid(row=10, column=3)
 
 
 
@@ -200,3 +202,6 @@ class IntervalFrame:
 
         graphing.graphInterval(data=graphData, title=self.title.get(), xLabel=self.xLabel.get(),
                                 yLabel=self.yLabel.get(), gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get(), groupNames=cVals)
+
+    def saveInterval(self):
+        pass

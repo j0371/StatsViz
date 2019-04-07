@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 import itertools
 from collections import defaultdict
-import pickle
 import natsort
 import rw
 
@@ -91,6 +90,6 @@ def figureFromFile(fileName, show: bool=False):
 
     if figType == "scatter":
 
-        graphScatter(xs=xs, ys=ys, groups=groups, title=title, xLabel=xLabel, yLabel=yLabel,gridLines=gridLines,show=show)
+        return graphScatter(xs=xs, ys=ys, groups=groups, title=title, xLabel=xLabel, yLabel=yLabel,gridLines=gridLines,show=show)
 
 

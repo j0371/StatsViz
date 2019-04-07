@@ -26,7 +26,7 @@ def read(fileName: str):
 
             data[i][j] = data[i][j].strip("\"")
 
-#iff the data can be converted to int it will be, otherwise it'll be converted to
+#if the data can be converted to int it will be, otherwise it'll be converted to
 #float, and if it can't convert to float it will stay as a string
             try:
                 data[i][j] = int(data[i][j])
@@ -62,9 +62,22 @@ def saveScatter(*, xs: list, ys: list, groups: list = None, title: str = None,
         fw.write(" ")
 
     fw.write("\n")
-    fw.write(title+"\n")
-    fw.write(xLabel+"\n")
-    fw.write(yLabel+"\n")
+
+    if title != "":
+        fw.write(title+"\n")
+    else:
+        fw.write(" \n")
+
+    if xLabel != "":
+        fw.write(xLabel+"\n")
+    else:
+        fw.write(" \n")
+
+    if yLabel != "":
+        fw.write(yLabel+"\n")
+    else:
+        fw.write(" \n")
+
     fw.write(gridLines)
     fw.close()
 
@@ -72,30 +85,31 @@ def loadFigure(fileName):
     
     fr = open(fileName, "r")
 
-    lines = fr.readlines()
+    lines = fr.read().splitlines()
 
     figType = lines[0]
 
     if figType == "scatter":
+
         xs = lines[1].split()
 
-        for x in xs:
+        for i in range(len(xs)):
             try:
-                x = int(x)
+                xs[i] = int(xs[i])
             except:
                 try:
-                    x = float(x)
+                    xs[i] = float(xs[i])
                 except:
                     pass
 
         ys = lines[2].split()
 
-        for y in ys:
+        for i in range(len(ys)):
             try:
-                y = int(y)
+                ys[i] = int(ys[i])
             except:
                 try:
-                    y = float(y)
+                    ys[i] = float(ys[i])
                 except:
                     pass
 
@@ -103,7 +117,7 @@ def loadFigure(fileName):
         groups.append([])
         groups[0] = lines[3].split()
 
-        if (groups[0]) < 2:
+        if len(groups[0]) < 2:
             groups = None
 
         title = lines[4]

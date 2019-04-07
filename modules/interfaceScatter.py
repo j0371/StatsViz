@@ -80,8 +80,8 @@ class ScatterFrame:
         self.graphButton = tk.Button(frame, text="Create Scatterplot", command=self.createScatter)
         self.graphButton.grid(row=6, column=1, pady=(10,1))
 
-        self.pickleButton = tk.Button(frame, text=" Save Scatterplot ", command=self.saveScatter)
-        self.pickleButton.grid(row=7, column=1)
+        self.saveButton = tk.Button(frame, text=" Save Scatterplot ", command=self.saveScatter)
+        self.saveButton.grid(row=7, column=1)
 
         
 
@@ -152,8 +152,10 @@ class ScatterFrame:
         graphData = calculation.getColumns(data=self.data, xCol=self.xVar.current(),
                                            yCol=self.yVar.current(), groups=groupColumn)
 
-        fileName = filedialog.asksaveasfilename(title = "Save File", defaultextension=".txt")
+        fileName = filedialog.asksaveasfilename(title = "Save File", defaultextension=".plot")
 
-        if Path(fileName).is_file():
+        print(fileName)
+
+        if fileName != "":
             rw.saveScatter(xs=graphData[0], ys=graphData[1], groups=graphData[2], xLabel=self.xLabel.get(),
                                 yLabel=self.yLabel.get(), title=self.title.get(), gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get(), fileName=fileName)
