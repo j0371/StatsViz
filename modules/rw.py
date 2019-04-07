@@ -81,6 +81,66 @@ def saveScatter(*, xs: list, ys: list, groups: list = None, title: str = None,
     fw.write(gridLines)
     fw.close()
 
+def saveInterval(*,data: dict, title: str = None, xLabel: str = None,
+                  yLabel: str = None, gridLines: str = "", groupNames: tuple=(), fileName: str):
+    
+    fw = open(fileName, "w")
+    fw.write("interval\n")
+
+    dataKeys = []
+    dataUppers = []
+    dataMeans = []
+    dataLowers = []
+
+    for key,value in data.items():
+
+        key = key.replace("\n", "\\n")
+
+        dataKeys.append(key)
+        dataUppers.append(value[0])
+        dataMeans.append(value[1])
+        dataLowers.append(value[2])
+
+    for key in dataKeys:
+        fw.write(str(key)+" ")
+    fw.write("\n")
+
+    for upper in dataUppers:
+        fw.write(str(upper)+" ")
+    fw.write("\n")
+
+    for mean in dataMeans:
+        fw.write(str(mean)+" ")
+    fw.write("\n")
+
+    for lower in dataLowers:
+        fw.write(str(lower)+" ")
+    fw.write("\n")
+
+    if title != "":
+        fw.write(title+"\n")
+    else:
+        fw.write(" \n")
+
+    if xLabel != "":
+        fw.write(xLabel+"\n")
+    else:
+        fw.write(" \n")
+
+    if yLabel != "":
+        fw.write(yLabel+"\n")
+    else:
+        fw.write(" \n")
+
+    for name in groupNames:
+        fw.write(name+" ")
+    fw.write("\n")
+
+    fw.write(gridLines)
+    fw.close()
+
+
+
 def loadFigure(fileName):
     
     fr = open(fileName, "r")
@@ -92,30 +152,32 @@ def loadFigure(fileName):
     if figType == "scatter":
 
         xs = lines[1].split()
-
-        for i in range(len(xs)):
-            try:
-                xs[i] = int(xs[i])
-            except:
-                try:
-                    xs[i] = float(xs[i])
-                except:
-                    pass
-
         ys = lines[2].split()
-
-        for i in range(len(ys)):
-            try:
-                ys[i] = int(ys[i])
-            except:
-                try:
-                    ys[i] = float(ys[i])
-                except:
-                    pass
 
         groups = []
         groups.append([])
         groups[0] = lines[3].split()
+
+        data = (xs, ys)
+
+        for i in range(len(data)):
+            for j in range(len(data[i])):
+                try:
+                    data[i][j] = int(data[i][j])
+                except:
+                    try:
+                        data[i][j] = float(data[i][j])
+                    except:
+                        pass
+
+        for i in range(len(groups[0])):
+            try:
+                groups[0][i] = int(groups[0][i])
+            except:
+                try:
+                    groups[0][i] = float(groups[0][i])
+                except:
+                    pass
 
         if len(groups[0]) < 2:
             groups = None
@@ -129,7 +191,61 @@ def loadFigure(fileName):
         else:
             gridLines = ""
 
-        return (figType, xs, ys, groups, title, xLabel, yLabel, gridLines)
+        return (xs, ys, groups, title, xLabel, yLabel, gridLines)
 
     elif figType == "interval":
-        pass
+        
+        keys = lines[1].split()
+        uppers = lines[2].split()
+        means = lines[3].split()
+        lowers = lines[4].split()
+
+        for i in range(len(keys)):
+            keys[i] = keys[i].replace("\\n", "\n")
+
+        for i in range(len(uppers)):
+            if uppers[i] == "None":
+                uppers[i] = None
+            if lowers[i] == "None":
+                lowers[i] = None
+
+        data = (keys, uppers, means, lowers)
+
+        for i in range(len(data)):
+            for j in range(len(data[i])):
+                try:
+                    data[i][j] = int(data[i][j])
+                except:
+                    try:
+                        data[i][j] = float(data[i][j])
+                    except:
+                        pass
+
+        dataDict = {}
+
+        for i in range(len(keys)):
+            dataDict[keys[i]] = (uppers[i], means[i], lowers[i])
+
+        title = lines[5]
+        xLabel = lines[6]
+        yLabel = lines[7]
+
+        groupNames = []
+
+        groupNamesLoad = lines[8].split()
+
+        for name in groupNamesLoad:
+            groupNames.append(name)
+        groupNames = tuple(groupNames)
+
+        if(len(lines) > 9):
+            gridLines = lines[9]
+        else:
+            gridLines = ""
+
+        return (dataDict, title, xLabel, yLabel, gridLines, groupNames)
+
+def getFigType(fileName):
+    fr = open(fileName, "r")
+    lines = fr.read().splitlines()
+    return lines[0]

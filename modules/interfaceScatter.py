@@ -154,8 +154,6 @@ class ScatterFrame:
 
         fileName = filedialog.asksaveasfilename(title = "Save File", defaultextension=".plot")
 
-        print(fileName)
-
         if fileName != "":
             rw.saveScatter(xs=graphData[0], ys=graphData[1], groups=graphData[2], xLabel=self.xLabel.get(),
                                 yLabel=self.yLabel.get(), title=self.title.get(), gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get(), fileName=fileName)

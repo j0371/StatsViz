@@ -7,6 +7,8 @@ import rw
 #function that creates and shows the scatterplot
 def graphScatter(*, xs: list, ys: list, groups: list = None, title: str = None,
                   xLabel: str = None, yLabel: str = None, gridLines: str = "", show: bool = False):
+
+    _, _ = plt.subplots()
     
     if(groups != None):
         xPoints = defaultdict(list)
@@ -45,7 +47,7 @@ def graphScatter(*, xs: list, ys: list, groups: list = None, title: str = None,
 
 #function that creates and shows the interval plot
 def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
-                  yLabel: str = None, gridLines: str = "", groupNames: tuple=()):
+                  yLabel: str = None, gridLines: str = "", groupNames: tuple=(), show: bool=False):
 
     _, ax = plt.subplots()
 
@@ -69,9 +71,6 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
             if value[0] != None and value[2] != None:
                 plt.plot([inverseKey]*3, [value[0], value[1], value[2]], color="blue", linewidth=.85)
 
-        #else:
-            #plt.scatter(inverseKey, None)
-
     plt.title(title)
     plt.xlabel(xLabel)
     plt.ylabel(yLabel)
@@ -83,13 +82,20 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
 
     plt.tight_layout()
 
-    plt.show()
+    if show:
+        plt.show()
+    else:
+        return plt.gcf()
 
 def figureFromFile(fileName, show: bool=False):
-    figType,xs,ys,groups,title,xLabel,yLabel,gridLines = rw.loadFigure(fileName)
+
+    figType = rw.getFigType(fileName)
 
     if figType == "scatter":
-
-        return graphScatter(xs=xs, ys=ys, groups=groups, title=title, xLabel=xLabel, yLabel=yLabel,gridLines=gridLines,show=show)
+        xs,ys,groups,title,xLabel,yLabel,gridLines = rw.loadFigure(fileName)
+        return graphScatter(xs=xs, ys=ys, groups=groups, title=title, xLabel=xLabel, yLabel=yLabel, gridLines=gridLines, show=show)
+    elif figType == "interval":
+        data,title,xLabel,yLabel,gridLines, groupNames = rw.loadFigure(fileName)
+        return graphInterval(data=data, title=title, xLabel=xLabel, yLabel=yLabel, gridLines=gridLines, groupNames=groupNames, show=show)
 
 

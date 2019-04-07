@@ -1,6 +1,8 @@
 import tkinter as tk
 from tkinter import messagebox
 from tkinter import ttk
+from tkinter import filedialog
+import rw
 
 import calculation
 import graphing
@@ -201,7 +203,50 @@ class IntervalFrame:
         graphData = calculation.getIntervals(type=typeParam, ys=rawGraphData[1], groups=rawGraphData[2])
 
         graphing.graphInterval(data=graphData, title=self.title.get(), xLabel=self.xLabel.get(),
-                                yLabel=self.yLabel.get(), gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get(), groupNames=cVals)
+                                yLabel=self.yLabel.get(), gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get(), groupNames=cVals, show=True)
 
     def saveInterval(self):
-        pass
+        
+        if(self.iType.current() == (-1)):
+            messagebox.showinfo("Error", "Please select an interval type")
+            return
+        elif(self.yVar.current() == (-1)):
+            messagebox.showinfo("Error", "Please select a column for the Y-axis")
+            return
+
+        if(self.yLabel.get() == ""):
+            self.yLabel.insert(0, self.yVarSelection.get())
+        if(self.title.get() == ""):
+            self.title.insert(0, self.iTypeSelection.get() + " of " + self.yVarSelection.get())
+        if(self.xLabel.get() == "" and len(self.cVarSelected.get(0, tk.END)) == 1):
+            self.xLabel.insert(0, self.cVarSelected.get(0))
+
+        typeParam = ""
+
+        if(self.iType.current() == 0):
+            typeParam = "se"
+        elif(self.iType.current() == 1):
+            typeParam = "sd"
+        elif(self.iType.current() == 2):
+            typeParam = "ci"
+
+
+        cVals = self.cVarSelected.get(0, tk.END)
+        cIndices = []
+
+        if len(cVals) > 0:
+            for val in cVals:
+                cIndices.append(self.columnLabels.index(val))
+        else:
+            cIndices = None
+
+        rawGraphData = calculation.getColumns(data=self.data,
+                                           yCol=self.columnLabels.index(self.yVarSelection.get()), groups=cIndices)
+
+        graphData = calculation.getIntervals(type=typeParam, ys=rawGraphData[1], groups=rawGraphData[2])
+
+        fileName = filedialog.asksaveasfilename(title = "Save File", defaultextension=".plot")
+
+        if fileName != "":
+            rw.saveInterval(data=graphData, title=self.title.get(), xLabel=self.xLabel.get(),
+                                    yLabel=self.yLabel.get(), gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get(), groupNames=cVals, fileName=fileName)
