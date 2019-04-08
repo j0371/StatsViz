@@ -55,7 +55,7 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
         groupNames = (":\n".join(reversed(groupNames)))+":"
         plt.text(-.015,-.02, s=groupNames, horizontalalignment="right", verticalalignment="top", transform=ax.transAxes)
 
-    sortedData = natsort.natsorted(data.items(), key = lambda t: t[0])
+    sortedData = natsort.realsorted(data.items(), key = lambda t: t[0])
 
     for key, value in sortedData:
 
@@ -64,12 +64,12 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
         if key in data:
 
             if value[0] != None:
-                plt.scatter(inverseKey, value[0], color="blue", marker="_")
-            plt.scatter(inverseKey, value[1], color="blue", marker=".")
+                plt.scatter(inverseKey, value[0], marker="_", color="blue")
+            plt.scatter(inverseKey, value[1], marker=".", color="blue")
             if value[2] != None:
-                plt.scatter(inverseKey, value[2], color="blue", marker="_")
+                plt.scatter(inverseKey, value[2], marker="_", color="blue")
             if value[0] != None and value[2] != None:
-                plt.plot([inverseKey]*3, [value[0], value[1], value[2]], color="blue", linewidth=.85)
+                plt.plot([inverseKey]*3, [value[0], value[1], value[2]], linewidth=.85, color="blue")
 
     plt.title(title)
     plt.xlabel(xLabel)
