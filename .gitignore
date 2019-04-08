@@ -1,6 +1,7 @@
 #folders#
 practice/
 __pycache__/
+venv/
 
 #compiled files#
 *.pyc
