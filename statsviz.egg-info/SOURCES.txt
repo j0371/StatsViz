@@ -1,0 +1,17 @@
+README.md
+setup.py
+StatsViz/__init__.py
+StatsViz/calculation.py
+StatsViz/graphing.py
+StatsViz/interfaceCommon.py
+StatsViz/interfaceInterval.py
+StatsViz/interfaceRoot.py
+StatsViz/interfaceScatter.py
+StatsViz/main.py
+StatsViz/practice.py
+StatsViz/rw.py
+statsviz.egg-info/PKG-INFO
+statsviz.egg-info/SOURCES.txt
+statsviz.egg-info/dependency_links.txt
+statsviz.egg-info/requires.txt
+statsviz.egg-info/top_level.txt
