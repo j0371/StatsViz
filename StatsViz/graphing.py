@@ -3,6 +3,9 @@ import itertools
 from collections import defaultdict
 import natsort
 
+import matplotlib
+matplotlib.use('TkAgg')
+
 from . import rw
 
 #function that creates and shows the scatterplot
