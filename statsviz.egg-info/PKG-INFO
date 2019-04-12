@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: statsviz
-Version: 1.0.3
+Version: 1.0.4
 Summary: A package that provides a gui to plot graphs from CSV files
 Home-page: https://github.com/j0371/StatsViz
 Author: Marcus Higgins

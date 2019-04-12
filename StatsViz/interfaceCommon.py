@@ -19,7 +19,7 @@ class CommonFrame:
         self.fileButton = tk.Button(frame, text="Select File")
         self.fileButton.grid(row=0, column=0, sticky="W", padx=(10,0), pady=(10,0))
 
-        self.graphOptions = ttk.Combobox(frame, textvariable=self.graphType, values=["Scatterplot", "Interval Plot"], state="readonly")
+        self.graphOptions = ttk.Combobox(frame, textvariable=self.graphType, values=["Scatterplot", "Interval Plot", "Histogram"], state="readonly")
         self.graphOptions.grid(row=2, column=0, columnspan=2, padx=(10,0), pady=5, sticky="W")
 
 

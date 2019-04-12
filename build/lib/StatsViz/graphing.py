@@ -1,10 +1,11 @@
+
+import matplotlib
+matplotlib.use("TkAgg")
+
 import matplotlib.pyplot as plt
 import itertools
 from collections import defaultdict
 import natsort
-
-import matplotlib
-matplotlib.use('TkAgg')
 
 from . import rw
 
