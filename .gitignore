@@ -1,6 +1,9 @@
 #folders#
 practice/
 __pycache__/
+build/
+dist/
+statsviz.egg-info/
 venv/
 
 #compiled files#
