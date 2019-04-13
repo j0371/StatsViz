@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 from tkinter import ttk
 from tkinter import filedialog
+from tkinter import font
 
 from . import rw
 from . import calculation
@@ -32,7 +33,7 @@ class IntervalFrame:
         self.cVar = tk.Listbox(frame, height=4, width=23)
         self.cVar.grid(row=4, column=0, rowspan=3)
 
-        self.yVarLabel = tk.Label(frame, text="Y-Axis Column")
+        self.yVarLabel = tk.Label(frame, text="Y-Axis Column *")
         self.yVarLabel.grid(row=7, column=0, columnspan=3, pady=(5,0))
 
         self.yVar = ttk.Combobox(frame, textvariable=self.yVarSelection, values=[], state="readonly")
@@ -48,13 +49,17 @@ class IntervalFrame:
 #Column 1
 #====================================================================
 
-        self.selectButton = tk.Button(frame, text="-->")
-        self.selectButton.bind("<Button-1>", self.addCategory)
-        self.selectButton.grid(row=4, column=1)
-
-        self.deselectButton = tk.Button(frame, text="<--")
+        self.deselectButton = tk.Button(frame, text="⤺")
+        self.deselectButton["font"] = font.Font(size=12)
         self.deselectButton.bind("<Button-1>", self.removeCategory)
-        self.deselectButton.grid(row=6, column=1)
+        self.deselectButton.grid(row=4, column=1)
+
+        self.selectButton = tk.Button(frame, text="⤻")
+        self.selectButton["font"] = font.Font(size=12)
+        self.selectButton.bind("<Button-1>", self.addCategory)
+        self.selectButton.grid(row=6, column=1)
+
+        
 
 
 #Column 2
@@ -62,7 +67,7 @@ class IntervalFrame:
 
         frame.grid_columnconfigure(2, pad=25)
 
-        self.iTypeLabel = tk.Label(frame, text="Interval Type")
+        self.iTypeLabel = tk.Label(frame, text="Interval Type *")
         self.iTypeLabel.grid(row=0, column=2)
 
         self.iType = ttk.Combobox(frame, textvariable=self.iTypeSelection, values=["Standard Error","Standard Deviation","Confidence Interval"], state="readonly")

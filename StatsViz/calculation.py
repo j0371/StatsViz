@@ -3,7 +3,7 @@ from scipy import stats
 import numpy as np
 
 #gets the columns from the data that's specified by the input
-def getColumns(*, data: [], xCol: int = None, yCol: int, groups: list = None):
+def getColumns(*, data: [], xCol: int = None, yCol: int = None, groups: list = None):
 
     xs = [] #values in the specified x axis column
     ys = [] #values in the specified y axis column
@@ -18,7 +18,8 @@ def getColumns(*, data: [], xCol: int = None, yCol: int, groups: list = None):
     for i in range(0, len(data)):
         if(xCol != None):
             xs.append(data[i][xCol])
-        ys.append(data[i][yCol])
+        if(yCol != None):
+            ys.append(data[i][yCol])
 
         if(groups != None):
             for j in range(0, len(groups)):
@@ -28,6 +29,8 @@ def getColumns(*, data: [], xCol: int = None, yCol: int, groups: list = None):
 #There values will be set to None
     if(xCol == None):
         xs = None
+    if(yCol == None):
+        ys = None
     if(groups == None):
         groupData = None
 

@@ -2,7 +2,6 @@ import tkinter as tk
 from tkinter import messagebox
 from tkinter import ttk
 from tkinter import filedialog
-from pathlib import Path
 
 from . import rw
 from . import calculation
@@ -27,13 +26,13 @@ class ScatterFrame:
 
         frame.grid_columnconfigure(0, pad=25)
 
-        self.xVarLabel = tk.Label(frame, text="X-Axis Column")
+        self.xVarLabel = tk.Label(frame, text="X-Axis Column *")
         self.xVarLabel.grid(row=0, column=0)
 
         self.xVar = ttk.Combobox(frame, textvariable=self.xVarSelection, values=[], state="readonly")
         self.xVar.grid(row=1, column=0)
 
-        self.yVarLabel = tk.Label(frame, text="Y-Axis Column")
+        self.yVarLabel = tk.Label(frame, text="Y-Axis Column *")
         self.yVarLabel.grid(row=2, column=0)
 
         self.yVar = ttk.Combobox(frame, textvariable=self.yVarSelection, values=[], state="readonly")
@@ -114,7 +113,6 @@ class ScatterFrame:
 
         if(self.xVar.current() == (-1) or self.yVar.current() == (-1)):
             messagebox.showinfo("Error", "Please select a column for the X-axis and Y-axis")
-            self.graphButton.config(relief=tk.RAISED)
             return
 
         if(self.xLabel.get() == ""):
@@ -125,7 +123,8 @@ class ScatterFrame:
             self.title.insert(0, self.columnLabels[self.xVar.current()] + " VS " + self.columnLabels[self.yVar.current()])
 
         groupColumn = [self.cVar.current()-1]
-        if groupColumn == [-1]: groupColumn = None
+        if groupColumn == [-1]:
+            groupColumn = None
 
         graphData = calculation.getColumns(data=self.data, xCol=self.xVar.current(),
                                            yCol=self.yVar.current(), groups=groupColumn)
@@ -133,6 +132,7 @@ class ScatterFrame:
         graphing.graphScatter(xs=graphData[0], ys=graphData[1], groups=graphData[2], xLabel=self.xLabel.get(),
                               yLabel=self.yLabel.get(), title=self.title.get(), gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get(), show = True)
 
+#event handler that prompts the user to save the scatterplot to a file
     def saveScatter(self):
         if(self.xVar.current() == (-1) or self.yVar.current() == (-1)):
             messagebox.showinfo("Error", "Please select a column for the X-axis and Y-axis")

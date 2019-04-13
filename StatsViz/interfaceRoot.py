@@ -36,7 +36,7 @@ class RootWindow:
         self.intervalFrame = interfaceInterval.IntervalFrame(self.intervalFrame)
 
         self.histFrame = tk.Frame(root, borderwidth=1, relief=tk.SUNKEN)
-        self.histFrame = interfaceHist.histFrame(self.histFrame)
+        self.histFrame = interfaceHist.HistFrame(self.histFrame)
 
         
 
@@ -78,6 +78,7 @@ class RootWindow:
 
                 self.scatterFrame.setFrame(self.columnLabels, self.data)
                 self.intervalFrame.setFrame(self.columnLabels, self.data)
+                self.histFrame.setFrame(self.columnLabels, self.data)
 
             else:
                 graphing.figureFromFile(fileName, show=True)

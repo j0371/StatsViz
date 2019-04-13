@@ -92,6 +92,29 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
     else:
         return plt.gcf()
 
+def graphHist(*, xs: list, title: str = None, xLabel: str = None,
+                  yLabel: str = None, gridLines: str = "", show: bool=False):
+
+    plt.hist(xs, edgecolor="black")
+
+    plt.title(title)
+    plt.xlabel(xLabel)
+    plt.ylabel(yLabel)
+
+    if len(gridLines)==1:
+        pass
+        plt.grid(which="major", axis=gridLines)
+    elif gridLines == "xy":
+        pass
+        plt.grid(which="major", axis="both")
+
+    plt.tight_layout()
+
+    if show:
+        plt.show()
+    else:
+        return plt.gcf()
+
 def figureFromFile(fileName, show: bool=False):
 
     figType = rw.getFigType(fileName)
