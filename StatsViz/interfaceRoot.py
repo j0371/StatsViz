@@ -7,6 +7,7 @@ from pathlib import Path
 from . import interfaceCommon
 from . import interfaceScatter
 from . import interfaceInterval
+from . import interfaceHist
 from . import rw
 from . import calculation
 from . import graphing
@@ -21,7 +22,6 @@ class RootWindow:
         self.root = root
         root.title("Data Visualizer")
         root.grid_columnconfigure(0, weight=1)
-        #root.geometry("343x282")                       #!!!SET TO NEW DIMENSIONS!!!#
 
 #Frames
 #====================================================================
@@ -33,6 +33,11 @@ class RootWindow:
 
         self.intervalFrame = tk.Frame(root, borderwidth=1, relief=tk.SUNKEN)
         self.intervalFrame = interfaceInterval.IntervalFrame(self.intervalFrame)
+
+        self.histFrame = tk.Frame(root, borderwidth=1, relief=tk.SUNKEN)
+        self.histFrame = interfaceHist.HistFrame(self.histFrame)
+
+        
 
 #Event Bindings
 #====================================================================
@@ -72,6 +77,7 @@ class RootWindow:
 
                 self.scatterFrame.setFrame(self.columnLabels, self.data)
                 self.intervalFrame.setFrame(self.columnLabels, self.data)
+                self.histFrame.setFrame(self.columnLabels, self.data)
 
             else:
                 graphing.figureFromFile(fileName, show=True)
@@ -88,7 +94,13 @@ class RootWindow:
 
         if self.commonFrame.graphType.get() == "Scatterplot":
             self.intervalFrame.frame.grid_remove()
+            self.histFrame.frame.grid_remove()
             self.scatterFrame.frame.grid(row=2, column=0, padx=3, pady=3, sticky="EW")
         elif self.commonFrame.graphType.get() == "Interval Plot":
             self.scatterFrame.frame.grid_remove()
+            self.histFrame.frame.grid_remove()
             self.intervalFrame.frame.grid(row=2, column=0, padx=3, pady=3, sticky="EW")
+        elif self.commonFrame.graphType.get() == "Histogram":
+            self.scatterFrame.frame.grid_remove()
+            self.intervalFrame.frame.grid_remove()
+            self.histFrame.frame.grid(row=2, column=0, padx=3, pady=3, sticky="EW")

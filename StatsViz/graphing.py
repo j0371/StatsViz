@@ -92,6 +92,34 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
     else:
         return plt.gcf()
 
+def graphHist(*, xs: list,bins: int = None, title: str = None, xLabel: str = None,
+                  yLabel: str = None, gridLines: str = "", show: bool=False):
+
+    _, _ = plt.subplots()
+
+    if(bins != None):
+        plt.hist(xs, edgecolor="black", bins=bins)
+    else:
+        plt.hist(xs, edgecolor="black")
+
+    plt.title(title)
+    plt.xlabel(xLabel)
+    plt.ylabel(yLabel)
+
+    if len(gridLines)==1:
+        pass
+        plt.grid(which="major", axis=gridLines)
+    elif gridLines == "xy":
+        pass
+        plt.grid(which="major", axis="both")
+
+    plt.tight_layout()
+
+    if show:
+        plt.show()
+    else:
+        return plt.gcf()
+
 def figureFromFile(fileName, show: bool=False):
 
     figType = rw.getFigType(fileName)
@@ -102,5 +130,8 @@ def figureFromFile(fileName, show: bool=False):
     elif figType == "interval":
         data,title,xLabel,yLabel,gridLines, groupNames = rw.loadFigure(fileName)
         return graphInterval(data=data, title=title, xLabel=xLabel, yLabel=yLabel, gridLines=gridLines, groupNames=groupNames, show=show)
+    elif figType == "histogram":
+        xs, bins, title, xLabel, yLabel, gridLines = rw.loadFigure(fileName)
+        return graphHist(xs=xs, bins=bins, title=title, xLabel=xLabel, yLabel=yLabel, gridLines=gridLines, show=show)
 
 
