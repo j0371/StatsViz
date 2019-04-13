@@ -130,5 +130,8 @@ def figureFromFile(fileName, show: bool=False):
     elif figType == "interval":
         data,title,xLabel,yLabel,gridLines, groupNames = rw.loadFigure(fileName)
         return graphInterval(data=data, title=title, xLabel=xLabel, yLabel=yLabel, gridLines=gridLines, groupNames=groupNames, show=show)
+    elif figType == "histogram":
+        xs, bins, title, xLabel, yLabel, gridLines = rw.loadFigure(fileName)
+        return graphHist(xs=xs, bins=bins, title=title, xLabel=xLabel, yLabel=yLabel, gridLines=gridLines, show=show)
 
 

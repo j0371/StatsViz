@@ -293,14 +293,29 @@ def loadFigure(fileName):
         xs = lines[1].split()
 
         for i in range(len(xs)):
-            for j in range(len(data[i])):
+            try:
+                xs[i] = int(xs[i])
+            except:
                 try:
-                    data[i][j] = int(data[i][j])
+                    xs[i] = float(xs[i])
                 except:
-                    try:
-                        data[i][j] = float(data[i][j])
-                    except:
-                        pass
+                    pass
+
+        if lines[2] == " ":
+            bins = None
+        else:
+            bins = int(lines[2])
+
+        title = lines[3]
+        xLabel = lines[4]
+        yLabel = lines[5]
+
+        if(len(lines) > 6):
+            gridLines = lines[6]
+        else:
+            gridLines = ""
+
+        return (xs, bins, title, xLabel, yLabel, gridLines)
         
         
         
