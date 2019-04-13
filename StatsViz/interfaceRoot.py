@@ -22,7 +22,6 @@ class RootWindow:
         self.root = root
         root.title("Data Visualizer")
         root.grid_columnconfigure(0, weight=1)
-        #root.geometry("343x282")                       #!!!SET TO NEW DIMENSIONS!!!#
 
 #Frames
 #====================================================================

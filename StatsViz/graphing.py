@@ -92,10 +92,15 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
     else:
         return plt.gcf()
 
-def graphHist(*, xs: list, title: str = None, xLabel: str = None,
+def graphHist(*, xs: list,bins: int = None, title: str = None, xLabel: str = None,
                   yLabel: str = None, gridLines: str = "", show: bool=False):
 
-    plt.hist(xs, edgecolor="black")
+    _, _ = plt.subplots()
+
+    if(bins != None):
+        plt.hist(xs, edgecolor="black", bins=bins)
+    else:
+        plt.hist(xs, edgecolor="black")
 
     plt.title(title)
     plt.xlabel(xLabel)

@@ -47,31 +47,34 @@ def saveScatter(*, xs: list, ys: list, groups: list = None, title: str = None,
     fw = open(fileName, "w")
     fw.write("scatter\n")
     for x in xs:
-        fw.write(str(x)+" ")
+        x = str(x).replace(" ", "**SPACE**")
+        fw.write(x+" ")
     fw.write("\n")
     for y in ys:
-        fw.write(str(y)+" ")
+        y = str(y).replace(" ", "**SPACE**")
+        fw.write(y+" ")
     fw.write("\n")
 
     if groups != None:
         for group in groups[0]:
-            fw.write(str(group)+" ")
+            group = str(group).replace(" ","**SPACE**")
+            fw.write(group+" ")
     else:
         fw.write(" ")
 
     fw.write("\n")
 
-    if title != "":
+    if title != None or title != "":
         fw.write(title+"\n")
     else:
         fw.write(" \n")
 
-    if xLabel != "":
+    if xLabel != None or xLabel != "":
         fw.write(xLabel+"\n")
     else:
         fw.write(" \n")
 
-    if yLabel != "":
+    if yLabel != None or yLabel !=  "":
         fw.write(yLabel+"\n")
     else:
         fw.write(" \n")
@@ -116,29 +119,64 @@ def saveInterval(*,data: dict, title: str = None, xLabel: str = None,
         fw.write(str(lower)+" ")
     fw.write("\n")
 
-    if title != "":
+    if title != None or title != "":
         fw.write(title+"\n")
     else:
         fw.write(" \n")
 
-    if xLabel != "":
+    if xLabel != None or xLabel != "":
         fw.write(xLabel+"\n")
     else:
         fw.write(" \n")
 
-    if yLabel != "":
+    if yLabel != None or yLabel !=  "":
         fw.write(yLabel+"\n")
     else:
         fw.write(" \n")
 
     for name in groupNames:
+        name = name.replace(" ", "**SPACE**")
         fw.write(name+" ")
     fw.write("\n")
 
     fw.write(gridLines)
     fw.close()
 
+def saveHist(*, xs: list, bins: int = None, title: str = None, xLabel: str = None,
+                  yLabel: str = None, gridLines: str = "", fileName: str):
 
+    fw = open(fileName, "w")
+
+    fw.write("histogram\n")
+
+    for x in xs:
+        x = str(x).replace(" ", "**SPACE**")
+        fw.write(str(x)+" ")
+    fw.write("\n")
+
+    if bins != None:
+        fw.write(str(bins) + "\n")
+    else:
+        fw.write(" \n")
+
+    if title != None or title != "":
+        fw.write(title+"\n")
+    else:
+        fw.write(" \n")
+
+    if xLabel != None or xLabel != "":
+        fw.write(xLabel+"\n")
+    else:
+        fw.write(" \n")
+
+    if yLabel != None or yLabel !=  "":
+        fw.write(yLabel+"\n")
+    else:
+        fw.write(" \n")
+
+    fw.write(gridLines)
+    fw.close()
+    
 
 def loadFigure(fileName):
     
@@ -161,6 +199,9 @@ def loadFigure(fileName):
 
         for i in range(len(data)):
             for j in range(len(data[i])):
+
+                data[i][j] = data[i][j].replace("**SPACE**", " ")
+
                 try:
                     data[i][j] = int(data[i][j])
                 except:
@@ -170,6 +211,7 @@ def loadFigure(fileName):
                         pass
 
         for i in range(len(groups[0])):
+            groups[0][i] = groups[0][i].replace("**SPACE**", " ")
             try:
                 groups[0][i] = int(groups[0][i])
             except:
@@ -235,6 +277,7 @@ def loadFigure(fileName):
         groupNamesLoad = lines[8].split()
 
         for name in groupNamesLoad:
+            name = name.replace("**SPACE**", " ")
             groupNames.append(name)
         groupNames = tuple(groupNames)
 
@@ -244,6 +287,24 @@ def loadFigure(fileName):
             gridLines = ""
 
         return (dataDict, title, xLabel, yLabel, gridLines, groupNames)
+
+    elif figType == "histogram":
+        
+        xs = lines[1].split()
+
+        for i in range(len(xs)):
+            for j in range(len(data[i])):
+                try:
+                    data[i][j] = int(data[i][j])
+                except:
+                    try:
+                        data[i][j] = float(data[i][j])
+                    except:
+                        pass
+        
+        
+        
+
 
 def getFigType(fileName):
     fr = open(fileName, "r")

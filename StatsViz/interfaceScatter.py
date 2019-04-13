@@ -116,11 +116,17 @@ class ScatterFrame:
             return
 
         if(self.xLabel.get() == ""):
-            self.xLabel.insert(0, self.columnLabels[self.xVar.current()])
+            xLabel = self.columnLabels[self.xVar.current()]
+        else:
+            xLabel = self.xLabel.get()
         if(self.yLabel.get() == ""):
-            self.yLabel.insert(0, self.columnLabels[self.yVar.current()])
+            yLabel = self.columnLabels[self.yVar.current()]
+        else:
+            yLabel = self.yLabel.get()
         if(self.title.get() == ""):
-            self.title.insert(0, self.columnLabels[self.xVar.current()] + " VS " + self.columnLabels[self.yVar.current()])
+            title = self.columnLabels[self.xVar.current()] + " VS " + self.columnLabels[self.yVar.current()]
+        else:
+            title = self.title.get()
 
         groupColumn = [self.cVar.current()-1]
         if groupColumn == [-1]:
@@ -129,8 +135,8 @@ class ScatterFrame:
         graphData = calculation.getColumns(data=self.data, xCol=self.xVar.current(),
                                            yCol=self.yVar.current(), groups=groupColumn)
 
-        graphing.graphScatter(xs=graphData[0], ys=graphData[1], groups=graphData[2], xLabel=self.xLabel.get(),
-                              yLabel=self.yLabel.get(), title=self.title.get(), gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get(), show = True)
+        graphing.graphScatter(xs=graphData[0], ys=graphData[1], groups=graphData[2], xLabel=xLabel,
+                              yLabel=yLabel, title=title, gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get(), show = True)
 
 #event handler that prompts the user to save the scatterplot to a file
     def saveScatter(self):
@@ -140,11 +146,17 @@ class ScatterFrame:
             return
 
         if(self.xLabel.get() == ""):
-            self.xLabel.insert(0, self.columnLabels[self.xVar.current()])
+            xLabel = self.columnLabels[self.xVar.current()]
+        else:
+            xLabel = self.xLabel.get()
         if(self.yLabel.get() == ""):
-            self.yLabel.insert(0, self.columnLabels[self.yVar.current()])
+            yLabel = self.columnLabels[self.yVar.current()]
+        else:
+            yLabel = self.yLabel.get()
         if(self.title.get() == ""):
-            self.title.insert(0, self.columnLabels[self.xVar.current()] + " VS " + self.columnLabels[self.yVar.current()])
+            title = self.columnLabels[self.xVar.current()] + " VS " + self.columnLabels[self.yVar.current()]
+        else:
+            title = self.title.get()
 
         groupColumn = [self.cVar.current()-1]
         if groupColumn == [-1]: groupColumn = None
@@ -155,5 +167,5 @@ class ScatterFrame:
         fileName = filedialog.asksaveasfilename(title = "Save File", defaultextension=".plot")
 
         if fileName != "":
-            rw.saveScatter(xs=graphData[0], ys=graphData[1], groups=graphData[2], xLabel=self.xLabel.get(),
-                                yLabel=self.yLabel.get(), title=self.title.get(), gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get(), fileName=fileName)
+            rw.saveScatter(xs=graphData[0], ys=graphData[1], groups=graphData[2], xLabel=xLabel,
+                                yLabel=yLabel, title=title, gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get(), fileName=fileName)

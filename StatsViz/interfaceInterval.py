@@ -59,9 +59,6 @@ class IntervalFrame:
         self.selectButton.bind("<Button-1>", self.addCategory)
         self.selectButton.grid(row=6, column=1)
 
-        
-
-
 #Column 2
 #====================================================================
 
@@ -177,11 +174,17 @@ class IntervalFrame:
             return
 
         if(self.yLabel.get() == ""):
-            self.yLabel.insert(0, self.yVarSelection.get())
+            yLabel = self.yVarSelection.get()
+        else:
+            ylabel = self.yLabel.get()
         if(self.title.get() == ""):
-            self.title.insert(0, self.iTypeSelection.get() + " of " + self.yVarSelection.get())
+            title = self.iTypeSelection.get() + " of " + self.yVarSelection.get()
+        else:
+            title = self.title.get()
         if(self.xLabel.get() == "" and len(self.cVarSelected.get(0, tk.END)) == 1):
-            self.xLabel.insert(0, self.cVarSelected.get(0))
+            xLabel = self.cVarSelected.get(0)
+        else:
+            xLabel = self.xLabel.get()
 
         typeParam = ""
 
@@ -207,8 +210,8 @@ class IntervalFrame:
 
         graphData = calculation.getIntervals(type=typeParam, ys=rawGraphData[1], groups=rawGraphData[2])
 
-        graphing.graphInterval(data=graphData, title=self.title.get(), xLabel=self.xLabel.get(),
-                                yLabel=self.yLabel.get(), gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get(), groupNames=cVals, show=True)
+        graphing.graphInterval(data=graphData, title=title, xLabel=xLabel,
+                                yLabel=yLabel, gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get(), groupNames=cVals, show=True)
 
     def saveInterval(self):
         
@@ -220,11 +223,17 @@ class IntervalFrame:
             return
 
         if(self.yLabel.get() == ""):
-            self.yLabel.insert(0, self.yVarSelection.get())
+            yLabel = self.yVarSelection.get()
+        else:
+            yLabel = self.yLabel.get()
         if(self.title.get() == ""):
-            self.title.insert(0, self.iTypeSelection.get() + " of " + self.yVarSelection.get())
+            title = self.iTypeSelection.get() + " of " + self.yVarSelection.get()
+        else:
+            title = self.title.get()
         if(self.xLabel.get() == "" and len(self.cVarSelected.get(0, tk.END)) == 1):
-            self.xLabel.insert(0, self.cVarSelected.get(0))
+            xLabel = self.cVarSelected.get(0)
+        else:
+            xLabel = self.xLabel.get()
 
         typeParam = ""
 
@@ -253,5 +262,5 @@ class IntervalFrame:
         fileName = filedialog.asksaveasfilename(title = "Save File", defaultextension=".plot")
 
         if fileName != "":
-            rw.saveInterval(data=graphData, title=self.title.get(), xLabel=self.xLabel.get(),
-                                    yLabel=self.yLabel.get(), gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get(), groupNames=cVals, fileName=fileName)
+            rw.saveInterval(data=graphData, title=title, xLabel=xLabel,
+                                    yLabel=yLabel, gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get(), groupNames=cVals, fileName=fileName)
