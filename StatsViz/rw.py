@@ -293,6 +293,9 @@ def loadFigure(fileName):
         xs = lines[1].split()
 
         for i in range(len(xs)):
+
+            xs[i] = xs[i].replace("**SPACE**", " ")
+
             try:
                 xs[i] = int(xs[i])
             except:
