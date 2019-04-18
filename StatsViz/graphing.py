@@ -62,19 +62,28 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
 
     sortedData = natsort.realsorted(data.items(), key = lambda t: t[0])
 
+    colorCatX = defaultdict(list)
+    colorCatY = defaultdict(list)
+
     for key, value in sortedData:
 
         inverseKey = "\n".join(reversed(key.split("\n")))
 
+        colorCatX[inverseKey.split("\n")[-1]].append(inverseKey)
+        colorCatY[inverseKey.split("\n")[-1]].append(value[1])
+
         if key in data:
 
             if value[0] != None:
-                plt.scatter(inverseKey, value[0], marker="_", color="blue")
-            plt.scatter(inverseKey, value[1], marker=".", color="blue")
+                plt.scatter(inverseKey, value[0], marker="_", color="black")
+            #plt.scatter(inverseKey, value[1], marker=".", color="blue")
             if value[2] != None:
-                plt.scatter(inverseKey, value[2], marker="_", color="blue")
+                plt.scatter(inverseKey, value[2], marker="_", color="black")
             if value[0] != None and value[2] != None:
-                plt.plot([inverseKey]*3, [value[0], value[1], value[2]], linewidth=.85, color="blue")
+                plt.plot([inverseKey]*3, [value[0], value[1], value[2]], linewidth=.85, color="black")
+
+    for key, _ in colorCatX.items():
+        plt.scatter(colorCatX[key], colorCatY[key], marker=".")
 
     plt.title(title)
     plt.xlabel(xLabel)
