@@ -176,7 +176,7 @@ class IntervalFrame:
         if(self.yLabel.get() == ""):
             yLabel = self.yVarSelection.get()
         else:
-            ylabel = self.yLabel.get()
+            yLabel = self.yLabel.get()
         if(self.title.get() == ""):
             title = self.iTypeSelection.get() + " of " + self.yVarSelection.get()
         else:
