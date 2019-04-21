@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="statsviz",
-    version="1.2.0",
+    version="1.2.1",
     author="Marcus Higgins",
     author_email="halo2305@gmail.com",
     description="A package that provides a gui to plot graphs from CSV files",
