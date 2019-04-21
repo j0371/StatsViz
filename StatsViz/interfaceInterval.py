@@ -289,6 +289,11 @@ class IntervalFrame:
         else:
             cIndices = None
 
+        colorCatIndex = None
+
+        if (self.colorCatSelection.get() != "No Color Categories"):
+            colorCatIndex = self.colorCat.current()-1
+
         rawGraphData = calculation.getColumns(data=self.data,
                                            yCol=self.columnLabels.index(self.yVarSelection.get()), groups=cIndices)
 
@@ -298,4 +303,4 @@ class IntervalFrame:
 
         if fileName != "":
             rw.saveInterval(data=graphData, title=title, xLabel=xLabel,
-                                    yLabel=yLabel, gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get(), groupNames=cVals, fileName=fileName)
+                                    yLabel=yLabel, gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get(), groupNames=cVals, colorIndex=colorCatIndex, fileName=fileName)

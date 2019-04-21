@@ -67,14 +67,14 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
 
     for key, value in sortedData:
 
+        inverseKey = "\n".join(reversed(key.split("\n")))
+
         if colorIndex != None:
-            colorCatX[key.split("\n")[colorIndex]].append(key)
+            colorCatX[key.split("\n")[colorIndex]].append(inverseKey)
             colorCatY[key.split("\n")[colorIndex]].append(value[1])
         else:
-            colorCatX[key.split("\n")[0]].append(key)
+            colorCatX[key.split("\n")[0]].append(inverseKey)
             colorCatY[key.split("\n")[0]].append(value[1])
-
-        inverseKey = "\n".join(reversed(key.split("\n")))
 
         if key in data:
 
@@ -91,7 +91,7 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
             plt.legend(loc="best").set_draggable(True)
     else:
         for key, _ in colorCatX.items():
-            plt.scatter(colorCatX[key], colorCatY[key], marker=".", color="black")
+            plt.scatter(colorCatX[key], colorCatY[key], marker=".", color="blue")
 
     plt.title(title)
     plt.xlabel(xLabel)
@@ -145,8 +145,8 @@ def figureFromFile(fileName, show: bool=False):
         xs,ys,groups,title,xLabel,yLabel,gridLines = rw.loadFigure(fileName)
         return graphScatter(xs=xs, ys=ys, groups=groups, title=title, xLabel=xLabel, yLabel=yLabel, gridLines=gridLines, show=show)
     elif figType == "interval":
-        data,title,xLabel,yLabel,gridLines, groupNames = rw.loadFigure(fileName)
-        return graphInterval(data=data, title=title, xLabel=xLabel, yLabel=yLabel, gridLines=gridLines, groupNames=groupNames, show=show)
+        data,title,xLabel,yLabel,gridLines, groupNames, colorIndex = rw.loadFigure(fileName)
+        return graphInterval(data=data, title=title, xLabel=xLabel, yLabel=yLabel, gridLines=gridLines, groupNames=groupNames, colorIndex=colorIndex, show=show)
     elif figType == "histogram":
         xs, bins, title, xLabel, yLabel, gridLines = rw.loadFigure(fileName)
         return graphHist(xs=xs, bins=bins, title=title, xLabel=xLabel, yLabel=yLabel, gridLines=gridLines, show=show)

@@ -83,7 +83,7 @@ def saveScatter(*, xs: list, ys: list, groups: list = None, title: str = None,
     fw.close()
 
 def saveInterval(*,data: dict, title: str = None, xLabel: str = None,
-                  yLabel: str = None, gridLines: str = "", groupNames: tuple=(), fileName: str):
+                  yLabel: str = None, gridLines: str = "", groupNames: tuple=(), colorIndex: int = None, fileName: str):
     
     fw = open(fileName, "w")
     fw.write("interval\n")
@@ -138,6 +138,11 @@ def saveInterval(*,data: dict, title: str = None, xLabel: str = None,
         name = name.replace(" ", "**SPACE**")
         fw.write(name+" ")
     fw.write("\n")
+
+    if  colorIndex != None:
+        fw.write(str(colorIndex)+"\n")
+    else:
+        fw.write(" \n")
 
     fw.write(gridLines)
     fw.close()
@@ -251,7 +256,7 @@ def loadFigure(fileName):
             if lowers[i] == "None":
                 lowers[i] = None
 
-        data = (keys, uppers, means, lowers)
+        data = (uppers, means, lowers)
 
         for i in range(len(data)):
             for j in range(len(data[i])):
@@ -281,12 +286,17 @@ def loadFigure(fileName):
             groupNames.append(name)
         groupNames = tuple(groupNames)
 
-        if(len(lines) > 9):
-            gridLines = lines[9]
+        if lines[9] == " ":
+            colorIndex = None
+        else:
+            colorIndex = int(lines[9])
+
+        if(len(lines) > 10):
+            gridLines = lines[10]
         else:
             gridLines = ""
 
-        return (dataDict, title, xLabel, yLabel, gridLines, groupNames)
+        return (dataDict, title, xLabel, yLabel, gridLines, groupNames, colorIndex)
 
     elif figType == "histogram":
         
