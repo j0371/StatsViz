@@ -52,7 +52,7 @@ def graphScatter(*, xs: list, ys: list, groups: list = None, title: str = None,
 
 #function that creates and shows the interval plot
 def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
-                  yLabel: str = None, gridLines: str = "", groupNames: tuple=(), show: bool=False):
+                  yLabel: str = None, gridLines: str = "", groupNames: tuple=(), colorIndex: int = None, show: bool=False):
 
     _, ax = plt.subplots()
 
@@ -67,23 +67,31 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
 
     for key, value in sortedData:
 
-        inverseKey = "\n".join(reversed(key.split("\n")))
+        if colorIndex != None:
+            colorCatX[key.split("\n")[colorIndex]].append(key)
+            colorCatY[key.split("\n")[colorIndex]].append(value[1])
+        else:
+            colorCatX[key.split("\n")[0]].append(key)
+            colorCatY[key.split("\n")[0]].append(value[1])
 
-        colorCatX[inverseKey.split("\n")[-1]].append(inverseKey)
-        colorCatY[inverseKey.split("\n")[-1]].append(value[1])
+        inverseKey = "\n".join(reversed(key.split("\n")))
 
         if key in data:
 
             if value[0] != None:
                 plt.scatter(inverseKey, value[0], marker="_", color="black")
-            #plt.scatter(inverseKey, value[1], marker=".", color="blue")
             if value[2] != None:
                 plt.scatter(inverseKey, value[2], marker="_", color="black")
             if value[0] != None and value[2] != None:
                 plt.plot([inverseKey]*3, [value[0], value[1], value[2]], linewidth=.85, color="black")
 
-    for key, _ in colorCatX.items():
-        plt.scatter(colorCatX[key], colorCatY[key], marker=".")
+    if colorIndex != None:
+        for key, _ in colorCatX.items():
+            plt.scatter(colorCatX[key], colorCatY[key], marker=".", label=key)
+            plt.legend(loc="best").set_draggable(True)
+    else:
+        for key, _ in colorCatX.items():
+            plt.scatter(colorCatX[key], colorCatY[key], marker=".", color="black")
 
     plt.title(title)
     plt.xlabel(xLabel)

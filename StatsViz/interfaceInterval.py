@@ -18,6 +18,8 @@ class IntervalFrame:
 
         self.yVarSelection = tk.StringVar()
 
+        self.colorCatSelection = tk.StringVar()
+
         self.xGridCheckVal = tk.StringVar()
         self.yGridCheckVal = tk.StringVar()
         
@@ -34,16 +36,18 @@ class IntervalFrame:
         self.cVar.grid(row=4, column=0, rowspan=3)
 
         self.yVarLabel = tk.Label(frame, text="Y-Axis Column *")
-        self.yVarLabel.grid(row=7, column=0, columnspan=3, pady=(5,0))
+        self.yVarLabel.grid(row=7, column=0, pady=(5,0))
 
         self.yVar = ttk.Combobox(frame, textvariable=self.yVarSelection, values=[], state="readonly")
-        self.yVar.grid(row=8, column=0, columnspan=3)
+        self.yVar.grid(row=8, column=0)
 
-        self.xGridCheck = tk.Checkbutton(frame, variable=self.xGridCheckVal, onvalue="x", offvalue="", text="X-axis grid lines")
-        self.xGridCheck.grid(row=9, column=0, columnspan=3)
+        self.colorCatLabel = tk.Label(frame, text="Color Category Column")
+        self.colorCatLabel.grid(row=9, column=0, pady=(5,0))
 
-        self.yGridCheck = tk.Checkbutton(frame, variable=self.yGridCheckVal, onvalue="y", offvalue="", text="Y-axis grid lines")
-        self.yGridCheck.grid(row=10, column=0, columnspan=3)
+        self.colorCat = ttk.Combobox(frame, textvariable=self.colorCatSelection, values=[], state="readonly")
+        self.colorCat.grid(row=10, column=0)
+
+
 
 
 #Column 1
@@ -76,6 +80,12 @@ class IntervalFrame:
         self.cVarSelected = tk.Listbox(frame, height=4, width=23)
         self.cVarSelected.grid(row=4, column=2, rowspan=3)
 
+        self.xGridCheck = tk.Checkbutton(frame, variable=self.xGridCheckVal, onvalue="x", offvalue="", text="X-axis grid lines")
+        self.xGridCheck.grid(row=8, column=2)
+
+        self.yGridCheck = tk.Checkbutton(frame, variable=self.yGridCheckVal, onvalue="y", offvalue="", text="Y-axis grid lines")
+        self.yGridCheck.grid(row=9, column=2)
+
 #Column 3
 #====================================================================
   
@@ -100,10 +110,10 @@ class IntervalFrame:
         self.yLabel.grid(row=8, column=3)
 
         self.graphButton = tk.Button(frame, text="Create Interval Plot", command=self.createInterval)
-        self.graphButton.grid(row=9, column=3, pady=(10,1))
+        self.graphButton.grid(row=9, column=3, rowspan=2, pady=(10,1))
 
         self.saveButton = tk.Button(frame, text=" Save Interval Plot ", command=self.saveInterval)
-        self.saveButton.grid(row=10, column=3)
+        self.saveButton.grid(row=11, column=3)
 
 
 
@@ -137,6 +147,10 @@ class IntervalFrame:
             self.cVar.insert("end", label)
 
         self.yVarSelection.set("Select a Column")
+
+        self.colorCat.config(values=["No Color Categories"])
+        self.colorCatSelection.set("No Color Categories")
+
         self.iTypeSelection.set("Select Type")
 
         self.xLabel.delete(0, tk.END)
@@ -155,6 +169,14 @@ class IntervalFrame:
             self.cVarSelected.insert(tk.END, selectedValue)
             self.cVar.delete(selectedIndex)
 
+            categories = []
+
+            for _, listbox_entry in enumerate(self.cVarSelected.get(0, tk.END)):
+                categories.append(listbox_entry)
+
+            self.colorCat.config(values=["No Color Categories"]+categories)
+            self.colorCatSelection.set("No Color Categories")
+
     def removeCategory(self, event):
 
         if self.cVarSelected.curselection():
@@ -163,6 +185,14 @@ class IntervalFrame:
 
             self.cVar.insert(self.columnLabels.index(selectedValue), selectedValue)
             self.cVarSelected.delete(selectedIndex)
+
+            categories = []
+
+            for _, listbox_entry in enumerate(self.cVarSelected.get(0, tk.END)):
+                categories.append(listbox_entry)
+
+            self.colorCat.config(values=["No Color Categories"]+categories)
+            self.colorCatSelection.set("No Color Categories")
 
     def createInterval(self):
 
@@ -205,13 +235,18 @@ class IntervalFrame:
         else:
             cIndices = None
 
+        colorCatIndex = None
+
+        if (self.colorCatSelection.get() != "No Color Categories"):
+            colorCatIndex = self.colorCat.current()-1
+
         rawGraphData = calculation.getColumns(data=self.data,
                                            yCol=self.columnLabels.index(self.yVarSelection.get()), groups=cIndices)
 
         graphData = calculation.getIntervals(type=typeParam, ys=rawGraphData[1], groups=rawGraphData[2])
 
         graphing.graphInterval(data=graphData, title=title, xLabel=xLabel,
-                                yLabel=yLabel, gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get(), groupNames=cVals, show=True)
+                                yLabel=yLabel, gridLines=self.xGridCheckVal.get()+self.yGridCheckVal.get(), groupNames=cVals, colorIndex=colorCatIndex, show=True)
 
     def saveInterval(self):
         
