@@ -87,11 +87,11 @@ def graphInterval(*,data: dict, title: str = None, xLabel: str = None,
 
     if colorIndex != None:
         for key, _ in colorCatX.items():
-            plt.scatter(colorCatX[key], colorCatY[key], marker=".", label=key)
+            plt.scatter(colorCatX[key], colorCatY[key], label=key)
             plt.legend(loc="best").set_draggable(True)
     else:
         for key, _ in colorCatX.items():
-            plt.scatter(colorCatX[key], colorCatY[key], marker=".", color="blue")
+            plt.scatter(colorCatX[key], colorCatY[key], color="blue")
 
     plt.title(title)
     plt.xlabel(xLabel)

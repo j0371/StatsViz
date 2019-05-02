@@ -151,7 +151,7 @@ class IntervalFrame:
         self.colorCat.config(values=["No Color Categories"])
         self.colorCatSelection.set("No Color Categories")
 
-        self.iTypeSelection.set("Select Type")
+        self.iTypeSelection.set("Standard Error")
 
         self.xLabel.delete(0, tk.END)
         self.yLabel.delete(0, tk.END)
